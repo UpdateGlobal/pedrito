@@ -4,10 +4,10 @@
                 <div class="flexslider ma-nivoslider">
                     <div class="ma-loading"></div>
                     <div id="ma-inivoslider-banner7" class="slides">
-                        <a href="index.html#" title="Read more">
+                        <a href="#" title="Read more">
 										<img style="display: none;"  src="../media/magentothem/banner7/slider1-pet.jpg" alt="" title="#banner7-caption1"  />
 											</a>
-                        <a href="index.html#" title="Read more">
+                        <a href="#" title="Read more">
 										<img style="display: none;"  src="../media/magentothem/banner7/slider2-pet.jpg" alt="" title="#banner7-caption2"  />
 											</a>
                     </div>
@@ -28,11 +28,11 @@
                         <div class="container" style="height:100%;">
                             <div class="banner7-content slider-1 ">
                                 <div class="bannerslideshow">
-                                    <h1 class="title1"><span>Cat’s Food</span></h1>
-                                    <h2 class="title2"><span>Cat Dry Superfood Blend Egg Sweet Potato Front.</span></h2>
-                                    <h3 class="title3"><span>$8.00 $10.00</span></h3>
+                                    <h1 class="title1"><span>Gatunos</span></h1>
+                                    <h2 class="title2"><span>Los mejores alimentos para tu engreido: tu gato</span></h2>
+                                    <h3 class="title3"><span>S/.8.00 Antes s/10.00</span></h3>
                                     <div class="banner7-readmore">
-                                        <a href="index.html#" title="Shop Now">shop now</a>
+                                        <a href="#" title="Compra Ahora">Compra Ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -55,11 +55,11 @@
                         <div class="container" style="height:100%;">
                             <div class="banner7-content slider-2 ">
                                 <div class="bannerslideshow">
-                                    <h1 class="title1"><span>Dog’s Food</span></h1>
-                                    <h2 class="title2"><span>Cat Dry Superfood Blend Egg Sweet Potato Front.</span></h2>
+                                    <h1 class="title1"><span>Perrunos</span></h1>
+                                    <h2 class="title2"><span>Los mejores alimentos para tu mejor amigo: tu perro</span></h2>
                                     <h3 class="title3"><span>$8.00 $10.00</span></h3>
                                     <div class="banner7-readmore">
-                                        <a href="index.html#" title="Shop Now">shop now</a>
+                                        <a href="#" title="Shop Now">compra ahora</a>
                                     </div>
                                 </div>
                             </div>

@@ -22,7 +22,6 @@
                                                         <li class=" last"><a href="javascript:void(0);" title="Log In" class="a-login-link">Login</a></li>
                                                         <li><a href="checkout/cart/index.html" title="My Cart" class="top-link-cart">Ver mi Carrito</a></li>
                                                         <li><a href="checkout/index.html" title="Checkout" class="top-link-checkout">Pagar</a></li>
-                                                        <li><a href="blog/index.html" title="Our Blog">Ver Blog</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>

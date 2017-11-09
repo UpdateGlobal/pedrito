@@ -4,27 +4,35 @@
                         <div class="row">
                             <ul class="owl">
                                 <li class='item'>
-                                    <div class="item-inner"> <a href="index.html#" title=""><img src="../media/magentothem/brandslider/brand1.jpg" alt="" /></a>
+                                    <div class="item-inner"> <a href="#" title=""><img src="marcas/purina.png" alt="" /></a>
                                     </div>
                                 </li>
                                 <li class='item'>
-                                    <div class="item-inner"> <a href="index.html#" title=""><img src="../media/magentothem/brandslider/brand2.jpg" alt="" /></a>
+                                    <div class="item-inner"> <a href="#" title=""><img src="marcas/americanpets.png" alt="" /></a>
                                     </div>
                                 </li>
                                 <li class='item'>
-                                    <div class="item-inner"> <a href="index.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>
+                                    <div class="item-inner"> <a href="#" title=""><img src="hallmark.jpg" alt="" /></a>
                                     </div>
                                 </li>
                                 <li class='item'>
-                                    <div class="item-inner"> <a href="index.html#" title=""><img src="../media/magentothem/brandslider/brand4.jpg" alt="" /></a>
+                                    <div class="item-inner"> <a href="#" title=""><img src="marcas/molitalia.png" alt="" /></a>
                                     </div>
                                 </li>
                                 <li class='item'>
-                                    <div class="item-inner"> <a href="index.html#" title=""><img src="../media/magentothem/brandslider/brand5.jpg" alt="" /></a>
+                                    <div class="item-inner"> <a href="#" title=""><img src="marcas/americanpets.png" alt="" /></a>
                                     </div>
                                 </li>
                                 <li class='item'>
-                                    <div class="item-inner"> <a href="index.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>
+                                    <div class="item-inner"> <a href="#" title=""><img src="marcas/purina.png" alt="" /></a>
+                                    </div>
+                                </li>
+                                <li class='item'>
+                                    <div class="item-inner"> <a href="#" title=""><img src="hallmark.jpg" alt="" /></a>
+                                    </div>
+                                </li>
+                                <li class='item'>
+                                    <div class="item-inner"> <a href="#" title=""><img src="marcas/molitalia.png" alt="" /></a>
                                     </div>
                                 </li>
                             </ul>

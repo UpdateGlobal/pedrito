@@ -16,8 +16,8 @@
                                         </div>
                                         <div class="footer-static-content">
                                             <ul>
-                                                <li class="first"><a href="index.html#">Regístrate</a></li>
-                                                <li><a href="#">Login</a></li>∫
+                                                <li class="first"><a href="#">Regístrate</a></li>
+                                                <li><a href="#">Login</a></li>
                                                 <li><a href="#">Mi Carrito</a></li>
                                                 <li class="last"><a href="#">Contáctanos</a></li>
                                             </ul>
@@ -105,7 +105,7 @@
                     <div class="container-inner">
                         <div class="row">
                             <div class="col-sm-6 col-xs-12">
-                                <address>Pedrito Pet Shop &copy; <a href="../../../index.html">Todo para tu mascota</a>. 2017</address>
+                                <address>Pedrito Pet Shop &copy; <a href="#">Todo para tu mascota</a>. 2017</address>
                                 <div id="back-top" class="hidden-xs"></div>
                             </div>
                         </div>
