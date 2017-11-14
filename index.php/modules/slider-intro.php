@@ -1,5 +1,5 @@
 <!-- start enable -->
-            <div class="ma-banner7-container">
+            <div class="hidden-xs ma-banner7-container">
                 <!--<div class="container">-->
                 <div class="flexslider ma-nivoslider">
                     <div class="ma-loading"></div>

@@ -1,8 +1,8 @@
 <div class="header">
-                    <div class="container">
-                        <div class="row">
-                            <div class="top-logo col-xs-12 col-md-3">
-                                <h1 class="logo"><strong>Pedrito Pet Shop</strong><a href="#" title="Pedrito Pet Shop" class="logo"><img src="logo/logo-color.svg" width="250px" alt="Pedrito Pet Shop" /></a></h1>
+     <div class="container">
+           <div class="row">
+                <div class="top-logo col-xs-12 col-md-3">
+                  <h1 class="logo"><strong>Pedrito Pet Shop</strong><a href="index.php" title="Pedrito Pet Shop" class="logo"><img src="logo/logo-color.svg" width="250px" alt="Pedrito Pet Shop" /></a></h1>
                             </div>
                             <div class="col-xs-12 col-md-9">
                                 <div class="top-menu">
@@ -572,7 +572,7 @@
                                                 <div id="pt_menu_link" class="pt_menu">
                                                     <div class="parentMenu">
                                                         <ul>
-                                                            <li><a href="#">blog</a></li>
+                                                            <li><a href="../blog/portada-blog.php">blog</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>
