@@ -109,18 +109,13 @@
         </div>
 </div>
 
-
-                
-				<div class="hidden-xs banner-left banner-static"><a href="contacts.html#"><img alt="" src="http://www.plazathemes.com/demo/ma_fobe/media/wysiwyg/banner-left.jpg" /></a></div>
-                
-            </div>
-							<div class="col-main col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<div class="hidden-xs banner-left banner-static"><a href="contacts.html#"><img alt="" src="http://www.plazathemes.com/demo/ma_fobe/media/wysiwyg/banner-left.jpg" /></a></div>
+</div>
+	<div class="col-main col-lg-9 col-md-9 col-sm-12 col-xs-12">
 																
-
-                   
-					<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215:0xcba0af2dfe02048f!2s101+California+Street,+San+Francisco,+CA+94111,+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" height="350" width="100%"></iframe></div>
+<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215:0xcba0af2dfe02048f!2s101+California+Street,+San+Francisco,+CA+94111,+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" height="350" width="100%"></iframe></div>
 					
-            <div id="messages_product_view"></div>
+<div id="messages_product_view"></div>
 <div class="page-title">
     <h1>Contact Us</h1>
 </div>
@@ -167,47 +162,50 @@
     var contactForm = new VarienForm('contactForm', true);
 //]]>
 </script>
-							</div>
-							</div>
-							</div>
-						</div>
-					</div>
-				</div>
-								<div class="ma-brand-slider-contain">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+								
+<div class="ma-brand-slider-contain">
 <div class="container">
 	<div class="brand-inner">
     	
-		
 		<div class="row">
           	<ul class="owl">
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand1.jpg" alt="" /></a>												
-																																							             
-                        					</div>
+			<li class='item'>	
+                <div class="item-inner">
+                    <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand1.jpg" alt="" /></a>												
+				</div>
+                </li>                   
+				<li class='item'>	
+                    <div class="item-inner">
+                        <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand2.jpg" alt="" /></a>												
+				</div>
                                    
                 </li>                   
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand2.jpg" alt="" /></a>												
-																																							             
-                        					</div>
+				    <li class='item'>	
+                        <div class="item-inner">
+                            <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>												
+						</div>          
+                </li>                   
+				    <li class='item'>	
+                        <div class="item-inner">
+                            <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand4.jpg" alt="" /></a>												
+						</div>
                                    
                 </li>                   
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>												
-																																							             
-                        					</div>
-                                   
+				    <li class='item'>	
+                        <div class="item-inner">
+                            <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand5.jpg" alt="" /></a>												
+						</div>            
                 </li>                   
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand4.jpg" alt="" /></a>												
-																																							             
-                        					</div>
-                                   
-                </li>                   
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand5.jpg" alt="" /></a>												
-																																							             
-                        					</div>
-                                   
-                </li>                   
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>												
-																																							             
-                        					</div>
+				    <li class='item'>		
+                        <div class="item-inner">
+                            <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>												
+					</div>
                                    
                 </li>                   
 				            </ul>
@@ -242,11 +240,12 @@
 			</div>
 			<div class="block-content">
 				<ul class="owl">			
-											<li class='testimonial-list'>								
+					<li class='testimonial-list'>								
 							<div class="testimonial-sidebar-content">						
 								<div class="content">
 									<div class="testimonial-content-avatar">
-										<img src="../media/magentothem/avatar/testtimor1_1.png" alt="test" height="78" width="78" />									</div>
+										<img src="../media/magentothem/avatar/testtimor1_1.png" alt="test" height="78" width="78" />	
+                                    </div>
 									<div class="post-by">							
 										<span class="testimonial-author">Ms.Maria Carey</span>							
 										<span class="testimonial-date">February 22, 2016</span>						
@@ -257,12 +256,13 @@
 								</div>						
 												
 							</div>
-													</li>                    
-											<li class='testimonial-list'>								
+						</li>                    
+					<li class='testimonial-list'>								
 							<div class="testimonial-sidebar-content">						
 								<div class="content">
 									<div class="testimonial-content-avatar">
-										<img src="../media/magentothem/avatar/testtimor1.png" alt="test" height="78" width="78" />									</div>
+										<img src="../media/magentothem/avatar/testtimor1.png" alt="test" height="78" width="78" />									
+                                    </div>
 									<div class="post-by">							
 										<span class="testimonial-author">Ms.Maria Carey</span>							
 										<span class="testimonial-date">February 22, 2016</span>						
@@ -273,8 +273,7 @@
 								</div>						
 												
 							</div>
-													</li>                    
-													
+						</li>                    						
 				</ul>
 			</div>	
 			
@@ -364,288 +363,291 @@
 </ul>
 </div>
 </div>
-<div class="f-col f-col-24 col-sm-6 col-md-3 col-sms-6 col-smb-12">				<div class="ma-randomproductslider-container product-style3">
-							<div class="ma-randomproductslider-title footer-static-title"><h3>Random Products</h3></div>
-										<div class="row">	
+<div class="f-col f-col-24 col-sm-6 col-md-3 col-sms-6 col-smb-12">				
+    <div class="ma-randomproductslider-container product-style3">
+		<div class="ma-randomproductslider-title footer-static-title"><h3>Random Products</h3></div>
+		 <div class="row">	
 				<ul class="owl">
-																<li class='randomproductslider-item'>							<div class="item-inner">
+					<li class='randomproductslider-item'>		
+                        <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="dignissim-semper.html" title="Dignissim Semper" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-7_4.jpg" alt="Dignissim Semper" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="dignissim-semper.html" title="Dignissim Semper">Dignissim Semper</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$380.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$320.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 				
+                                        </div>
+								<div class="actions">
+								</div>
 							</div>
 							</div>
 												                   
-																		<div class="item-inner">
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="gravida-et-mattis.html" title="Gravida et mattis" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_11.jpg" alt="Gravida et mattis" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="gravida-et-mattis.html" title="Gravida et mattis">Gravida et mattis</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$400.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$350.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 							
+                                        </div>
+											<div class="actions">
+												</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+						</li>                   
+						<li class='randomproductslider-item'>							
+                        <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="aliquet-urna.html" title="Aliquet urna" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_4.jpg" alt="Aliquet urna" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="aliquet-urna.html" title="Aliquet urna">Aliquet urna</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
 											<span class="price">$500.00</span>                                    
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>										
+                                        </div>
+								<div class="actions">
 							</div>
 							</div>
-												                   
-																		<div class="item-inner">
+							</div>
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="quisque-in-arcu-71.html" title="Quisque in arcu" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-5_10.jpg" alt="Quisque in arcu" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="quisque-in-arcu-71.html" title="Quisque in arcu">Quisque in arcu</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 	
+                                        </div>
+											<div class="actions">
+								</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+							</li>                   
+							<li class='randomproductslider-item'>		
+                            <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="class-aptent-taciti.html" title="Class aptent taciti" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_3.jpg" alt="Class aptent taciti" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="class-aptent-taciti.html" title="Class aptent taciti">Class aptent taciti</a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
-											<span class="price">$500.00</span>                                    
+											<span class="price">$500.00</span>                                 
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>		
+                                        </div>
+									<div class="actions">
+								</div>
 							</div>
 							</div>
-												                   
-																		<div class="item-inner">
+						<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="http://www.plazathemes.com/demo/ma_fobe/index.php/vulputate-mollis.html" title="Vulputate mollis" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_3.jpg" alt="Vulputate mollis" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/vulputate-mollis.html" title="Vulputate mollis">Vulputate mollis</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
-											<span class="price">$500.00</span>                                    
-											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											<span class="price">$500.00</span>                               
+                                        </span>    
+											</div>			
+                                        </div>
+									<div class="actions">
+								</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+						</li>                   
+						<li class='randomproductslider-item'>							
+                            <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="aenean-eleifend.html" title="Aenean eleifend" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_13.jpg" alt="Aenean eleifend" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="aenean-eleifend.html" title="Aenean eleifend">Aenean eleifend</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
 											<span class="price">$330.00</span>                                    
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>			
+                                        </div>
+									<div class="actions">
+							 </div>
 							</div>
 							</div>
-												                   
-																		<div class="item-inner">
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="taciti-sociosqu.html" title="Taciti sociosqu" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-9_9.jpg" alt="Taciti sociosqu" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="taciti-sociosqu.html" title="Taciti sociosqu">Taciti sociosqu</a></h2>
-																												<div class="price-box">
+											<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 					
+                                        </div>
+											<div class="actions">
+									</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+							</li>                   
+							<li class='randomproductslider-item'>							
+                            <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="himenaeos.html" title="Himenaeos" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-9_5.jpg" alt="Himenaeos" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="himenaeos.html" title="Himenaeos">Himenaeos</a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
-											<span class="price">$300.00</span>                                    
-											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											<span class="price">$300.00</span>                               
+                                            </span>    
+											</div>		
+                                        </div>
+										<div class="actions">
+									</div>
 							</div>
 							</div>
-												                   
-																		<div class="item-inner">
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="http://www.plazathemes.com/demo/ma_fobe/index.php/conubia-nostra-66.html" title="Mattis Lobortis" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg" alt="Mattis Lobortis" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/conubia-nostra-66.html" title="Mattis Lobortis">Mattis Lobortis</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 							
+                                        </div>
+											<div class="actions">
+										</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+						</li>                   
+						<li class='randomproductslider-item'>							
+                            <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="voluptas-nulla.html" title="voluptas nulla" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg" alt="voluptas nulla" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="voluptas-nulla.html" title="voluptas nulla">voluptas nulla</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 			
+                                        </div>
+									<div class="actions">
+								</div>
 							</div>
 							</div>
-												                   
-																		<div class="item-inner">
+						<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="vivamus-adipiscing.html" title="Vivamus adipiscing " class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-2_1.jpg" alt="Vivamus adipiscing " /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="vivamus-adipiscing.html" title="Vivamus adipiscing ">Vivamus adipiscing </a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 			
+                                        </div>
+									<div class="actions">
+									</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
-								<div class="ma-box-content">
+							</li>                   
+							<li class='randomproductslider-item'>			
+                            <div class="item-inner">
+							<div class="ma-box-content">
 								<div class="products">
-									<a href="conubia-nostra.html" title="Conubia Nostra" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-5_4.jpg" alt="Conubia Nostra" /></a>
+								<a href="conubia-nostra.html" title="Conubia Nostra" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-5_4.jpg" alt="Conubia Nostra" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="conubia-nostra.html" title="Conubia Nostra">Conubia Nostra</a></h2>
-																												<div class="price-box">
+										  <div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 				
+                                        </div>
+										<div class="actions">
+								</div>
 							</div>
 							</div>
-												                   
-																		<div class="item-inner">
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="malesuada.html" title="Malesuada" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_2.jpg" alt="Malesuada" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="malesuada.html" title="Malesuada">Malesuada</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
-											<span class="price">$500.00</span>                                    
+											<span class="price">$500.00</span>                              
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>		
+                                        </div>
+										<div class="actions">
+								</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+								</li>                   
+									<li class='randomproductslider-item'>					
+                                        <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="http://www.plazathemes.com/demo/ma_fobe/index.php/suspendisse.html" title="Suspendisse" class="product-image"><img src="http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-8_4.jpg" alt="Suspendisse" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/suspendisse.html" title="Suspendisse">Suspendisse</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
 											<span class="price">$440.00</span>                                    
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>			
+                                        </div>
+										<div class="actions">
+									</div>
 							</div>
 							</div>
-												                   
-											</li>				</ul>
+						</li>		
+                    </ul>
 			</div>
                <script type="text/javascript">
 					$jq(document).ready(function(){
@@ -669,8 +671,6 @@
 							
 		 
 	</div> 
-
-
 </div>
 <div class="f-col f-col-24 col-sm-6 col-md-3 col-sms-6 col-smb-12">
 <div class="footer-static-title">
@@ -686,7 +686,8 @@
 </div>
 </div>
 </div>
-</div>			</div>
+</div>		
+</div>
 		</div>
 	</div>
 </div>
@@ -709,7 +710,7 @@
                     <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/?___store=english1">Fobe Wine</option>
         </select>
 </div>
-				</div>
+			</div>
 			</div>
 		</div>
 	</div>
@@ -778,15 +779,14 @@
     </div>
 </div>
     
-            
-    <div class="quickview-container">
+<div class="quickview-container">
 		<a href='javascript:void(0);' class='a-qv-close' onclick='closeQVFrame()'>Close</a>
 		<div id="quickview-content">
 			<!-- Load quickview content into here -->
 		</div>
 	</div>
 
-    <div id="quickview-bg-block">
+<div id="quickview-bg-block">
         <!-- Quick View deep background -->
     </div>
 
