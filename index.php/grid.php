@@ -4,58 +4,58 @@
     <div class="page">
 <div class="header-container">
 
-            <?php 
-                include("modules/topbar.php");
-                include("modules/header.php");
-             ?> 
+<?php 
+include("modules/topbar.php");
+include("modules/header.php");
+?> 
     
-								<div class="main-container col2-left-layout">
-					<div class="main">
-						<div class="col-main">
-						<div class="breadcrumbs">
+	<div class="main-container col2-left-layout">
+	<div class="main">
+	<div class="col-main">
+	<div class="breadcrumbs">
 	<div class="container">
 		<div class="container-inner">
 			<ul>
-									<li class="home">
-											<a href="index.html" title="Go to Home Page">Home</a>
-																<span><i class="fa fa-angle-right"></i> </span>
-										</li>
-									<li class="category82">
-											<strong>Dog’s Food</strong>
-															</li>
-							</ul>
+		<li class="home">
+		<a href="index.html" title="Go to Home Page">Home</a>
+		<span><i class="fa fa-angle-right"></i> </span>
+		</li>
+		<li class="category82">
+		<strong>Dog’s Food</strong>
+		</li>
+		</ul>
 		</div>
 	</div>
 </div>
-						<div class="container">
-					<div class="container-inner">
-						<div class="row">
-							<div class="col-left sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12"><div class="block block-layered-nav">
+		<div class="container">
+			<div class="container-inner">
+				<div class="row">
+					<div class="col-left sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12"><div class="block block-layered-nav">
     <div class="block-title">
         <strong><span>Shop By</span></strong>
     </div>
     <div class="block-content">
-                                    <p class="block-subtitle">Shopping Options</p>
+        <p class="block-subtitle">Shopping Options</p>
             <dl id="narrow-by-list">
-                                                					<div class="layered-attribute">
+                <div class="layered-attribute">
 						<div class="title-layered"><dt>Category</dt></div>
 						<dd>
 <ol>
     <li>
-                <a class="ajaxLayer"  onclick = "ajaxFilter('http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?cat=88')" >dress</a> 
+        <a class="ajaxLayer"  onclick = "ajaxFilter('http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?cat=88')" >dress</a> 
                 <span> (2) </span>    </li>
     <li>
-                <a class="ajaxLayer"  onclick = "ajaxFilter('http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?cat=89')" >bottoms</a> 
+        <a class="ajaxLayer"  onclick = "ajaxFilter('http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?cat=89')" >bottoms</a> 
                 <span> (15) </span>    </li>
     <li>
-                <a class="ajaxLayer"  onclick = "ajaxFilter('http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?cat=90')" >weaters</a> 
+        <a class="ajaxLayer"  onclick = "ajaxFilter('http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?cat=90')" >weaters</a> 
                 <span> (3) </span>    </li>
 </ol>
 </dd>
-					</div>
-                                                					<div class="layered-price">
-						<div class="title-layered"><dt>Price</dt></div>
-						<dd>		<label>Range:</label>
+</div>
+        <div class="layered-price">
+			<div class="title-layered"><dt>Price</dt></div>
+		<dd>		<label>Range:</label>
         <input type="text" disabled ="disabled" id="amount" style="" />
     
 	<div id="slider-range"></div>
@@ -140,14 +140,14 @@
  //]]>
 </script>
 </dd>
-					</div>
-                                                					<div class="layered-attribute">
-						<div class="title-layered"><dt>Manufacturer</dt></div>
-						<dd>
+</div>
+    <div class="layered-attribute">
+	<div class="title-layered"><dt>Manufacturer</dt></div>
+	<dd>
 <ol>
     <li>
-                <a class="ajaxLayer"  onclick = "ajaxFilter('http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?manufacturer=10')" >Adidas</a> 
-                <span> (3) </span>    </li>
+    <a class="ajaxLayer"  onclick = "ajaxFilter('http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?manufacturer=10')" >Adidas</a> 
+        <span> (3) </span>    </li>
     <li>
                 <a class="ajaxLayer"  onclick = "ajaxFilter('http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?manufacturer=11')" >Chanel</a> 
                 <span> (2) </span>    </li>
@@ -293,13 +293,10 @@
         </div>
 </div>
 
-
-                
-				<div class="hidden-xs banner-left banner-static"><a href="dog-s-food-p=2.html#"><img alt="" src="http://www.plazathemes.com/demo/ma_fobe/media/wysiwyg/banner-left.jpg" /></a></div>
-                
-            </div>
-							<div class="col-main col-lg-9 col-md-9 col-sm-12 col-xs-12">
-																<div class="page-title category-title">
+<div class="hidden-xs banner-left banner-static"><a href="dog-s-food-p=2.html#"><img alt="" src="http://www.plazathemes.com/demo/ma_fobe/media/wysiwyg/banner-left.jpg" /></a></div>
+</div>
+<div class="col-main col-lg-9 col-md-9 col-sm-12 col-xs-12">
+	<div class="page-title category-title">
         <h1>Dog’s Food</h1>
 </div>
 
@@ -345,52 +342,37 @@
         <div id ="wrapper">
     <div id="loading" style ="position: fixed;top: 50%;left: 50%;margin-top: -50px;"></div>
 </div>
-
-    
-    
-    
-        <div class="pages">
+<div class="pages">
         <strong>Page:</strong>
         <ol>
-                    <li>
-                <a class="previous i-previous" href="dog-s-food-p=1.html" title="Previous">
-                                            <i class="fa fa-arrow-left"></i>
-                                    </a>
+        <li>
+        <a class="previous i-previous" href="dog-s-food-p=1.html" title="Previous">
+        <i class="fa fa-arrow-left"></i>
+        </a>
             </li>
-        
-        
-        
-                                    <li><a href="dog-s-food-p=1.html">1</a></li>
-                                                <li class="current">2</li>
-                    
-
-        
-        
-                </ol>
+        <li><a href="dog-s-food-p=1.html">1</a></li>
+        <li class="current">2</li>
+        </ol>
 
     </div>
-    
-    
-					<div class="view-mode">
-												<label>View as:</label>
-															<strong title="Grid" class="grid">Grid</strong>&nbsp;
-																				<a href="dog-s-food-mode=list.html" title="List" class="list">List</a>&nbsp;
-																</div>
+    <div class="view-mode">
+	<label>View as:</label>
+	<strong title="Grid" class="grid">Grid</strong>&nbsp;
+	<a href="dog-s-food-mode=list.html" title="List" class="list">List</a>&nbsp;
+	</div>
 		
     </div>
 	
 </div>
-        
-    
-                	<div class="row">
+<div class="row">
 		<ul class="products-grid module-product">
-			 
-			<li class="col-sm-4 col-md-4 col-sms-12 col-smb-12 item first">
+			 <li class="col-sm-4 col-md-4 col-sms-12 col-smb-12 item first">
 				<div class="item-inner">
 					<div class="ma-box-content">
 						<div class="products">
-							<span class='label-pro-sale'>-10%<small>Off</small></span>								 <div class="label-pro-new"><span>new</span></div>
-							 							<a href="dog-s-food/conubia-nostra-22.html" title="Mattis Lobortis" class="product-image">
+							<span class='label-pro-sale'>-10%<small>Off</small></span>		
+                             <div class="label-pro-new"><span>new</span></div>
+							 	<a href="dog-s-food/conubia-nostra-22.html" title="Mattis Lobortis" class="product-image">
 								<span class="product-image">
 									<img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg"  alt="Mattis Lobortis" />
 								</span>
@@ -401,31 +383,25 @@
 						<div class="des">
 							<h2 class="product-name"><a href="dog-s-food/conubia-nostra-22.html" title="Mattis Lobortis">Mattis Lobortis</a></h2>
 							
-														
-
-                        
-    <div class="price-box">
-                                            
-                    <p class="old-price">
+			 <div class="price-box">
+                <p class="old-price">
                 <span class="price-label">Regular Price:</span>
                 <span class="price" id="old-price-22">
-                    €353.35                </span>
+                    €353.35            
+                </span>
             </p>
 
-                            <p class="special-price">
+            <p class="special-price">
                     <span class="price-label">Special Price</span>
                 <span class="price" id="product-price-22">
                     €318.02                </span>
                 </p>
-                    
-    
-        </div>
-
-							<div class="actions clearfix">
-																	<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/22/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
-																<ul class="add-to-links">
-																			<li><a href="customer/account/login/index.html" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
-																												<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
+            </div>
+<div class="actions clearfix">
+<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/22/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
+<ul class="add-to-links">
+<li><a href="customer/account/login/index.html" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
+<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
 																	</ul>
 							</div>
 						</div>
@@ -437,8 +413,9 @@
 				<div class="item-inner">
 					<div class="ma-box-content">
 						<div class="products">
-							<span class='label-pro-sale'>-10%<small>Off</small></span>								 <div class="label-pro-new"><span>new</span></div>
-							 							<a href="dog-s-food/conubia-nostra.html" title="Conubia Nostra" class="product-image">
+							<span class='label-pro-sale'>-10%<small>Off</small></span>	
+                             <div class="label-pro-new"><span>new</span></div>
+							 	<a href="dog-s-food/conubia-nostra.html" title="Conubia Nostra" class="product-image">
 								<span class="product-image">
 									<img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-5_4.jpg"  alt="Conubia Nostra" />
 								</span>
@@ -448,33 +425,24 @@
 						</div>
 						<div class="des">
 							<h2 class="product-name"><a href="dog-s-food/conubia-nostra.html" title="Conubia Nostra">Conubia Nostra</a></h2>
-							
-														
-
-                        
-    <div class="price-box">
-                                            
+					<div class="price-box">
                     <p class="old-price">
                 <span class="price-label">Regular Price:</span>
                 <span class="price" id="old-price-21">
-                    €353.35                </span>
-            </p>
-
-                            <p class="special-price">
-                    <span class="price-label">Special Price</span>
+                    €353.35                
+                </span></p>
+                 <p class="special-price">
+                <span class="price-label">Special Price</span>
                 <span class="price" id="product-price-21">
                     €318.02                </span>
                 </p>
-                    
-    
-        </div>
-
-							<div class="actions clearfix">
-																	<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/21/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
-																<ul class="add-to-links">
-																			<li><a href="customer/account/login/index.html" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
-																												<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
-																	</ul>
+            </div>
+    <div class="actions clearfix">
+	<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/21/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
+		<ul class="add-to-links">
+		<li><a href="customer/account/login/index.html" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
+		<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
+		</ul>
 							</div>
 						</div>
 					</div>	
@@ -485,74 +453,61 @@
 				<div class="item-inner">
 					<div class="ma-box-content">
 						<div class="products">
-															 <div class="label-pro-new"><span>new</span></div>
-							 							<a href="dog-s-food/vulputate-mollis.html" title="Vulputate mollis" class="product-image">
+						<div class="label-pro-new"><span>new</span></div>
+						<a href="dog-s-food/vulputate-mollis.html" title="Vulputate mollis" class="product-image">
 								<span class="product-image">
 									<img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_3.jpg"  alt="Vulputate mollis" />
 								</span>
-											
 							</a>
-							
-						</div>
+							</div>
 						<div class="des">
 							<h2 class="product-name"><a href="dog-s-food/vulputate-mollis.html" title="Vulputate mollis">Vulputate mollis</a></h2>
-							
-														
-
-                        
-    <div class="price-box">
-                                                                <span class="regular-price" id="product-price-20">
-                                            <span class="price">€353.35</span>                                    </span>
-                        
-        </div>
-
-							<div class="actions clearfix">
-																	<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/20/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
-																<ul class="add-to-links">
-																			<li><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/wishlist/index/add/product/20/form_key/oilL6EyErfFE6QIP/" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
-																												<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
-																	</ul>
+						<div class="price-box">
+                        <span class="regular-price" id="product-price-20">
+                        <span class="price">€353.35</span>                              
+                    </span>
+                </div>
+        <div class="actions clearfix">
+		<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/20/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
+			<ul class="add-to-links">
+			<li><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/wishlist/index/add/product/20/form_key/oilL6EyErfFE6QIP/" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
+			<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
+			</ul>
 							</div>
 						</div>
 					</div>	
 				</div>
 			</li>
-					</ul>
+		</ul>
 	</div>
-		     			    	<div class="row">
+	<div class="row">
 		<ul class="products-grid module-product">
 			 
 			<li class="col-sm-4 col-md-4 col-sms-12 col-smb-12 item first">
 				<div class="item-inner">
 					<div class="ma-box-content">
 						<div class="products">
-															 <div class="label-pro-new"><span>new</span></div>
-							 							<a href="dog-s-food/malesuada.html" title="Malesuada" class="product-image">
+						<div class="label-pro-new"><span>new</span></div>
+						<a href="dog-s-food/malesuada.html" title="Malesuada" class="product-image">
 								<span class="product-image">
 									<img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_2.jpg"  alt="Malesuada" />
 								</span>
 											
 							</a>
-							
-						</div>
-						<div class="des">
-							<h2 class="product-name"><a href="dog-s-food/malesuada.html" title="Malesuada">Malesuada</a></h2>
-							
-														
-
-                        
-    <div class="price-box">
-                                                                <span class="regular-price" id="product-price-19">
-                                            <span class="price">€353.35</span>                                    </span>
-                        
+							</div>
+		<div class="des">
+		<h2 class="product-name"><a href="dog-s-food/malesuada.html" title="Malesuada">Malesuada</a></h2>
+		<div class="price-box">
+        <span class="regular-price" id="product-price-19">
+        <span class="price">€353.35</span>                                    
+         </span>
         </div>
-
-							<div class="actions clearfix">
-																	<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/19/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
-																<ul class="add-to-links">
-																			<li><a href="customer/account/login/index.html" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
-																												<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
-																	</ul>
+          <div class="actions clearfix">
+		<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/19/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
+			<ul class="add-to-links">
+			<li><a href="customer/account/login/index.html" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
+			<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
+			</ul>
 							</div>
 						</div>
 					</div>	
@@ -563,47 +518,38 @@
 				<div class="item-inner">
 					<div class="ma-box-content">
 						<div class="products">
-							<span class='label-pro-sale'>-10%<small>Off</small></span>								 <div class="label-pro-new"><span>new</span></div>
-							 							<a href="dog-s-food/vivamus-adipiscing.html" title="Vivamus adipiscing " class="product-image">
+							<span class='label-pro-sale'>-10%<small>Off</small></span>			
+                             <div class="label-pro-new"><span>new</span></div>
+							 <a href="dog-s-food/vivamus-adipiscing.html" title="Vivamus adipiscing " class="product-image">
 								<span class="product-image">
 									<img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-2_1.jpg"  alt="Vivamus adipiscing " />
 								</span>
-											
 							</a>
 							
 						</div>
 						<div class="des">
 							<h2 class="product-name"><a href="dog-s-food/vivamus-adipiscing.html" title="Vivamus adipiscing ">Vivamus adipiscing </a></h2>
-							
-														
-
-                        
-    <div class="price-box">
-                                            
+					<div class="price-box">
                     <p class="old-price">
-                <span class="price-label">Regular Price:</span>
-                <span class="price" id="old-price-18">
+                    <span class="price-label">Regular Price:</span>
+                   <span class="price" id="old-price-18">
                     €353.35                </span>
             </p>
-
-                            <p class="special-price">
+                  <p class="special-price">
                     <span class="price-label">Special Price</span>
                 <span class="price" id="product-price-18">
                     €318.02                </span>
                 </p>
-                    
-    
-        </div>
-
-							<div class="actions clearfix">
-																	<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/18/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
-																<ul class="add-to-links">
-																			<li><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/wishlist/index/add/product/18/form_key/oilL6EyErfFE6QIP/" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
-																												<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
-																	</ul>
-							</div>
-						</div>
-					</div>	
+                </div>
+                <div class="actions clearfix">
+			<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/18/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
+				<ul class="add-to-links">
+				<li><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/wishlist/index/add/product/18/form_key/oilL6EyErfFE6QIP/" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
+				<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
+				</ul>
+				</div>
+				</div>
+				</div>	
 				</div>
 			</li>
 						     
@@ -612,57 +558,46 @@
 					<div class="ma-box-content">
 						<div class="products">
 							<span class='label-pro-sale'>-10%<small>Off</small></span>								 <div class="label-pro-new"><span>new</span></div>
-							 							<a href="dog-s-food/taciti-sociosqu.html" title="Taciti sociosqu" class="product-image">
+							 <a href="dog-s-food/taciti-sociosqu.html" title="Taciti sociosqu" class="product-image">
 								<span class="product-image">
 									<img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-9_9.jpg"  alt="Taciti sociosqu" />
 								</span>
-											
 							</a>
-							
-						</div>
+							</div>
 						<div class="des">
 							<h2 class="product-name"><a href="dog-s-food/taciti-sociosqu.html" title="Taciti sociosqu">Taciti sociosqu</a></h2>
-							
-														
-
-                        
-    <div class="price-box">
+							<div class="price-box">
                                             
                     <p class="old-price">
                 <span class="price-label">Regular Price:</span>
                 <span class="price" id="old-price-31">
-                    €353.35                </span>
+                    €353.35             
+                 </span>
             </p>
-
-                            <p class="special-price">
+                   <p class="special-price">
                     <span class="price-label">Special Price</span>
                 <span class="price" id="product-price-31">
                     €318.02                </span>
                 </p>
-                    
-    
-        </div>
-
-							<div class="actions clearfix">
-																	<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/31/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
-																<ul class="add-to-links">
-																			<li><a href="customer/account/login/index.html" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
-																												<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
-																	</ul>
-							</div>
-						</div>
-					</div>	
-				</div>
+            </div>
+           <div class="actions clearfix">
+		<button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9kb2ctcy1mb29kLmh0bWw_cD0y/product/31/form_key/oilL6EyErfFE6QIP/')"><span><span>Add to Cart</span></span></button>
+		<ul class="add-to-links">
+		<li><a href="customer/account/login/index.html" title="Add to Wishlist" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
+		<li><span class="separator">|</span> <a href="dog-s-food-p=2.html" title="Add to Compare" title="Add to Compare" class="link-compare">Add to Compare</a></li>
+		</ul>
+		</div>
+		</div>
+		</div>	
+		</div>
 			</li>
-					</ul>
+			</ul>
 	</div>
-		     			        <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+		<script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
     
     <div class="toolbar-bottom">
         <div class="toolbar">
         <div class="sorter">
-        
-    
         <div class="sort-by hidden-xs">
             <label>Sort By</label>
             <select onchange="setLocation(this.value)">
@@ -684,97 +619,86 @@
         <div class="limiter hidden-xs">
             <label>Show</label>
             <select onchange="setLocation(this.value)">
-                            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?limit=9" selected="selected">
-                    9                </option>
-                            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?limit=12">
-                    12                </option>
-                            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?limit=24">
-                    24                </option>
-                            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?limit=36">
-                    36                </option>
-                        </select> per page        </div>
+                <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?limit=9" selected="selected">
+                    9   
+                </option>
+                <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?limit=12">
+                    12                
+                </option>
+                <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?limit=24">
+                    24                
+                </option>
+                <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/dog-s-food.html?limit=36">
+                    36                
+                </option>
+                </select> per page        
+            </div>
 		
         <div id ="wrapper">
-    <div id="loading" style ="position: fixed;top: 50%;left: 50%;margin-top: -50px;"></div>
-</div>
+          <div id="loading" style ="position: fixed;top: 50%;left: 50%;margin-top: -50px;"></div>
+        </div>
 
-    
-    
-    
-        <div class="pages">
+      <div class="pages">
         <strong>Page:</strong>
         <ol>
-                    <li>
-                <a class="previous i-previous" href="dog-s-food-p=1.html" title="Previous">
-                                            <i class="fa fa-arrow-left"></i>
-                                    </a>
-            </li>
-        
-        
-        
-                                    <li><a href="dog-s-food-p=1.html">1</a></li>
-                                                <li class="current">2</li>
-                    
-
-        
-        
-                </ol>
+        <li>
+        <a class="previous i-previous" href="dog-s-food-p=1.html" title="Previous">
+        <i class="fa fa-arrow-left"></i>
+        </a>
+        </li>
+        <li><a href="dog-s-food-p=1.html">1</a></li>
+        <li class="current">2</li>
+        </ol>
 
     </div>
-    
-    
-					<div class="view-mode">
-												<label>View as:</label>
-															<strong title="Grid" class="grid">Grid</strong>&nbsp;
-																				<a href="dog-s-food-mode=list.html" title="List" class="list">List</a>&nbsp;
-																</div>
+    <div class="view-mode">
+	<label>View as:</label>
+		<strong title="Grid" class="grid">Grid</strong>&nbsp;
+			<a href="dog-s-food-mode=list.html" title="List" class="list">List</a>&nbsp;
+		</div>
 		
     </div>
 	
 </div>
     </div>
 </div>
-							</div>
-							</div>
-							</div>
-						</div>
-					</div>
-				</div>
-								<div class="ma-brand-slider-contain">
+			</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+ <div class="ma-brand-slider-contain">
 <div class="container">
 	<div class="brand-inner">
-    	
-		
-		<div class="row">
+    	<div class="row">
           	<ul class="owl">
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand1.jpg" alt="" /></a>												
-																																							             
-                        					</div>
+			 <li class='item'>	
+                <div class="item-inner">	    																			<a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand1.jpg" alt="" /></a></div>
+                </li>                   
+				<li class='item'>					
+                <div class="item-inner">	    																			<a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand2.jpg" alt="" /></a></div>
+                </li>                   
+				<li class='item'>	
+                    <div class="item-inner">	    																		<a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>												
+					</div>
                                    
                 </li>                   
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand2.jpg" alt="" /></a>												
-																																							             
-                        					</div>
+				    <li class='item'>					
+                        <div class="item-inner">	    																
+                            <a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand4.jpg" alt="" /></a>												
+						</div>
                                    
                 </li>                   
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>												
-																																							             
-                        					</div>
+				    <li class='item'>					
+                        <div class="item-inner">	    																	<a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand5.jpg" alt="" /></a>												
+						</div>
                                    
                 </li>                   
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand4.jpg" alt="" /></a>												
-																																							             
-                        					</div>
-                                   
-                </li>                   
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand5.jpg" alt="" /></a>												
-																																							             
-                        					</div>
-                                   
-                </li>                   
-				                <li class='item'>					<div class="item-inner">	    																																		<a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>												
-																																							             
-                        					</div>
+				    <li class='item'>					
+                        <div class="item-inner">	    																
+                            <a href="dog-s-food-p=2.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>												
+						</div>
                                    
                 </li>                   
 				            </ul>
@@ -942,262 +866,280 @@
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/vulputate-mollis.html" title="Vulputate mollis">Vulputate mollis</a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
 											<span class="price">$500.00</span>                                    
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>		
+                                        </div>
+										<div class="actions">
+										</div>
+										</div>
 							</div>
 							</div>
 												                   
-																		<div class="item-inner">
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="aliquet-urna.html" title="Aliquet urna" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_4.jpg" alt="Aliquet urna" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="aliquet-urna.html" title="Aliquet urna">Aliquet urna</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
 											<span class="price">$500.00</span>                                    
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>				
+                                        </div>
+									<div class="actions">
+									</div>
+									</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+							</li>                   
+							<li class='randomproductslider-item'>							
+                                <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="http://www.plazathemes.com/demo/ma_fobe/index.php/suspendisse.html" title="Suspendisse" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-8_4.jpg" alt="Suspendisse" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/suspendisse.html" title="Suspendisse">Suspendisse</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
 											<span class="price">$440.00</span>                                    
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>		
+                                        </div>
+									<div class="actions">
+									</div>
+									</div>
 							</div>
 							</div>
-												                   
-																		<div class="item-inner">
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="himenaeos.html" title="Himenaeos" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-9_5.jpg" alt="Himenaeos" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="himenaeos.html" title="Himenaeos">Himenaeos</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
 											<span class="price">$300.00</span>                                    
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>
+                                        </div>
+									<div class="actions">
+									</div>
+								</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+							</li>                   
+							<li class='randomproductslider-item'>				
+                                <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="gravida-et-mattis.html" title="Gravida et mattis" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_11.jpg" alt="Gravida et mattis" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="gravida-et-mattis.html" title="Gravida et mattis">Gravida et mattis</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$400.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$350.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 			
+                                        </div>
+										<div class="actions">
+										</div>
+										</div>
 							</div>
 							</div>
-												                   
-																		<div class="item-inner">
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="taciti-sociosqu.html" title="Taciti sociosqu" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-9_9.jpg" alt="Taciti sociosqu" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="taciti-sociosqu.html" title="Taciti sociosqu">Taciti sociosqu</a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 		
+                                        </div>
+									<div class="actions">
+									</div>
+								</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+							</li>                   
+								<li class='randomproductslider-item'>						
+                                <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
-									<a href="http://www.plazathemes.com/demo/ma_fobe/index.php/conubia-nostra-66.html" title="Mattis Lobortis" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg" alt="Mattis Lobortis" /></a>
+									<a href="http://www.plazathemes.com/demo/ma_fobe/index.php/conubia-nostra-66.html" title="Mattis Lobortis" class="product-image">
+                                        <img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg" alt="Mattis Lobortis" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/conubia-nostra-66.html" title="Mattis Lobortis">Mattis Lobortis</a></h2>
-																												<div class="price-box">
+										<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 		
+                                        </div>
+										<div class="actions">
+										</div>
+										</div>
 							</div>
 							</div>
 												                   
-																		<div class="item-inner">
+						   <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="voluptas-nulla.html" title="voluptas nulla" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg" alt="voluptas nulla" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="voluptas-nulla.html" title="voluptas nulla">voluptas nulla</a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 			
+                                        </div>
+									<div class="actions">
+									</div>
+									</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+								</li>                   
+									<li class='randomproductslider-item'>	
+                                    <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="quisque-in-arcu-71.html" title="Quisque in arcu" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-5_10.jpg" alt="Quisque in arcu" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="quisque-in-arcu-71.html" title="Quisque in arcu">Quisque in arcu</a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 		
+                                        </div>
+								<div class="actions">
+								</div>
+								</div>
 							</div>
 							</div>
-												                   
-																		<div class="item-inner">
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="aenean-eleifend.html" title="Aenean eleifend" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_13.jpg" alt="Aenean eleifend" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="aenean-eleifend.html" title="Aenean eleifend">Aenean eleifend</a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
 											<span class="price">$330.00</span>                                    
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>				
+                                        </div>
+									<div class="actions">
+										</div>
+									</div>
 							</div>
 							</div>
 												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+											<li class='randomproductslider-item'>	
+                                                <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="vivamus-adipiscing.html" title="Vivamus adipiscing " class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-2_1.jpg" alt="Vivamus adipiscing " /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="vivamus-adipiscing.html" title="Vivamus adipiscing ">Vivamus adipiscing </a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 		
+                                        </div>
+									<div class="actions">
+									</div>
+									</div>
 							</div>
 							</div>
 												                   
-																		<div class="item-inner">
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="class-aptent-taciti.html" title="Class aptent taciti" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_3.jpg" alt="Class aptent taciti" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="class-aptent-taciti.html" title="Class aptent taciti">Class aptent taciti</a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
 											<span class="price">$500.00</span>                                    
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>				
+                                        </div>
+										<div class="actions">
+										</div>
+									</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
+							</li>                   
+							<li class='randomproductslider-item'>							
+                                <div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="malesuada.html" title="Malesuada" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_2.jpg" alt="Malesuada" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="malesuada.html" title="Malesuada">Malesuada</a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
 											<span class="price">$500.00</span>                                    
 											</span>    
-											</div>										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</div>		
+                                        </div>
+									<div class="actions">
+									</div>
+								</div>
 							</div>
 							</div>
-												                   
-																		<div class="item-inner">
+							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
 									<a href="dignissim-semper.html" title="Dignissim Semper" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-7_4.jpg" alt="Dignissim Semper" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="dignissim-semper.html" title="Dignissim Semper">Dignissim Semper</a></h2>
-																												<div class="price-box">
+									<div class="price-box">
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$380.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$320.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 		
+                                        </div>
+									<div class="actions">
+									</div>
+									</div>
 							</div>
 							</div>
-												</li>                   
-											<li class='randomproductslider-item'>							<div class="item-inner">
-								<div class="ma-box-content">
-								<div class="products">
-									<a href="conubia-nostra.html" title="Conubia Nostra" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-5_4.jpg" alt="Conubia Nostra" /></a>
+									</li>                   
+											<li class='randomproductslider-item'>			
+                                                <div class="item-inner">
+								                <div class="ma-box-content">
+								                <div class="products">
+									            <a href="conubia-nostra.html" title="Conubia Nostra" class="product-image"><img src="../media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-5_4.jpg" alt="Conubia Nostra" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="conubia-nostra.html" title="Conubia Nostra">Conubia Nostra</a></h2>
@@ -1205,14 +1147,15 @@
 											<p class="old-price"><span class="price-label">Regular Price: </span><span class="price">$500.00</span></p><p class="special-price">
 											<span class="price-label">Special Price</span>
 											<span class="price">$450.00</span>
-											</p> 										</div>
-																		<div class="actions">
-																													</div>
-																	</div>
+											</p> 	
+                                        </div>
+									<div class="actions">
+									</div>
 							</div>
 							</div>
-												                   
-											</li>				</ul>
+							</div>
+						</li>				
+                    </ul>
 			</div>
                <script type="text/javascript">
 					$jq(document).ready(function(){
