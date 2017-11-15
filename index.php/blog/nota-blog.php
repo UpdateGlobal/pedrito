@@ -85,10 +85,10 @@
                                         <div class="tags">
                                             
                                         </div>
+                                      </div>
                                     </div>
-                            </div>
-                        </div>
-							</div>
+                                 </div>
+							   </div>
 							</div>
 						</div>
 					</div>

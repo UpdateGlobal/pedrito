@@ -1321,7 +1321,6 @@
     <div id="quickview-bg-block">
         <!-- Quick View deep background -->
     </div>
-
     <div class="quickview-load-img">
         <img alt="" src="../media/magentothem/default/loader.gif" />
     </div>
