@@ -26,7 +26,7 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <form id="search_mini_form" action="http://www.plazathemes.com/demo/ma_fobe/index.php/catalogsearch/result/" method="get">
+                                        <form id="search_mini_form" action="#" method="get">
                                             <div class="label">search:<i class="fa fa-search ">&nbsp;</i></div>
                                             <div class="form-search">
                                                 <input id="search" type="text" name="q" value="" class="input-text" maxlength="128" />
@@ -39,7 +39,7 @@
                                                 <script type="text/javascript">
                                                 //<![CDATA[
                                                 var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Busca aquí... ');
-                                                searchForm.initAutocomplete('http://www.plazathemes.com/demo/ma_fobe/index.php/catalogsearch/ajax/suggest/', 'search_autocomplete');
+                                                searchForm.initAutocomplete('#', 'search_autocomplete');
                                                 //]]>
                                                 </script>
                                             </div>

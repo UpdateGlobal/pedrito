@@ -28,7 +28,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/31/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -54,7 +54,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/29/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -80,7 +80,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/30/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -106,7 +106,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/25/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -133,7 +133,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/23/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -160,7 +160,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/21/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -186,7 +186,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/19/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -213,7 +213,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/16/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -239,7 +239,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/26/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -253,7 +253,7 @@
                                                             <div class="products">
                                                                 <span class='label-pro-sale'>-10%<small>descuento</small></span>
                                                                 <div class="label-pro-new"><span>hoy</span></div>
-                                                                <a href="#" title="Suspendisse" class="product-image"><img src="http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-8_4.jpg" alt="Suspendisse" /></a>
+                                                                <a href="#" title="Suspendisse" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg" alt="Suspendisse" /></a>
                                                             </div>
                                                             <div class="des">
                                                                 <h2 class="product-name"><a href="#" title="Suspendisse">Suspendisse</a></h2>
@@ -265,7 +265,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/24/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -292,7 +292,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/22/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -318,7 +318,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/20/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -345,7 +345,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/18/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -407,7 +407,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/16/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -433,7 +433,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/18/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -459,7 +459,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/21/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -485,7 +485,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/22/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -511,7 +511,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/23/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -535,7 +535,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/27/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -559,7 +559,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/28/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>
@@ -585,7 +585,7 @@
                                                                     </p>
                                                                 </div>
                                                                 <div class="actions">
-                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('http://www.plazathemes.com/demo/ma_fobe/index.php/checkout/cart/add/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC8,/product/31/form_key/oilL6EyErfFE6QIP/')"><span><span>Agregar al Carrito</span></span>
+                                                                    <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar al Carrito</span></span>
                                                                     </button>
                                                                     
                                                                 </div>

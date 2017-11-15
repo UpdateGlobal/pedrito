@@ -38,7 +38,7 @@
             </div>
             <div class="url-content" style="display: none">
                 <input type="hidden" id="use-redirect" value="1" />
-                <input type="hidden" id="base-url" value="http://www.plazathemes.com/demo/ma_fobe/index.php/" />
+                <input type="hidden" id="base-url" value="#" />
             </div>
             <div id="ajax-login-block">
             </div>
@@ -71,7 +71,7 @@
             if (typeof MA == 'undefined') MA = {};
             MA.QuickView = {
                 CATEGORY_ENABLE: 'true',
-                BASE_URL: 'http://www.plazathemes.com/demo/ma_fobe/index.php/',
+                BASE_URL: '#',
                 PARENT_ELEMENT: 'item-inner',
                 CHILDREN_ELEMENT: 'products'
             };

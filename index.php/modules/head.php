@@ -24,5 +24,5 @@
   <link rel="stylesheet" type="text/css" href="../../media/css/cd2396986950e6d06ba09fba5754fd49.css" />
 <link rel="stylesheet" type="text/css" href="../../media/css/432721ecca3ed2c88881a557e6917056.css" media="all" />
 <link rel="stylesheet" type="text/css" href="../../media/css/4f1157b34c626f17931b3042dac06d5e.css" media="print" />
-<script type="text/javascript" src="http://www.plazathemes.com/demo/ma_fobe/media/js/3cbb357d2d3d32033299c05760926ab1.js"></script>
+
 </head>
