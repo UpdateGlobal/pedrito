@@ -109,7 +109,7 @@
         </div>
 </div>
 
-<div class="hidden-xs banner-left banner-static"><a href="contacts.html#"><img alt="" src="http://www.plazathemes.com/demo/ma_fobe/media/wysiwyg/banner-left.jpg" /></a></div>
+    
 </div>
 	<div class="col-main col-lg-9 col-md-9 col-sm-12 col-xs-12">
 																
@@ -168,116 +168,11 @@
 </div>
 </div>
 </div>
-								
-<div class="ma-brand-slider-contain">
-<div class="container">
-	<div class="brand-inner">
-    	
-		<div class="row">
-          	<ul class="owl">
-			<li class='item'>	
-                <div class="item-inner">
-                    <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand1.jpg" alt="" /></a>												
-				</div>
-                </li>                   
-				<li class='item'>	
-                    <div class="item-inner">
-                        <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand2.jpg" alt="" /></a>												
-				</div>
-                                   
-                </li>                   
-				    <li class='item'>	
-                        <div class="item-inner">
-                            <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>												
-						</div>          
-                </li>                   
-				    <li class='item'>	
-                        <div class="item-inner">
-                            <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand4.jpg" alt="" /></a>												
-						</div>
-                                   
-                </li>                   
-				    <li class='item'>	
-                        <div class="item-inner">
-                            <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand5.jpg" alt="" /></a>												
-						</div>            
-                </li>                   
-				    <li class='item'>		
-                        <div class="item-inner">
-                            <a href="contacts.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>												
-					</div>
-                                   
-                </li>                   
-				            </ul>
-			</div>
-            <script type="text/javascript">
-			       //<![CDATA[
-					$jq(document).ready(function(){					  
-					  $jq(".ma-brand-slider-contain .owl").owlCarousel({
-							autoPlay : false,
-							items : 5,
-							itemsDesktop : [1199,5],
-							itemsDesktopSmall : [980,4],
-							itemsTablet: [700,3],
-							itemsMobile : [400,2],
-							slideSpeed : 4000,
-							paginationSpeed : 4000,
-							rewindSpeed : 4000,
-							navigation : false,
-							stopOnHover : true,
-							pagination : false,
-							scrollPerPage:true,
-						});
-					});
-				//]]>
-				</script>
-	</div>
-</div>				
-</div> 
-		<div class="block block-testimonial-sidebar">			
-							<div class="block-title">
-				<strong><span>Latest Testimonials</span></strong>
-			</div>
-			<div class="block-content">
-				<ul class="owl">			
-					<li class='testimonial-list'>								
-							<div class="testimonial-sidebar-content">						
-								<div class="content">
-									<div class="testimonial-content-avatar">
-										<img src="../media/magentothem/avatar/testtimor1_1.png" alt="test" height="78" width="78" />	
-                                    </div>
-									<div class="post-by">							
-										<span class="testimonial-author">Ms.Maria Carey</span>							
-										<span class="testimonial-date">February 22, 2016</span>						
-									</div>
-									<a href="testimonial/index.html">						    
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et...						   
-									</a>					
-								</div>						
-												
-							</div>
-						</li>                    
-					<li class='testimonial-list'>								
-							<div class="testimonial-sidebar-content">						
-								<div class="content">
-									<div class="testimonial-content-avatar">
-										<img src="../media/magentothem/avatar/testtimor1.png" alt="test" height="78" width="78" />									
-                                    </div>
-									<div class="post-by">							
-										<span class="testimonial-author">Ms.Maria Carey</span>							
-										<span class="testimonial-date">February 22, 2016</span>						
-									</div>
-									<a href="testimonial/index.html">						    
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et...						   
-									</a>					
-								</div>						
-												
-							</div>
-						</li>                    						
-				</ul>
-			</div>	
-			
-	</div>
+
+<?php 
+    include("modules/marcas.php")
+ ?>							
+	
 	<script type="text/javascript">
 		$jq(document).ready(function(){
 			$jq(".block-testimonial-sidebar .owl").owlCarousel({
@@ -464,10 +359,10 @@
 						<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
-									<a href="http://www.plazathemes.com/demo/ma_fobe/index.php/vulputate-mollis.html" title="Vulputate mollis" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_3.jpg" alt="Vulputate mollis" /></a>
+									<a href="#" title="Vulputate mollis" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_3.jpg" alt="Vulputate mollis" /></a>
 								</div>
 								<div class="des">
-									<h2 class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/vulputate-mollis.html" title="Vulputate mollis">Vulputate mollis</a></h2>
+									<h2 class="product-name"><a href="#" title="Vulputate mollis">Vulputate mollis</a></h2>
 										<div class="price-box">
 											<div class="price-boxs">
 											<span class="regular-price">
@@ -539,7 +434,7 @@
 							<div class="item-inner">
 								<div class="ma-box-content">
 								<div class="products">
-									<a href="http://www.plazathemes.com/demo/ma_fobe/index.php/conubia-nostra-66.html" title="Mattis Lobortis" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg" alt="Mattis Lobortis" /></a>
+									<a href="#" title="Mattis Lobortis" class="product-image"><img src="../media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg" alt="Mattis Lobortis" /></a>
 								</div>
 								<div class="des">
 									<h2 class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/conubia-nostra-66.html" title="Mattis Lobortis">Mattis Lobortis</a></h2>
