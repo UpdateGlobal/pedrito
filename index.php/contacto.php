@@ -11,121 +11,27 @@
 		<div class="container">
 			
 			
-								<div class="main-container col2-left-layout">
+<div class="main-container col2-left-layout">
 					<div class="main">
 						<div class="col-main">
-												<div class="container">
+						<div class="container">
 					<div class="container-inner">
 						<div class="row">
-							<div class="col-left sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
-<div class="block block-list block-compare">
-    <div class="block-title">
-        <strong><span>Compare Products                            <small>(15)</small>
-                    </span></strong>
-    </div>
-    <div class="block-content">
-            <ol id="compare-items">
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="16" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="voluptas-nulla.html">voluptas nulla</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="18" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="vivamus-adipiscing.html">Vivamus adipiscing </a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="19" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="malesuada.html">Malesuada</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="20" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/vulputate-mollis.html">Vulputate mollis</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="21" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="conubia-nostra.html">Conubia Nostra</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="22" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/conubia-nostra-66.html">Mattis Lobortis</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="23" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="dignissim-semper.html">Dignissim Semper</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="24" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/suspendisse.html">Suspendisse</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="25" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="himenaeos.html">Himenaeos</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="26" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="class-aptent-taciti.html">Class aptent taciti</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="27" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="quisque-in-arcu-71.html">Quisque in arcu</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="28" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="gravida-et-mattis.html">Gravida et mattis</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="29" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="aliquet-urna.html">Aliquet urna</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="30" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="aenean-eleifend.html">Aenean eleifend</a></p>
-            </li>
-                    <li class="item">
-                <input type="hidden" class="compare-item-id" value="31" />
-                <a href="contacts.html" title="Remove This Item" class="btn-remove" onclick="return confirm('Are you sure you would like to remove this item from the compare products?');">Remove This Item</a>
-                <p class="product-name"><a href="taciti-sociosqu.html">Taciti sociosqu</a></p>
-            </li>
-                </ol>
-        <script type="text/javascript">decorateList('compare-items')</script>
-        <div class="actions">
-            <a href="index.html" onclick="return confirm('Are you sure you would like to remove all products from your comparison?');">Clear All</a>
-            <button type="button" title="Compare" class="button" onclick="popWin('http://www.plazathemes.com/demo/ma_fobe/index.php/catalog/product_compare/index/items/16,18,19,20,21,22,23,24,25,26,27,28,29,30,31/uenc/aHR0cDovL3d3dy5wbGF6YXRoZW1lcy5jb20vZGVtby9tYV9mb2JlL2luZGV4LnBocC9jb250YWN0cw,,/','compare','top:0,left:0,width=820,height=600,resizable=yes,scrollbars=yes')"><span><span>Compare</span></span></button>
-        </div>
-        </div>
-</div>
+	</div>
 
-    
-</div>
-	<div class="col-main col-lg-9 col-md-9 col-sm-12 col-xs-12">
+<div class="col-main col-lg-12 col-md-12 col-sm-112col-xs-12">
 																
-<div class="contact-us"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6305.678625317825!2d-122.39957047637722!3d37.793805380191266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858063d63a0215:0xcba0af2dfe02048f!2s101+California+Street,+San+Francisco,+CA+94111,+Hoa+K%E1%BB%B3!5e0!3m2!1svi!2s!4v1419099932976" height="350" width="100%"></iframe></div>
-					
 <div id="messages_product_view"></div>
 <div class="page-title">
-    <h1>Contact Us</h1>
+    <h1>Contáctanos</h1>
 </div>
 <form action="http://www.plazathemes.com/demo/ma_fobe/index.php/contacts/index/post/" id="contactForm" method="post">
     <div class="fieldset">
-        <h2 class="legend">Contact Information</h2>
+        <h2 class="legend">Bríndanos tus datos y te contactaremos</h2>
         <ul class="form-list">
             <li class="fields">
                 <div class="field">
-                    <label for="name" class="required"><em>*</em>Name</label>
+                    <label for="name" class="required"><em>*</em>Nombre</label>
                     <div class="input-box">
                         <input name="name" id="name" title="Name" value="" class="input-text required-entry" type="text" />
                     </div>
@@ -138,13 +44,13 @@
                 </div>
             </li>
             <li>
-                <label for="telephone">Telephone</label>
+                <label for="telephone">Teléfono</label>
                 <div class="input-box">
                     <input name="telephone" id="telephone" title="Telephone" value="" class="input-text" type="text" />
                 </div>
             </li>
             <li class="wide">
-                <label for="comment" class="required"><em>*</em>Comment</label>
+                <label for="comment" class="required"><em>*</em>Tu comentario</label>
                 <div class="input-box">
                     <textarea name="comment" id="comment" title="Comment" class="required-entry input-text" cols="5" rows="3"></textarea>
                 </div>
@@ -157,6 +63,7 @@
         <button type="submit" title="Submit" class="button"><span><span>Submit</span></span></button>
     </div>
 </form>
+<div class="contact-us"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.316092039085!2d-77.07556484241219!3d-12.090499732584284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9a6d34ff541%3A0xb4c0e12b86c32ccf!2sJir%C3%B3n+Castilla+690%2C+Magdalena+del+Mar+15086!5e0!3m2!1ses!2spe!4v1511145638677" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 <script type="text/javascript">
 //<![CDATA[
     var contactForm = new VarienForm('contactForm', true);
@@ -168,7 +75,6 @@
 </div>
 </div>
 </div>
-
 <?php 
     include("modules/marcas.php")
  ?>							

@@ -12,7 +12,7 @@
                                     </div>
                                 </li>
                                 <li class='item'>
-                                    <div class="item-inner"> <a href="#" title=""><img src="hallmark.jpg" alt="" /></a>
+                                    <div class="item-inner"> <a href="#" title=""><img src="marcas/hallmark.jpg" alt="" /></a>
                                     </div>
                                 </li>
                                 <li class='item'>
