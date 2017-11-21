@@ -1657,11 +1657,6 @@ Ajax.Request.Events =
 
 
 
-
-
-
-
-
 Ajax.Response = Class.create({
   initialize: function(request){
     this.request = request;
