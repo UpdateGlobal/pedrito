@@ -13,7 +13,7 @@
 <link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css' />
 <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css' />
 <!-- load google font -->
-
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
 <!--[if lt IE 7]>
 <script type="text/javascript">
@@ -245,7 +245,7 @@ $jq(document).ready(function(){
 		<div class="container-inner">
 			<ul>
 			<li class="home">
-			<a href="index.html" title="Go to Home Page">Home</a>
+			<a href="index.html" title="Go to Home Page">INICIO</a>
 			<span><i class="fa fa-angle-right"></i> </span>
 			</li>
 			<li class="product">
@@ -359,8 +359,7 @@ $jq(document).ready(function(){
 							<div class="product-name">
 								<h1>voluptas nulla</h1>
 							</div>
-						<p class="availability in-stock">Availability: <span>In stock</span></p>
-						<p class="no-rating"><a href="review/product/list/id/16/index.html#review-form">Be the first to review this product</a></p>
+						
 							
 			<div class="price-box">
                 <p class="old-price">
@@ -393,18 +392,12 @@ $jq(document).ready(function(){
 </style>
 
     <div class="add-to-cart">
-                <label for="qty">Qty:</label>
+                <label for="qty">CANTIDAD:</label>
         <input type="text" name="qty" id="qty" maxlength="12" value="1" title="Qty" class="input-text qty" />
-                <button type="button" title="Add to Cart" class="button btn-cart" onclick="productAddToCartForm.submit(this)"><span><span>Add to Cart</span></span></button>
+                <button type="button" title="Add to Cart" class="button btn-cart" onclick="productAddToCartForm.submit(this)"><span><span>Añadir al carrito</span></span></button>
             </div>
 		</div>
-<div class="actions-inner clearfix">
- <ul class="add-to-links">
-    <li><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/wishlist/index/add/product/16/form_key/oilL6EyErfFE6QIP/" onclick="productAddToCartForm.submitLight(this, this.href); return false;" title="Add to Wishlist" class="link-wishlist">Add to Wishlist</a></li>
-    <li><span class="separator">|</span> <a href="voluptas-nulla.html" title="Add to Compare" class="link-compare">Add to Compare</a></li>
-</ul>
-	<p title="Email to a Friend" class="email-friend"><a href="customer/account/login/index.html">Email a Friend</a></p>
-	</div>	
+	
 </div>
 <div class="product-social">
 						<!-- AddThis Button BEGIN -->
@@ -430,9 +423,8 @@ $jq(document).ready(function(){
 
 
 <ul class="product-tabs">
-   <li id="product_tabs_description" class=" active first"><a href="voluptas-nulla.html#">Product Description</a></li>
-       <li id="product_tabs_product_additional_data" class=""><a href="voluptas-nulla.html#">Reviews</a></li>
-          <li id="product_tabs_product.tags" class=" last"><a href="voluptas-nulla.html#">Product Tags</a></li>
+   <li id="product_tabs_description" class=" active first"><a href="voluptas-nulla.html#">DESCRIPCIÓN PRODUCTO</a></li>
+       
             </ul>
 
 

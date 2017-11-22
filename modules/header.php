@@ -19,7 +19,7 @@
                                                 </div>
                                                 <ul id="ma-mobilemenu" class="mobilemenu nav-collapse collapse">
                                                     <li class="level0 nav-1 level-top first parent">
-                                                        <a href="#" class="level-top">
+                                                        <a href="index.php" class="level-top">
                                                             <span>Para Perros</span></a>
                                                         <ul class="level0">
                                                             <li class="level1 nav-1-1 first parent">
@@ -89,7 +89,7 @@
                                                         </ul>
                                                     </li>
                                                     <li class="level0 nav-2 level-top parent">
-                                                        <a href="#" class="level-top">
+                                                        <a href="index.php" class="level-top">
                                                                 <span>Para Gatos</span>
                                                                 </a>
                                                         <ul class="level0">
@@ -160,7 +160,7 @@
                                                         </ul>
                                                     </li>
                                                     <li class="level0 nav-3 level-top parent">
-                                                        <a href="#" class="level-top">
+                                                        <a href="index.php" class="level-top">
                                                                 <span>Para Aves </span>
                                                                 </a>
                                                         <ul class="level0">
@@ -231,7 +231,7 @@
                                                         </ul>
                                                     </li>
                                                     <li class="level0 nav-4 level-top last parent">
-                                                        <a href="#" class="level-top">
+                                                        <a href="index.php" class="level-top">
                                                                 <span>Promociones </span>
                                                                 </a>
                                                         <ul class="level0">
@@ -308,14 +308,14 @@
                                             <div class="pt_custommenu_content">
                                                 <div id="pt_menu_homema_fobe_pet_home" class="pt_menu pt_menu_home">
                                                     <div class="parentMenu">
-                                                        <a href="index.html">
+                                                        <a href="index.php">
                                                         <span>Inicio</span>
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <div id="pt_menu82" class="pt_menu nav-1">
                                                     <div class="parentMenu">
-                                                        <a href="dog-s-food.html">
+                                                        <a href="detalle-producto.php">
                                                         <span>Para Perros</span>
                                                         </a>
                                                     </div>
@@ -379,7 +379,7 @@
                                                 </div>
                                                 <div id="pt_menu83" class="pt_menu nav-2">
                                                     <div class="parentMenu">
-                                                        <a href="cat-s-food.html">
+                                                        <a href="detalle-producto.php">
                                                         <span>Para&nbsp;Gatos</span>
                                                         </a>
                                                     </div>
@@ -443,7 +443,7 @@
                                                 </div>
                                                 <div id="pt_menu84" class="pt_menu nav-3">
                                                     <div class="parentMenu">
-                                                        <a href="fish-s-food.html">
+                                                        <a href="detalle-producto.php">
                                                         <span>Para&nbsp;Aves&nbsp;</span>
                                                         </a>
                                                     </div>
@@ -507,7 +507,7 @@
                                                 </div>
                                                 <div id="pt_menu85" class="pt_menu nav-4">
                                                     <div class="parentMenu">
-                                                        <a href="promotion.html">
+                                                        <a href="index.php">
                                                         <span>Promociones&nbsp;</span>
                                                         </a>
                                                     </div>
@@ -572,7 +572,7 @@
                                                 <div id="pt_menu_link" class="pt_menu">
                                                     <div class="parentMenu">
                                                         <ul>
-                                                            <li><a href="../blog/portada-blog.php">blog</a></li>
+                                                            <li><a href="index.php">blog</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>

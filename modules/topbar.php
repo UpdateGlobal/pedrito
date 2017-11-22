@@ -16,12 +16,12 @@
                                         <div class="header-link">
                                             <ul class="menu dropit">
                                                 <li class="dropit-trigger">
-                                                    <a class='login_click' href="customer/account/login/index.html">Mi cuenta</a>
+                                                    <a class='login_click' href="customer/account/login/index.php">Mi cuenta</a>
                                                     <ul class="dropit-submenu" id="menu_link">
                                                         <li class=" last"><a href="javascript:void(0);" title="Log In" class="a-login-link">Regístrate</a></li>
                                                         <li class=" last"><a href="javascript:void(0);" title="Log In" class="a-login-link">Login</a></li>
-                                                        <li><a href="checkout/cart/index.html" title="My Cart" class="top-link-cart">Ver mi Carrito</a></li>
-                                                        <li><a href="checkout/index.html" title="Checkout" class="top-link-checkout">Pagar</a></li>
+                                                        <li><a href="checkout/cart/index.php" title="My Cart" class="top-link-cart">Ver mi Carrito</a></li>
+                                                        <li><a href="checkout/index.php" title="Checkout" class="top-link-checkout">Pagar</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>

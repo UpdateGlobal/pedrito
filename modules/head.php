@@ -24,5 +24,5 @@
   <link rel="stylesheet" type="text/css" href="css/cd2396986950e6d06ba09fba5754fd49.css" />
 <link rel="stylesheet" type="text/css" href="css/432721ecca3ed2c88881a557e6917056.css" media="all" />
 <link rel="stylesheet" type="text/css" href="css/4f1157b34c626f17931b3042dac06d5e.css" media="print" />
-
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>

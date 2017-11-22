@@ -7,7 +7,7 @@
                 <h1>Pedrito Pet Shop</h1>
                 <div class="des">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim adm.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</div>
                     <div class="footer-contact">
-                        <p class="adress"><span class="ft-content">Jr. Castilla 456 <br>Magdalena del Mar</span></p>
+                        <p class="map"></i><span class="ft-content">Jr. Castilla 456 <br>Magdalena del Mar</span></p>
                         <p class="phone"><span class="ft-content"><span class="mobile">Central de pedidos:<br>(51) 455 5500</span>
                         </p>
                         <p class="email"><span class="ft-content">Email:<br>pedidos@pedrito.com</span></p>

@@ -30,18 +30,18 @@
         <h2 class="legend">Bríndanos tus datos y te contactaremos</h2>
         <ul class="form-list">
             <li class="fields">
-                <div class="field">
+                
                     <label for="name" class="required"><em>*</em>Nombre</label>
                     <div class="input-box">
                         <input name="name" id="name" title="Name" value="" class="input-text required-entry" type="text" />
                     </div>
-                </div>
-                <div class="field">
+                
+               
                     <label for="email" class="required"><em>*</em>Email</label>
                     <div class="input-box">
                         <input name="email" id="email" title="Email" value="" class="input-text required-entry validate-email" type="text" />
                     </div>
-                </div>
+               
             </li>
             <li>
                 <label for="telephone">Teléfono</label>
