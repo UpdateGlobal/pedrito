@@ -25,4 +25,37 @@
 <link rel="stylesheet" type="text/css" href="css/432721ecca3ed2c88881a557e6917056.css" media="all" />
 <link rel="stylesheet" type="text/css" href="css/4f1157b34c626f17931b3042dac06d5e.css" media="print" />
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+
+<!-- ESTO ES PARA DARLE ZOOM A LA IMAGEN -->
+    <link type="text/css" href="zoomy.css" rel="stylesheet">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <style>
+/*Some CSS*/
+* {margin: 0; padding: 0;}
+.magnify {width: 480px; margin: 50px auto; position: relative;}
+
+/*Lets create the magnifying glass*/
+.large {
+    width: 400px; height: 400px;
+    position: absolute;
+    border-radius: 100%;
+    
+    /*Multiple box shadows to achieve the glass effect*/
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
+    0 0 7px 7px rgba(0, 0, 0, 0.25), 
+    inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    
+    /*Lets load up the large image first*/
+    background: url('imagenes/e/pet-7_4.jpg') no-repeat;
+    
+    /*hide the glass by default*/
+    display: none;
+}
+
+/*To solve overlap bug at the edges during magnification*/
+.small { display: block; }
+</style>
+
 </head>
