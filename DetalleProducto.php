@@ -1,7 +1,61 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Pedrito Petshop</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="logo/favicon.ico" /> 
+   
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css' /> 
+    <link rel="stylesheet" type="text/css" href="css/cd2396986950e6d06ba09fba5754fd49.css" />
+    <link rel="stylesheet" type="text/css" href="css/8986d8aa7b116cd1da7d16640731605b.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/4f1157b34c626f17931b3042dac06d5e.css" media="print" />
+    <script type="text/javascript" src="js1/8abf94023d9a75d6a8d5680a47799432.js"></script>
+    <link href="blog/rss/index/store_id/9/index.html" title="Our Blog" rel="alternate" type="application/rss+xml" />
+    <script type="text/javascript">
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/cd2396986950e6d06ba09fba5754fd49.css" />
+<link rel="stylesheet" type="text/css" href="css/432721ecca3ed2c88881a557e6917056.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/4f1157b34c626f17931b3042dac06d5e.css" media="print" />
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
-<?php include("modules/head.php") ?>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script> 
+<style>
+/*Some CSS*/
+* {margin: 0; padding: 0;}
+.magnify {width: 480px; margin: 50px auto; position: relative;}
+
+/*Lets create the magnifying glass*/
+.large {
+    width: 400px; height: 400px;
+    position: absolute;
+    border-radius: 100%;
+    
+    /*Multiple box shadows to achieve the glass effect*/
+    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
+    0 0 7px 7px rgba(0, 0, 0, 0.25), 
+    inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    
+    /*Lets load up the large image first*/
+    background: url('imagenes/e/pet-7_4.jpg') no-repeat;
+    
+    /*hide the glass by default*/
+    display: none;
+}
+
+/*To solve overlap bug at the edges during magnification*/
+.small { display: block; }
+</style>
+
+</head>
 
 <body class=" catalog-product-view catalog-product-view product-voluptas-nulla">
     <div class="wrapper">
@@ -15,122 +69,15 @@
             </div>
         </noscript>
         <div class="page">
-
             <div class="header-container">
-                <div class="top-link">
-                    <div class="container">
-
-                        <div class="container-inner">
-                            <div class="row top-link-inner">
-                                <div class="col-md-7 col-sm-6 col-xs-12">
-                                    <div class="block-top-link">
-                                        <!--p class="welcome-msg">Default welcome msg! </p-->
-                                        <div class="header-language">
-                                            <div class="form-language">
-                                                <label class="hidden-sm hidden-xs">Language:</label>
-                                                <ul class="drop-lang">
-                                                    <li class="drop-trigger">
-                                                        <a class="english3 selected" href="voluptas-nulla-___store=english3&___from_store=english3.html">English3</a>
-                                                        <ul class="sub-lang">
-                                                            <li><a class="english3" href="voluptas-nulla-___store=english3&___from_store=english3.html">English3</a></li>
-                                                            <li><a class="english4" href="voluptas-nulla-___store=english4&___from_store=english3.html">English4</a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="header-curren">
-                                            <div class="form-currency">
-                                                <label class="hidden-sm hidden-xs">Currency:</label>
-                                                <ul class="drop-currency">
-                                                    <li class="currency-trigger">
-                                                        <a class="level-0 selected" href="voluptas-nulla.html">GBP</a>
-                                                        <ul class="sub-currency">
-                                                            <li>
-                                                                <a href="voluptas-nulla.html" onclick="setLocation(this.value);">
-            GBP     </a>
-                                                            </li>
-
-                                                            <li>
-                                                                <a href="voluptas-nulla.html" onclick="setLocation(this.value);">
-            EUR     </a>
-                                                            </li>
-
-                                                            <li>
-                                                                <a href="voluptas-nulla.html" onclick="setLocation(this.value);">
-            USD     </a>
-                                                            </li>
-
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-
-                                        <div class="header-phone">
-                                            <div class="header-phone-inner">
-                                                <p>Phone : <span>081 112 1145</span></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-5 col-sm-6 col-xs-12">
-                                    <div class="right-link clearfix">
-
-                                        <div class="header-link">
-                                            <ul class="menu dropit">
-                                                <li class="dropit-trigger">
-                                                    <a class='login_click' href="customer/account/login/index.html">Account</a>
-                                                    <ul class="dropit-submenu" id="menu_link">
-                                                        <li class="first"><a href="customer/account/login/index.html" title="My Account">My Account</a></li>
-                                                        <li><a href="customer/account/login/index.html" title="My Wishlist">My Wishlist</a></li>
-                                                        <li><a href="checkout/cart/index.html" title="My Cart" class="top-link-cart">My Cart</a></li>
-                                                        <li><a href="checkout/index.html" title="Checkout" class="top-link-checkout">Checkout</a></li>
-                                                        <li><a href="testimonial/index.html" title="Testimonial">Testimonial</a></li>
-                                                        <li class=" last"><a href="javascript:void(0);" title="Log In" class="a-login-link">Log In</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-
-                                        </div>
-                                        <form id="search_mini_form" action="http://www.plazathemes.com/demo/ma_fobe/index.php/catalogsearch/result/" method="get">
-                                            <div class="label">Search:<i class="fa fa-search ">&nbsp;</i></div>
-                                            <div class="form-search">
-                                                <input id="search" type="text" name="q" value="" class="input-text" maxlength="128" />
-                                                <div class="loading_image_search"></div>
-                                                <button type="submit" title="Search" class="button"><span><span><i class="fa fa-search ">&nbsp;</i>Search</span></span>
-                                                </button>
-                                                <button class="button none"><span><span><i class="fa fa-times">&nbsp;</i></span></span>
-                                                </button>
-                                                <div id="search_autocomplete" class="search-autocomplete"></div>
-                                                <script type="text/javascript">
-                                                    //<![CDATA[
-                                                    var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search... ');
-                                                    searchForm.initAutocomplete('http://www.plazathemes.com/demo/ma_fobe/index.php/catalogsearch/ajax/suggest/', 'search_autocomplete');
-                                                    //]]>
-                                                </script>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-               <?php include("modules/header.php"); ?>
+              <?php include("modules/topbar.php"); ?>
+         
 
                        
-            <!--script type="text/javascript">
-  $jq(document).ready(function(){
-  $jq('#search_mini_form .label').click(function(){
-    $jq('.form-search').addClass("show");
-  }); 
-  $jq('.form-search button.button.none').click(function(){  
-    $jq('.form-search').removeClass("show");
-  });
-});
-</script-->
+            <!-- ACA VA IR LO QUE ES LA BARRA DE NAVEGACIÓN DONDE SE ESCOJERAN LAS CATEGORIAS -->
+
+           <?php include("modules/header.php"); ?>
+            <!--ACA SE TERMINA LO QUE ES LA PARTE DE LA BARRA DE NAVEGACIÓN-->
             <div class="main-container col1-layout">
                 <div class="main">
                     <div class="col-main">
@@ -139,7 +86,7 @@
                                 <div class="container-inner">
                                     <ul>
                                         <li class="home">
-                                            <a href="index.html" title="Go to Home Page">Home</a>
+                                            <a href="index.html" title="Go to Home Page">INICIO</a>
                                             <span><i class="fa fa-angle-right"></i> </span>
                                         </li>
                                         <li class="product">
@@ -174,6 +121,7 @@
                                 <!-  ACA VAMOS HACER EL NUEVO CODIGO2 DEL ZOOM DE LAS IMAGENES -->
      <!-- PRIMER SCRIPT PARA LUPA -->
 <script>
+    
 $(document).ready(function(){
 
 	var native_width = 0;
@@ -349,7 +297,7 @@ function include(filename) {
                                 <script type="text/javascript">
                                     //<![CDATA[
                                     $jq('.ma-thumbnail-container .bxslider').bxSlider({
-                                        slideWidth: 78,
+                                        slideWidth: 77,
                                         slideMargin: 5,
                                         minSlides: 2,
                                         maxSlides: 4,
@@ -361,14 +309,15 @@ function include(filename) {
                                     });
                                     //]]>
                                 </script>
-                            </div></div>
+                            </div></div> 
                     <div class="col-md-7 col-sm-12 col-sms-12">
                         <div class="product-shop-inner">
                                 <div class="product-name">
                                     <h1>DETALLE PRODUCTOS</h1>
                                 </div>
-                                                        <p class="availability in-stock">Availability: <span>In stock</span></p>
-                                                        <p class="no-rating"><a href="review/product/list/id/16/index.html#review-form">Be the first to review this product</a></p>
+                                                        <p class="availability in-stock">DISPONIBILIDAD: <span>en almacen</span></p>
+                                                        <p class="no-rating"><a href="review/product/list/id/16/index.html#review-form">
+                                                             Sé el primero en revisar este producto</a></p>
 
                                                         <div class="price-box">
                                                             <p class="old-price">
@@ -615,77 +564,190 @@ function include(filename) {
                                     </div>
                       
                       <!-- ACA VA EL INCLUDE PHP DE SLIDER PRODUCTO -->
-                                   
+                  <div class="ma-featured-sldier-title ma-title">
+                        <h1>Alimentos para tu Mascota</h1>
+                        <h3>Mueve de izquierda a derecha con el controlador para visualizar las imagenes</h3>
+                    </div>    
+
+                    <div class="ma-thumbnail-container1">
+                               
+                                <ul class="bxslider">
+                                    <li class="thumbnail-item">
+                                        <a href="imagenes/e/pet-7_4.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-7_4.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'imagenes/e/pet-7_4.jpg'">
+                                            <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg" alt="" /></a>
+                                            <div class="des">
+                                            <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para Perros</a></h2>
+                                            <div class="price-box">
+                                                <p class="old-price"><span class="price-label">Precio Regular: </span></p>
+                                                <p class="special-price">
+                                                    <span class="price-label">Precio Especial</span>
+                                                    <span class="price">S/.450.00</span>
+                                                </p>
+                                            </div>
+                                            <div class="actions">
+                                                <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="thumbnail-item">
+                                        <a href="imagenes/e/pet-9_3.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-9_3.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/imagenes/e/pet-9_3.jpg'">
+                                            <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-2_1.jpg" alt="" /></a>
+                                            <div class="des">
+                                            <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para gatos</a></h2>
+                                            <div class="price-box">
+                                                <p class="old-price"><span class="price-label">Precio Regular: </span></p>
+                                                <p class="special-price">
+                                                    <span class="price-label">Precio Especial</span>
+                                                    <span class="price">S/.450.00</span>
+                                                </p>
+                                            </div>
+                                            <div class="actions">
+                                                <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="thumbnail-item">
+                                        <a href="imagenes/e/pet-8_3.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-8_3.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/image/470x609/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-8_3.jpg'">
+                                            <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_3.jpg" alt="" /></a>
+                                            <div class="des">
+                                            <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para peces</a></h2>
+                                            <div class="price-box">
+                                                <p class="old-price"><span class="price-label">Precio Regular: </span></p>
+                                                <p class="special-price">
+                                                    <span class="price-label">Precio Especial</span>
+                                                    <span class="price">S/.450.00</span>
+                                                </p>
+                                            </div>
+                                            <div class="actions">
+                                                <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="thumbnail-item">
+                                        <a href="imagenes/e/pet-5_6.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-5_6.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/image/470x609/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-5_6.jpg'">
+                                            <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg" alt="" /></a>
+                                            <div class="des">
+                                            <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para aves</a></h2>
+                                            <div class="price-box">
+                                                <p class="old-price"><span class="price-label">Precio Regular: </span></p>
+                                                <p class="special-price">
+                                                    <span class="price-label">Precio Especial</span>
+                                                    <span class="price">S/.450.00</span>
+                                                </p>
+                                            </div>
+                                            <div class="actions">
+                                                <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="thumbnail-item">
+                                        <a href="imagenes/e/pet-6_6.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-6_6.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/image/470x609/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_6.jpg'">
+                                            <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg" alt="" /></a>
+                                            <div class="des">
+                                            <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para caballos</a></h2>
+                                            <div class="price-box">
+                                                <p class="old-price"><span class="price-label">Precio Regular: </span></p>
+                                                <p class="special-price">
+                                                    <span class="price-label">Precio Especial</span>
+                                                    <span class="price">S/.450.00</span>
+                                                </p>
+                                            </div>
+                                            <div class="actions">
+                                                <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="thumbnail-item">
+                                        <a href="imagenes/e/pet-4_6.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-4_6.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/image/470x609/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_6.jpg'">
+                                            <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_3.jpg" alt="" /></a>
+                                            <div class="des">
+                                            <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para Perros</a></h2>
+                                            <div class="price-box">
+                                                <p class="old-price"><span class="price-label">Precio Regular: </span></p>
+                                                <p class="special-price">
+                                                    <span class="price-label">Precio Especial</span>
+                                                    <span class="price">S/.450.00</span>
+                                                </p>
+                                            </div>
+                                            <div class="actions">
+                                                <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="thumbnail-item">
+                                        <a href="imagenes/e/pet-7_1_1.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-7_1_1.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/image/470x609/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-7_1_1.jpg'">
+                                            <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_11.jpg" alt="" /></a>
+                                            <div class="des">
+                                            <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para Perros</a></h2>
+                                            <div class="price-box">
+                                                <p class="old-price"><span class="price-label">Precio Regular: </span></p>
+                                                <p class="special-price">
+                                                    <span class="price-label">Precio Especial</span>
+                                                    <span class="price">S/.450.00</span>
+                                                </p>
+                                            </div>
+                                            <div class="actions">
+                                                <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="mt-thumb-light" style="display:none;">
+                                    <li>
+                                        <a href="" rel="lightbox[rotation]" title="Dignissim Semper"></a>
+                                    </li>
+                                    <li>
+                                        <a href="imagenes/e/pet-9_3.jpg" rel="lightbox[rotation]" title="Dignissim Semper"></a>
+                                    </li>
+                                    <li>
+                                        <a href="imagenes/e/pet-8_3.jpg" rel="lightbox[rotation]" title="Dignissim Semper"></a>
+                                    </li>
+                                    <li>
+                                        <a href="imagenes/e/pet-5_6.jpg" rel="lightbox[rotation]" title="Dignissim Semper"></a>
+                                    </li>
+                                    <li>
+                                        <a href="imagenes/e/pet-6_6.jpg" rel="lightbox[rotation]" title="Dignissim Semper"></a>
+                                    </li>
+                                    <li>
+                                        <a href="imagenes/e/pet-4_6.jpg" rel="lightbox[rotation]" title="Dignissim Semper"></a>
+                                    </li>
+                                    <li>
+                                        <a href="imagenes/e/pet-7_1_1.jpg" rel="lightbox[rotation]" title="Dignissim Semper"></a>
+                                    </li>
+
+                                </ul>
+                                <script type="text/javascript">
+                                    //<![CDATA[
+                                    $jq('.ma-thumbnail-container1 .bxslider').bxSlider({
+                                        slideWidth: 309,
+                                        slideMargin: 5,
+                                        minSlides: 2,
+                                        maxSlides: 4,
+                                        pager: false,
+                                        randomStart: false,
+                                        startSlide: 0,
+                                        speed: 1500,
+                                        pause: 3000
+                                    });
+                                    //]]>
+                                </script>
+                            </div></div> 
+
+            <!-- aca acaba el slider de productos -->
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="ma-brand-slider-contain">
-                    <div class="container">
-                        <div class="brand-inner">
-                            <div class="row">
-                                <ul class="owl">
-                                    <li class='item'>
-                                        <div class="item-inner">
-                                            <a href="voluptas-nulla.html#" title=""><img src="../media/magentothem/brandslider/brand1.jpg" alt="" /></a>
-                                        </div>
-                                    </li>
-                                    <li class='item'>
-                                        <div class="item-inner">
-                                            <a href="voluptas-nulla.html#" title=""><img src="../media/magentothem/brandslider/brand2.jpg" alt="" /></a>
-                                        </div>
-
-                                    </li>
-                                    <li class='item'>
-                                        <div class="item-inner">
-                                            <a href="voluptas-nulla.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>
-                                        </div>
-
-                                    </li>
-                                    <li class='item'>
-                                        <div class="item-inner">
-                                            <a href="voluptas-nulla.html#" title=""><img src="../media/magentothem/brandslider/brand4.jpg" alt="" /></a>
-                                        </div>
-                                    </li>
-                                    <li class='item'>
-                                        <div class="item-inner">
-                                            <a href="voluptas-nulla.html#" title=""><img src="../media/magentothem/brandslider/brand5.jpg" alt="" /></a>
-                                        </div>
-
-                                    </li>
-                                    <li class='item'>
-                                        <div class="item-inner">
-                                            <a href="voluptas-nulla.html#" title=""><img src="../media/magentothem/brandslider/brand3.jpg" alt="" /></a>
-                                        </div>
-
-                                    </li>
-                                </ul>
-                            </div>
-                            <script type="text/javascript">
-                                //<![CDATA[
-                                $jq(document).ready(function() {
-                                    $jq(".ma-brand-slider-contain .owl").owlCarousel({
-                                        autoPlay: false,
-                                        items: 5,
-                                        itemsDesktop: [1199, 5],
-                                        itemsDesktopSmall: [980, 4],
-                                        itemsTablet: [700, 3],
-                                        itemsMobile: [400, 2],
-                                        slideSpeed: 4000,
-                                        paginationSpeed: 4000,
-                                        rewindSpeed: 4000,
-                                        navigation: false,
-                                        stopOnHover: true,
-                                        pagination: false,
-                                        scrollPerPage: true,
-                                    });
-                                });
-                                //]]>
-                            </script>
-                        </div>
-                    </div>
-                </div>
+                
 
             </div>
 

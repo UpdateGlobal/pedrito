@@ -6,6 +6,10 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2014 Daniel Eden
 */
 
+/* otro codigo de un nuevo carrusel*/
+
+/* finalización de codigo*/
+
 
 .animated {
   -webkit-animation-duration: 1s;
@@ -13893,7 +13897,7 @@ text-transform: uppercase;
      
 display: inline-block;
      
-line-height: 20px;
+line-height: 80px;
      
 vertical-align: top;
      
@@ -14023,13 +14027,13 @@ A.magentothemblog_current_comment {
 .ma-newproductslider-container .item-inner{ overflow: hidden;}
 .zoomContainer{}
 .bx-viewport{height: auto !important;}
-.bx-controls-direction a{position: absolute;top: 50%;margin-top: -15px;left: 0;width: 30px;height: 30px;line-height: 30px;font-size: 0;text-align: center;color: #fff;border-radius: 0;background: #484848;}
+.bx-controls-direction a{position: absolute;top: 80%;margin-top: -15px;left: 0;width: 30px;height: 30px;line-height: 30px;font-size: 0;text-align: center;color: #fff;border-radius: 0;background: #F1BD5D;}
 .bx-controls-direction a:before{content: "\f100";display: inline-block;vertical-align: top;width: 100%;font-size: 14px;font-family: FontAwesome;}
 .bx-controls-direction .bx-next{
     left: inherit;
     right: 0;
 }
-.bx-controls-direction a:hover{background-color: #8b4110;}
+.bx-controls-direction a:hover{background-color: #03EC7F;}
 .bx-controls-direction .bx-next:before{content: "\f101";}
 .more-views .bx-controls-direction{opacity: 0;}
 .more-views:hover .bx-controls-direction{opacity: 1;}
