@@ -25,9 +25,9 @@
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.1/jquery-ui.min.js"></script> 
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script> 
 <style>
 /*Some CSS*/
 * {margin: 0; padding: 0;}
@@ -76,7 +76,279 @@
                        
             <!-- ACA VA IR LO QUE ES LA BARRA DE NAVEGACIÓN DONDE SE ESCOJERAN LAS CATEGORIAS -->
 
-           <?php include("modules/header.php"); ?>
+<div class="header">
+  <div class="container">
+    <nav class="navbar" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand " href="#"><img src="logo/logo-color.svg" width="250px" alt="Pedrito Pet Shop" /></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="#">INICIO</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA PERROS <b class="caret"></b></a>
+              <div class="block1 popup colum pt_custommenu"  id="block182">
+              <ul class="dropdown-menu">
+               <li class="level1 nav-1-1 first parent">
+                  <a href="#"><span>Categoría 1</span></a>
+                  <ul class="level1">
+                      <li class="level2 nav-1-1-1 first">
+                          <a href="#"><span>Subcategoría 1</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-3">
+                          <a href="#"><span>Subcategoría 3</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-4 last">
+                        <a href="#"><span>Subcategoría 4</span></a>
+                          </li>
+                            </ul>
+                            </li>
+                 <li class="level1 nav-1-2 parent">
+                    <a href="#"><span>Categoría 2</span></a>
+                     <ul class="level1">
+                      <li class="level2 nav-1-1-1 first">
+                        <a href="#"><span>Subcategoría 1</span></a>
+                        </li>
+                        <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                        </li>
+                      <li class="level2 nav-1-1-3">
+                          <a href="#"><span>Subcategoría 3</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-4 last">
+                          <a href="#"><span>Subcategoría 4</span></a>
+                      </li>
+                  </ul>
+              </li>
+     <li class="level1 nav-1-3 parent">
+              <a href="#"><span>Categoría 3</span></a>
+                <ul class="level1">
+                  <li class="level2 nav-1-1-1 first">
+                      <a href="#"><span>Subcategoría 1</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                    </li>
+                  <li class="level2 nav-1-1-3">
+                      <a href="#"><span>Subcategoría 3</span></a>
+                                                                    </li>
+                  <li class="level2 nav-1-1-4 last">
+                  <a href="#"><span>Subcategoría 4</span></a>
+                  </li>
+                  </ul>
+                </li>
+              </ul></div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA GATOS <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+               <li class="level1 nav-1-1 first parent">
+                <a href="#"><span>Categoría 1</span></a>
+                  <ul class="level1">
+                    <li class="level2 nav-1-1-1 first">
+                      <a href="#"><span>Subcategoría 1</span></a>
+                      </li>
+                        <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                        </li>
+                          <li class="level2 nav-1-1-3">
+                            <a href="#"><span>Subcategoría 3</span></a>
+                            </li>
+                              <li class="level2 nav-1-1-4 last">
+                                <a href="#"><span>Subcategoría 4</span></a>
+                                </li>
+                                </ul>
+                                </li>
+                 <li class="level1 nav-1-2 parent">
+                 <a href="#"><span>Categoría 2</span></a>
+                  <ul class="level1">
+                  <li class="level2 nav-1-1-1 first">
+                  <a href="#"><span>Subcategoría 1</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-3">
+                  <a href="#"><span>Subcategoría 3</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-4 last">
+                  <a href="#"><span>Subcategoría 4</span></a>
+                  </li>
+                  </ul>
+                  </li>
+     <li class="level1 nav-1-3 parent">
+      <a href="#"><span>Categoría 3</span></a>
+        <ul class="level1">
+        <li class="level2 nav-1-1-1 first">
+        <a href="#"><span>Subcategoría 1</span></a>
+        </li>
+        <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+        </li>
+        <li class="level2 nav-1-1-3">
+        <a href="#"><span>Subcategoría 3</span></a>
+        </li>
+        <li class="level2 nav-1-1-4 last">
+        <a href="#"><span>Subcategoría 4</span></a>
+        </li>
+        </ul>
+        </li>
+        </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA AVES <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+               <li class="level1 nav-1-1 first parent">
+                <a href="#"><span>Categoría 1</span></a>
+                <ul class="level1">
+                  <li class="level2 nav-1-1-1 first">
+                   <a href="#"><span>Subcategoría 1</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-3">
+                    <a href="#"><span>Subcategoría 3</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-4 last">
+                  <a href="#"><span>Subcategoría 4</span></a>
+                  </li>
+                  </ul>
+                  </li>
+                 <li class="level1 nav-1-2 parent">
+                  <a href="#"><span>Categoría 2</span></a>
+                  <ul class="level1">
+                  <li class="level2 nav-1-1-1 first">
+                  <a href="#"><span>Subcategoría 1</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-3">
+                  <a href="#"><span>Subcategoría 3</span></a>
+                  </li>
+                <li class="level2 nav-1-1-4 last">
+                <a href="#"><span>Subcategoría 4</span></a>
+                </li>
+                </ul>
+              </li>
+     <li class="level1 nav-1-3 parent">
+                                                                <a href="#"><span>Categoría 3</span></a>
+                                                                <ul class="level1">
+                                                                    <li class="level2 nav-1-1-1 first">
+                                                                        <a href="#"><span>Subcategoría 1</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-3">
+                                                                        <a href="#"><span>Subcategoría 3</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-4 last">
+                                                                        <a href="#"><span>Subcategoría 4</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+              </ul>
+            </li>
+             <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PROMOCIONES <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+               <li class="level1 nav-1-1 first parent">
+                                                                <a href="#"><span>Categoría 1</span></a>
+                                                                <ul class="level1">
+                                                                    <li class="level2 nav-1-1-1 first">
+                                                                        <a href="#"><span>Subcategoría 1</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-3">
+                                                                        <a href="#"><span>Subcategoría 3</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-4 last">
+                                                                        <a href="#"><span>Subcategoría 4</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                 <li class="level1 nav-1-2 parent">
+                                                                <a href="#"><span>Categoría 2</span></a>
+                                                                <ul class="level1">
+                                                                    <li class="level2 nav-1-1-1 first">
+                                                                        <a href="#"><span>Subcategoría 1</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-3">
+                                                                        <a href="#"><span>Subcategoría 3</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-4 last">
+                                                                        <a href="#"><span>Subcategoría 4</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+     <li class="level1 nav-1-3 parent">
+                                                                <a href="#"><span>Categoría 3</span></a>
+                                                                <ul class="level1">
+                                                                    <li class="level2 nav-1-1-1 first">
+                                                                        <a href="#"><span>Subcategoría 1</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-3">
+                                                                        <a href="#"><span>Subcategoría 3</span></a>
+                                                                    </li>
+                                                                    <li class="level2 nav-1-1-4 last">
+                                                                        <a href="#"><span>Subcategoría 4</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+              </ul>
+            </li>
+
+            <li class=""><a href="#">BLOG</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+       <div class="right-header">
+                                    <div class="top-cart-wrapper">
+                                        <div class="top-cart-contain">
+                                            <script type="text/javascript">
+                                            $jq(document).ready(function() {
+                                                var enable_module = $jq('#enable_module').val();
+                                                if (enable_module == 0) return false;
+                                            })
+                                            </script>
+                                            <div id="mini_cart_block">
+                                                <div class="block-cart mini_cart_ajax">
+                                                    <div class="block-cart">
+                                                        <div class="top-cart-title">
+                                                            <a href="#"><span class="my-cart">0</span><span class="title-cart">Shopping cart:</span><span class="price">S/.0.00</span></a>
+                                                        </div>
+                                                        <div class="top-cart-content">
+                                                            <p class="empty">No tienes artículos en tu carrito.</p>
+                                                            <div class="top-subtotal">Subtotal: <span class="price">S/.0.00</span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+</div>
+<script>
+$('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+</script>
             <!--ACA SE TERMINA LO QUE ES LA PARTE DE LA BARRA DE NAVEGACIÓN-->
             <div class="main-container col1-layout">
                 <div class="main">
@@ -573,130 +845,144 @@ function include(filename) {
                                
                                 <ul class="bxslider">
                                     <li class="thumbnail-item">
+                                        <div class="ma-box-content"> 
                                         <a href="imagenes/e/pet-7_4.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-7_4.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'imagenes/e/pet-7_4.jpg'">
                                             <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg" alt="" /></a>
+                                          <center>  
                                             <div class="des">
                                             <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para Perros</a></h2>
                                             <div class="price-box">
                                                 <p class="old-price"><span class="price-label">Precio Regular: </span></p>
                                                 <p class="special-price">
                                                     <span class="price-label">Precio Especial</span>
-                                                    <span class="price">S/.450.00</span>
+                                                    <center><span class="price">S/.450.00</span></center>
                                                 </p>
                                             </div>
                                             <div class="actions">
                                                 <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
                                                 </button>
                                             </div>
-                                        </div>
+                                        </div></center></div>
                                     </li>
                                     <li class="thumbnail-item">
+                                        <div class="ma-box-content">
                                         <a href="imagenes/e/pet-9_3.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-9_3.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/imagenes/e/pet-9_3.jpg'">
                                             <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-2_1.jpg" alt="" /></a>
+                                          <center> 
                                             <div class="des">
                                             <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para gatos</a></h2>
                                             <div class="price-box">
                                                 <p class="old-price"><span class="price-label">Precio Regular: </span></p>
                                                 <p class="special-price">
                                                     <span class="price-label">Precio Especial</span>
-                                                    <span class="price">S/.450.00</span>
+                                                    <center><span class="price">S/.450.00</span></center>
                                                 </p>
                                             </div>
                                             <div class="actions">
                                                 <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
                                                 </button>
                                             </div>
-                                        </div>
+                                        </div></center> </div>
                                     </li>
                                     <li class="thumbnail-item">
+                                        <div class="ma-box-content">
                                         <a href="imagenes/e/pet-8_3.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-8_3.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/image/470x609/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-8_3.jpg'">
                                             <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_3.jpg" alt="" /></a>
+                                           <center> 
                                             <div class="des">
                                             <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para peces</a></h2>
                                             <div class="price-box">
                                                 <p class="old-price"><span class="price-label">Precio Regular: </span></p>
                                                 <p class="special-price">
                                                     <span class="price-label">Precio Especial</span>
-                                                    <span class="price">S/.450.00</span>
+                                                    <center><span class="price">S/.450.00</span></center>
                                                 </p>
                                             </div>
                                             <div class="actions">
                                                 <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
                                                 </button>
                                             </div>
-                                        </div>
+                                        </div></center></div>
                                     </li>
                                     <li class="thumbnail-item">
+                                        <div class="ma-box-content">
                                         <a href="imagenes/e/pet-5_6.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-5_6.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/image/470x609/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-5_6.jpg'">
                                             <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg" alt="" /></a>
+                                           <center> 
                                             <div class="des">
                                             <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para aves</a></h2>
                                             <div class="price-box">
                                                 <p class="old-price"><span class="price-label">Precio Regular: </span></p>
                                                 <p class="special-price">
                                                     <span class="price-label">Precio Especial</span>
-                                                    <span class="price">S/.450.00</span>
+                                                 <center> <span class="price">S/.450.00</span></center>
                                                 </p>
                                             </div>
                                             <div class="actions">
                                                 <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
                                                 </button>
                                             </div>
-                                        </div>
+                                        </div></center></div>
                                     </li>
                                     <li class="thumbnail-item">
+                                        <div class="ma-box-content">
                                         <a href="imagenes/e/pet-6_6.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-6_6.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/image/470x609/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_6.jpg'">
                                             <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_5.jpg" alt="" /></a>
+                                           <center> 
                                             <div class="des">
                                             <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para caballos</a></h2>
                                             <div class="price-box">
                                                 <p class="old-price"><span class="price-label">Precio Regular: </span></p>
                                                 <p class="special-price">
                                                     <span class="price-label">Precio Especial</span>
-                                                    <span class="price">S/.450.00</span>
+                                                   <center><span class="price">S/.450.00</span></center>
                                                 </p>
                                             </div>
                                             <div class="actions">
                                                 <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
                                                 </button>
                                             </div>
-                                        </div>
+                                        </div></center></div>
                                     </li>
                                     <li class="thumbnail-item">
+                                        <div class="ma-box-content">
                                         <a href="imagenes/e/pet-4_6.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-4_6.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/image/470x609/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_6.jpg'">
                                             <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_3.jpg" alt="" /></a>
+                                           <center> 
                                             <div class="des">
                                             <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para Perros</a></h2>
                                             <div class="price-box">
                                                 <p class="old-price"><span class="price-label">Precio Regular: </span></p>
                                                 <p class="special-price">
                                                     <span class="price-label">Precio Especial</span>
-                                                    <span class="price">S/.450.00</span>
+                                                  <center>  <span class="price">S/.450.00</span></center>
                                                 </p>
                                             </div>
                                             <div class="actions">
                                                 <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
                                                 </button>
                                             </div>
-                                        </div>
+                                        </div></center></div>
                                     </li>
                                     <li class="thumbnail-item">
+                                        <div class="ma-box-content">
                                         <a href="imagenes/e/pet-7_1_1.jpg" class="cloud-zoom-gallery" title="" name="imagenes/e/pet-7_1_1.jpg" rel="useZoom: 'ma-zoom1', smallImage: 'http://www.plazathemes.com/demo/ma_fobe/media/catalog/product/cache/9/image/470x609/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-7_1_1.jpg'">
                                             <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-4_11.jpg" alt="" /></a>
+                                            <center>
                                             <div class="des">
                                             <h2 class="product-name"><a href="#" title="voluptas nulla">Comida para Perros</a></h2>
                                             <div class="price-box">
                                                 <p class="old-price"><span class="price-label">Precio Regular: </span></p>
                                                 <p class="special-price">
                                                     <span class="price-label">Precio Especial</span>
-                                                    <span class="price">S/.450.00</span>
+                                                   <center> <span class="price">S/.450.00</span></center>
                                                 </p>
                                             </div>
                                             <div class="actions">
                                                 <button type="button" title="Agregar al Carrito" class="button btn-cart" onclick="setLocation('#')"><span><span>Agregar a Carrito</span></span>
                                                 </button>
                                             </div>
-                                        </div>
+                                        </div></center></div>
                                     </li>
                                 </ul>
                                 <ul class="mt-thumb-light" style="display:none;">
@@ -726,7 +1012,7 @@ function include(filename) {
                                 <script type="text/javascript">
                                     //<![CDATA[
                                     $jq('.ma-thumbnail-container1 .bxslider').bxSlider({
-                                        slideWidth: 309,
+                                        slideWidth: 249,
                                         slideMargin: 5,
                                         minSlides: 2,
                                         maxSlides: 4,
@@ -752,6 +1038,45 @@ function include(filename) {
             </div>
 
         </div>
+        <br>
+              <!--TOP BUUTON -->
+        <span class="ir-arriba icon-arrow-up2 fa fa-chevron-up"></span>
+        <style>
+           .ir-arriba {
+          display: none;
+          padding: 20px;
+          background: #024959;
+          font-size: 20px;
+          color: #fff;
+          cursor: pointer;
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+           }
+
+        </style>
+
+        <script>
+            $(document).ready(function() {
+
+    $('.ir-arriba').click(function() {
+        $('body, html').animate({
+            scrollTop: '0px'
+        }, 300);
+    });
+
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 0) {
+            $('.ir-arriba').slideDown(300);
+        } else {
+            $('.ir-arriba').slideUp(300);
+        }
+    });
+
+});
+        </script>
+        <!-- aca acaba el top button -->
+
         <div class="ma-footer-static">
             <div class="footer-static">
                 <div class="container">
@@ -764,7 +1089,6 @@ function include(filename) {
                 </div>
             </div>
         </div>
-
         <div id="ajaxconfig_info" style="display:none">
             <a href="index.html"></a>
             <div><img src="../media/theme/default/loader.gif" alt="Loading Image" /></div>
@@ -898,6 +1222,7 @@ function include(filename) {
                 });
             }
         </script>
+
     </div>
     </div>
 </body>
