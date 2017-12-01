@@ -96,9 +96,9 @@
             <li class=""><a href="#">INICIO</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA PERROS <b class="caret"></b></a>
-              <div class="block1 popup colum pt_custommenu"  id="block182">
               <ul class="dropdown-menu">
-               <li class="level1 nav-1-1 first parent">
+                <div class="caja1">
+               <li class="level1 nav-1-1 first parent isq0">
                   <a href="#"><span>Categoría 1</span></a>
                   <ul class="level1">
                       <li class="level2 nav-1-1-1 first">
@@ -114,7 +114,7 @@
                           </li>
                             </ul>
                             </li>
-                 <li class="level1 nav-1-2 parent">
+                 <li class="level1 nav-1-2 parent isq">
                     <a href="#"><span>Categoría 2</span></a>
                      <ul class="level1">
                       <li class="level2 nav-1-1-1 first">
@@ -130,7 +130,7 @@
                       </li>
                   </ul>
               </li>
-     <li class="level1 nav-1-3 parent">
+     <li class="level1 nav-1-3 parent isq2">
               <a href="#"><span>Categoría 3</span></a>
                 <ul class="level1">
                   <li class="level2 nav-1-1-1 first">
@@ -146,165 +146,232 @@
                   </li>
                   </ul>
                 </li>
-              </ul></div>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA GATOS <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-               <li class="level1 nav-1-1 first parent">
-                <a href="#"><span>Categoría 1</span></a>
-                  <ul class="level1">
-                    <li class="level2 nav-1-1-1 first">
-                      <a href="#"><span>Subcategoría 1</span></a>
-                      </li>
-                        <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                        </li>
-                          <li class="level2 nav-1-1-3">
-                            <a href="#"><span>Subcategoría 3</span></a>
-                            </li>
-                              <li class="level2 nav-1-1-4 last">
-                                <a href="#"><span>Subcategoría 4</span></a>
-                                </li>
-                                </ul>
-                                </li>
-                 <li class="level1 nav-1-2 parent">
-                 <a href="#"><span>Categoría 2</span></a>
-                  <ul class="level1">
-                  <li class="level2 nav-1-1-1 first">
-                  <a href="#"><span>Subcategoría 1</span></a>
-                  </li>
-                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                  </li>
-                  <li class="level2 nav-1-1-3">
-                  <a href="#"><span>Subcategoría 3</span></a>
-                  </li>
-                  <li class="level2 nav-1-1-4 last">
-                  <a href="#"><span>Subcategoría 4</span></a>
-                  </li>
-                  </ul>
-                  </li>
-     <li class="level1 nav-1-3 parent">
-      <a href="#"><span>Categoría 3</span></a>
-        <ul class="level1">
-        <li class="level2 nav-1-1-1 first">
-        <a href="#"><span>Subcategoría 1</span></a>
-        </li>
-        <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-        </li>
-        <li class="level2 nav-1-1-3">
-        <a href="#"><span>Subcategoría 3</span></a>
-        </li>
-        <li class="level2 nav-1-1-4 last">
-        <a href="#"><span>Subcategoría 4</span></a>
-        </li>
-        </ul>
-        </li>
-        </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA AVES <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-               <li class="level1 nav-1-1 first parent">
-                <a href="#"><span>Categoría 1</span></a>
+        <li class="level1 nav-1-3 parent isq3">
+              <a href="#"><span>Categoría 4</span></a>
                 <ul class="level1">
                   <li class="level2 nav-1-1-1 first">
-                   <a href="#"><span>Subcategoría 1</span></a>
+                      <a href="#"><span>Subcategoría 1</span></a>
                   </li>
                   <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                  </li>
+                                                                    </li>
                   <li class="level2 nav-1-1-3">
-                    <a href="#"><span>Subcategoría 3</span></a>
-                  </li>
+                      <a href="#"><span>Subcategoría 3</span></a>
+                                                                    </li>
                   <li class="level2 nav-1-1-4 last">
                   <a href="#"><span>Subcategoría 4</span></a>
                   </li>
                   </ul>
-                  </li>
-                 <li class="level1 nav-1-2 parent">
-                  <a href="#"><span>Categoría 2</span></a>
-                  <ul class="level1">
-                  <li class="level2 nav-1-1-1 first">
-                  <a href="#"><span>Subcategoría 1</span></a>
-                  </li>
-                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                  </li>
-                  <li class="level2 nav-1-1-3">
-                  <a href="#"><span>Subcategoría 3</span></a>
-                  </li>
-                <li class="level2 nav-1-1-4 last">
-                <a href="#"><span>Subcategoría 4</span></a>
-                </li>
-                </ul>
-              </li>
-     <li class="level1 nav-1-3 parent">
-                                                                <a href="#"><span>Categoría 3</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
+                </li></div>
               </ul>
             </li>
-             <li class="dropdown">
+           <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA GATOS <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <div class="caja2">
+               <li class="level1 nav-1-1 first parent isq0">
+                  <a href="#"><span>Categoría 1</span></a>
+                  <ul class="level1">
+                      <li class="level2 nav-1-1-1 first">
+                          <a href="#"><span>Subcategoría 1</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-3">
+                          <a href="#"><span>Subcategoría 3</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-4 last">
+                        <a href="#"><span>Subcategoría 4</span></a>
+                          </li>
+                            </ul>
+                            </li>
+                 <li class="level1 nav-1-2 parent isq">
+                    <a href="#"><span>Categoría 2</span></a>
+                     <ul class="level1">
+                      <li class="level2 nav-1-1-1 first">
+                        <a href="#"><span>Subcategoría 1</span></a>
+                        </li>
+                        <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                        </li>
+                      <li class="level2 nav-1-1-3">
+                          <a href="#"><span>Subcategoría 3</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-4 last">
+                          <a href="#"><span>Subcategoría 4</span></a>
+                      </li>
+                  </ul>
+              </li>
+     <li class="level1 nav-1-3 parent isq2">
+              <a href="#"><span>Categoría 3</span></a>
+                <ul class="level1">
+                  <li class="level2 nav-1-1-1 first">
+                      <a href="#"><span>Subcategoría 1</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                    </li>
+                  <li class="level2 nav-1-1-3">
+                      <a href="#"><span>Subcategoría 3</span></a>
+                                                                    </li>
+                  <li class="level2 nav-1-1-4 last">
+                  <a href="#"><span>Subcategoría 4</span></a>
+                  </li>
+                  </ul>
+                </li>
+        <li class="level1 nav-1-3 parent isq3">
+              <a href="#"><span>Categoría 4</span></a>
+                <ul class="level1">
+                  <li class="level2 nav-1-1-1 first">
+                      <a href="#"><span>Subcategoría 1</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                    </li>
+                  <li class="level2 nav-1-1-3">
+                      <a href="#"><span>Subcategoría 3</span></a>
+                                                                    </li>
+                  <li class="level2 nav-1-1-4 last">
+                  <a href="#"><span>Subcategoría 4</span></a>
+                  </li>
+                  </ul>
+                </li></div>
+              </ul>
+            </li>
+          <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA PECES <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <div class="caja3">
+               <li class="level1 nav-1-1 first parent isq0">
+                  <a href="#"><span>Categoría 1</span></a>
+                  <ul class="level1">
+                      <li class="level2 nav-1-1-1 first">
+                          <a href="#"><span>Subcategoría 1</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-3">
+                          <a href="#"><span>Subcategoría 3</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-4 last">
+                        <a href="#"><span>Subcategoría 4</span></a>
+                          </li>
+                            </ul>
+                            </li>
+                 <li class="level1 nav-1-2 parent isq">
+                    <a href="#"><span>Categoría 2</span></a>
+                     <ul class="level1">
+                      <li class="level2 nav-1-1-1 first">
+                        <a href="#"><span>Subcategoría 1</span></a>
+                        </li>
+                        <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                        </li>
+                      <li class="level2 nav-1-1-3">
+                          <a href="#"><span>Subcategoría 3</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-4 last">
+                          <a href="#"><span>Subcategoría 4</span></a>
+                      </li>
+                  </ul>
+              </li>
+     <li class="level1 nav-1-3 parent isq2">
+              <a href="#"><span>Categoría 3</span></a>
+                <ul class="level1">
+                  <li class="level2 nav-1-1-1 first">
+                      <a href="#"><span>Subcategoría 1</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                    </li>
+                  <li class="level2 nav-1-1-3">
+                      <a href="#"><span>Subcategoría 3</span></a>
+                                                                    </li>
+                  <li class="level2 nav-1-1-4 last">
+                  <a href="#"><span>Subcategoría 4</span></a>
+                  </li>
+                  </ul>
+                </li>
+        <li class="level1 nav-1-3 parent isq3">
+              <a href="#"><span>Categoría 4</span></a>
+                <ul class="level1">
+                  <li class="level2 nav-1-1-1 first">
+                      <a href="#"><span>Subcategoría 1</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                    </li>
+                  <li class="level2 nav-1-1-3">
+                      <a href="#"><span>Subcategoría 3</span></a>
+                                                                    </li>
+                  <li class="level2 nav-1-1-4 last">
+                  <a href="#"><span>Subcategoría 4</span></a>
+                  </li>
+                  </ul>
+                </li></div>
+              </ul>
+            </li>
+      <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">PROMOCIONES <b class="caret"></b></a>
               <ul class="dropdown-menu">
-               <li class="level1 nav-1-1 first parent">
-                                                                <a href="#"><span>Categoría 1</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
+                <div class="caja4">
+               <li class="level1 nav-1-1 first parent isq0">
+                  <a href="#"><span>Categoría 1</span></a>
+                  <ul class="level1">
+                      <li class="level2 nav-1-1-1 first">
+                          <a href="#"><span>Subcategoría 1</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-3">
+                          <a href="#"><span>Subcategoría 3</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-4 last">
+                        <a href="#"><span>Subcategoría 4</span></a>
+                          </li>
+                            </ul>
+                            </li>
+                 <li class="level1 nav-1-2 parent isq">
+                    <a href="#"><span>Categoría 2</span></a>
+                     <ul class="level1">
+                      <li class="level2 nav-1-1-1 first">
+                        <a href="#"><span>Subcategoría 1</span></a>
+                        </li>
+                        <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                        </li>
+                      <li class="level2 nav-1-1-3">
+                          <a href="#"><span>Subcategoría 3</span></a>
+                      </li>
+                      <li class="level2 nav-1-1-4 last">
+                          <a href="#"><span>Subcategoría 4</span></a>
+                      </li>
+                  </ul>
+              </li>
+     <li class="level1 nav-1-3 parent isq2">
+              <a href="#"><span>Categoría 3</span></a>
+                <ul class="level1">
+                  <li class="level2 nav-1-1-1 first">
+                      <a href="#"><span>Subcategoría 1</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
                                                                     </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                  <li class="level2 nav-1-1-3">
+                      <a href="#"><span>Subcategoría 3</span></a>
                                                                     </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
+                  <li class="level2 nav-1-1-4 last">
+                  <a href="#"><span>Subcategoría 4</span></a>
+                  </li>
+                  </ul>
+                </li>
+        <li class="level1 nav-1-3 parent isq3">
+              <a href="#"><span>Categoría 4</span></a>
+                <ul class="level1">
+                  <li class="level2 nav-1-1-1 first">
+                      <a href="#"><span>Subcategoría 1</span></a>
+                  </li>
+                  <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
                                                                     </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
+                  <li class="level2 nav-1-1-3">
+                      <a href="#"><span>Subcategoría 3</span></a>
                                                                     </li>
-                                                                </ul>
-                                                            </li>
-                 <li class="level1 nav-1-2 parent">
-                                                                <a href="#"><span>Categoría 2</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-     <li class="level1 nav-1-3 parent">
-                                                                <a href="#"><span>Categoría 3</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
+                  <li class="level2 nav-1-1-4 last">
+                  <a href="#"><span>Subcategoría 4</span></a>
+                  </li>
+                  </ul>
+                </li></div>
               </ul>
             </li>
 
@@ -313,31 +380,36 @@
         </div>
         <!-- /.navbar-collapse -->
       </div>
-       <div class="right-header">
-                                    <div class="top-cart-wrapper">
-                                        <div class="top-cart-contain">
-                                            <script type="text/javascript">
-                                            $jq(document).ready(function() {
-                                                var enable_module = $jq('#enable_module').val();
-                                                if (enable_module == 0) return false;
-                                            })
-                                            </script>
-                                            <div id="mini_cart_block">
-                                                <div class="block-cart mini_cart_ajax">
-                                                    <div class="block-cart">
-                                                        <div class="top-cart-title">
-                                                            <a href="#"><span class="my-cart">0</span><span class="title-cart">Shopping cart:</span><span class="price">S/.0.00</span></a>
-                                                        </div>
-                                                        <div class="top-cart-content">
-                                                            <p class="empty">No tienes artículos en tu carrito.</p>
-                                                            <div class="top-subtotal">Subtotal: <span class="price">S/.0.00</span></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+       <!-- Carrito de compras -->
+  <style>
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <span>icono de carro</span>
+  <div class="dropdown-content">
+    <a href="#"><span class="my-cart">0</span><span class="title-cart">Shopping cart:</span><span class="price">S/.0.00</span></a>
+  </div>
+</div>
       <!-- /.container-fluid -->
     </nav>
   </div>
