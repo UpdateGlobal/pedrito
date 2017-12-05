@@ -376,6 +376,12 @@
             </li>
 
             <li class=""><a href="#">BLOG</a></li>
+            <div class="dropdown">
+ <img src="imagenes/iconosChicos/carrito.jpg" alt="">
+  <div class="dropdown-content">
+    <a href="#"><span class="my-cart">0</span><span class="title-cart">Shopping cart:</span><span class="price">S/.0.00</span></a>
+  </div>
+</div>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -404,12 +410,7 @@
 </head>
 <body>
 
-<div class="dropdown">
-  <span>icono de carro</span>
-  <div class="dropdown-content">
-    <a href="#"><span class="my-cart">0</span><span class="title-cart">Shopping cart:</span><span class="price">S/.0.00</span></a>
-  </div>
-</div>
+
       <!-- /.container-fluid -->
     </nav>
   </div>
