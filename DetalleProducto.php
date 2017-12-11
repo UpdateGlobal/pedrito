@@ -93,13 +93,13 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class=""><a href="#">INICIO</a></li>
+            <li class=""><a href="index.php">INICIO</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA PERROS <b class="caret"></b></a>
+              <a href="comida-para.php" class="dropdown-toggle" data-toggle="dropdown">PARA PERROS <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <div class="caja1">
                <li class="level1 nav-1-1 first parent isq0">
-                  <a href="#"><span>Categoría 1</span></a>
+                  <a href="#"><span><u>Categoría 1</u></span></a>
                   <ul class="level1">
                       <li class="level2 nav-1-1-1 first">
                           <a href="#"><span>Subcategoría 1</span></a>
@@ -115,7 +115,7 @@
                             </ul>
                             </li>
                  <li class="level1 nav-1-2 parent isq">
-                    <a href="#"><span>Categoría 2</span></a>
+                    <a href="#"><span><u>Categoría 2</u></span></a>
                      <ul class="level1">
                       <li class="level2 nav-1-1-1 first">
                         <a href="#"><span>Subcategoría 1</span></a>
@@ -131,7 +131,7 @@
                   </ul>
               </li>
      <li class="level1 nav-1-3 parent isq2">
-              <a href="#"><span>Categoría 3</span></a>
+              <a href="#"><span><u>Categoría 3</u></span></a>
                 <ul class="level1">
                   <li class="level2 nav-1-1-1 first">
                       <a href="#"><span>Subcategoría 1</span></a>
@@ -147,7 +147,7 @@
                   </ul>
                 </li>
         <li class="level1 nav-1-3 parent isq3">
-              <a href="#"><span>Categoría 4</span></a>
+              <a href="#"><span><u>Categoría 4</u></span></a>
                 <ul class="level1">
                   <li class="level2 nav-1-1-1 first">
                       <a href="#"><span>Subcategoría 1</span></a>
@@ -165,11 +165,11 @@
               </ul>
             </li>
            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA GATOS <b class="caret"></b></a>
+              <a href="comida-para.php" class="dropdown-toggle" data-toggle="dropdown">PARA GATOS <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <div class="caja2">
                <li class="level1 nav-1-1 first parent isq0">
-                  <a href="#"><span>Categoría 1</span></a>
+                  <a href="#"><span><u>Categoría 1</u></span></a>
                   <ul class="level1">
                       <li class="level2 nav-1-1-1 first">
                           <a href="#"><span>Subcategoría 1</span></a>
@@ -185,7 +185,7 @@
                             </ul>
                             </li>
                  <li class="level1 nav-1-2 parent isq">
-                    <a href="#"><span>Categoría 2</span></a>
+                    <a href="#"><span><u>Categoría 2</u></span></a>
                      <ul class="level1">
                       <li class="level2 nav-1-1-1 first">
                         <a href="#"><span>Subcategoría 1</span></a>
@@ -201,7 +201,7 @@
                   </ul>
               </li>
      <li class="level1 nav-1-3 parent isq2">
-              <a href="#"><span>Categoría 3</span></a>
+              <a href="#"><span><u>Categoría 3</u></span></a>
                 <ul class="level1">
                   <li class="level2 nav-1-1-1 first">
                       <a href="#"><span>Subcategoría 1</span></a>
@@ -217,7 +217,7 @@
                   </ul>
                 </li>
         <li class="level1 nav-1-3 parent isq3">
-              <a href="#"><span>Categoría 4</span></a>
+              <a href="#"><span><u>Categoría 4</u></span></a>
                 <ul class="level1">
                   <li class="level2 nav-1-1-1 first">
                       <a href="#"><span>Subcategoría 1</span></a>
@@ -235,11 +235,11 @@
               </ul>
             </li>
           <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">PARA PECES <b class="caret"></b></a>
+              <a href="comida-para.php" class="dropdown-toggle" data-toggle="dropdown">PARA PECES <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <div class="caja3">
                <li class="level1 nav-1-1 first parent isq0">
-                  <a href="#"><span>Categoría 1</span></a>
+                  <a href="#"><span><u>Categoría 1</u></span></a>
                   <ul class="level1">
                       <li class="level2 nav-1-1-1 first">
                           <a href="#"><span>Subcategoría 1</span></a>
@@ -255,10 +255,10 @@
                             </ul>
                             </li>
                  <li class="level1 nav-1-2 parent isq">
-                    <a href="#"><span>Categoría 2</span></a>
+                    <a href="#"><span><u>Categoría 2</u></span></a>
                      <ul class="level1">
                       <li class="level2 nav-1-1-1 first">
-                        <a href="#"><span>Subcategoría 1</span></a>
+                        <a href="#"><span><u>Subcategoría 1</u></span></a>
                         </li>
                         <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
                         </li>
@@ -271,7 +271,7 @@
                   </ul>
               </li>
      <li class="level1 nav-1-3 parent isq2">
-              <a href="#"><span>Categoría 3</span></a>
+              <a href="#"><span><u>Categoría 3</u></span></a>
                 <ul class="level1">
                   <li class="level2 nav-1-1-1 first">
                       <a href="#"><span>Subcategoría 1</span></a>
@@ -287,7 +287,7 @@
                   </ul>
                 </li>
         <li class="level1 nav-1-3 parent isq3">
-              <a href="#"><span>Categoría 4</span></a>
+              <a href="#"><span><u>Categoría 4</u></span></a>
                 <ul class="level1">
                   <li class="level2 nav-1-1-1 first">
                       <a href="#"><span>Subcategoría 1</span></a>
@@ -309,7 +309,7 @@
               <ul class="dropdown-menu">
                 <div class="caja4">
                <li class="level1 nav-1-1 first parent isq0">
-                  <a href="#"><span>Categoría 1</span></a>
+                  <a href="#"><span><u>Categoría 1</u></span></a>
                   <ul class="level1">
                       <li class="level2 nav-1-1-1 first">
                           <a href="#"><span>Subcategoría 1</span></a>
@@ -375,7 +375,7 @@
               </ul>
             </li>
 
-            <li class=""><a href="#">BLOG</a></li>
+            <li class=""><a href="portada-blog.php">BLOG</a></li>
             <div class="dropdown">
  <img src="imagenes/iconosChicos/carrito.jpg" alt="">
   <div class="dropdown-content">

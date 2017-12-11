@@ -19,21 +19,13 @@ Copyright (c) 2014 Daniel Eden
   width: 600px;
   height: 163px;
 }
-.caja4{
-  width: 600px;
-  height: 163px;
-}
-.caja5{
-   width: 600px;
-  height: 163px;
-}
 .isq0{
   position: relative;
   right: 220px;
 }
 .isq {
   position: relative;
-right: 56px;
+right: 74px;
   bottom: 120px;
 }
 .isq2{
@@ -10640,11 +10632,12 @@ display: block;
     box-shadow: none !important;
     padding: 0;
 }
-.navbar{border-radius: 0;
-background-color:#333;
-    
-    
-    margin-top: 20px;}
+.navbar{
+border-radius: 0;
+background-color:#338;
+margin-top: 20px;
+}
+
 .menu-mobile {
 float: left;
 width: 100%;
