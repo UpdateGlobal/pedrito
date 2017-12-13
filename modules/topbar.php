@@ -1,3 +1,45 @@
+<head>
+    <style>
+#popup {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -300px;
+}
+#popup:target {
+   visibility:visible;
+   opacity: 1;
+   background-color: rgba(0,0,0,0.8);
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   margin:0;
+   z-index: 999;
+   transition:all 1s;
+}
+.popup-contenedor {
+   position: relative;
+   margin:7% auto;
+   padding:30px 50px;
+   background-color: #fafafa;
+   color:#333;
+   border-radius: 3px;
+   width:50%;
+}
+a.popup-cerrar {
+   position: absolute;
+   top:3px;
+   right:3px;
+   background-color: #333;
+   padding:7px 10px;
+   font-size: 20px;
+   text-decoration: none;
+   line-height: 1;
+   color:#fff;
+}
+</style>
+</head>
 <div class="top-link">
                     <div class="container">
                         <div class="container-inner">
@@ -18,7 +60,9 @@
                                                 <li class="dropit-trigger">
                                                     <a class='login_click' href="customer/account/login/index.php">Mi cuenta</a>
                                                     <ul class="dropit-submenu" id="menu_link">
-                                                        <li class=" last"><a href="javascript:void(0);" title="Log In" class="a-login-link">Regístrate</a></li>
+                                                        <li class=" last"><a href="#popup" title="Log In" class="popup-link">Regístrate</a>
+
+                                                        </li>
                                                         <li class=" last"><a href="javascript:void(0);" title="Log In" class="a-login-link">Login</a></li>
                                                         <li><a href="checkout/cart/index.php" title="My Cart" class="top-link-cart">Ver mi Carrito</a></li>
                                                         <li><a href="checkout/index.php" title="Checkout" class="top-link-checkout">Pagar</a></li>
@@ -50,3 +94,4 @@
                         </div>
                     </div>
                 </div>
+                

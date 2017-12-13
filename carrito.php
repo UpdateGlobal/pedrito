@@ -17,6 +17,58 @@ optionalZipCountries = ["HK","IE","MO","PA"];
         var Translator = new Translate([]);
         //]]></script>
 
+<style>
+    
+    h2 {font-size:36px;margin:0 0 10px 0}
+    p {margin:0 0 10px 0}
+    
+    table.width200,table.rwd_auto {border:1px solid #ccc;width:100%;margin:0 0 50px 0}
+        .width200 th,.rwd_auto th {background:#ccc;padding:5px;text-align:center;}
+        .width200 td,.rwd_auto td {border-bottom:1px solid #ccc;padding:5px;text-align:center}
+        .width200 tr:last-child td, .rwd_auto tr:last-child td{border:0}
+        
+    .rwd {width:100%;overflow:auto;}
+        .rwd table.rwd_auto {width:auto;min-width:100%}
+            .rwd_auto th,.rwd_auto td {white-space: nowrap;}
+            
+    @media only screen and (max-width: 760px), (min-width: 768px) and (max-width: 1024px)  
+    {
+    
+        table.width200, .width200 thead, .width200 tbody, .width200 th, .width200 td, .width200 tr { display: block; }
+        
+        .width200 thead tr { position: absolute;top: -9999px;left: -9999px; }
+        
+        .width200 tr { border: 1px solid #ccc; }
+        
+        .width200 td { border: none;border-bottom: 1px solid #ccc; position: relative;padding-left: 50%;text-align:left }
+        
+        .width200 td:before {  position: absolute; top: 6px; left: 6px; width: 45%; padding-right: 10px; white-space: nowrap;}
+        
+        .width200 td:nth-of-type(1):before { content: "Nombre"; }
+        .width200 td:nth-of-type(2):before { content: "Apellidos"; }
+        .width200 td:nth-of-type(3):before { content: "Cargo"; }
+        .width200 td:nth-of-type(4):before { content: "Twitter"; }
+        .width200 td:nth-of-type(5):before { content: "ID"; }
+        
+        .descarto {display:none;}
+        .fontsize {font-size:10px}
+    }
+    
+    /* Smartphones (portrait and landscape) ----------- */
+    @media only screen and (min-width : 320px) and (max-width : 480px) 
+    {
+        body { width: 320px; }
+        .descarto {display:none;}
+    }
+    
+    /* iPads (portrait and landscape) ----------- */
+    @media only screen and (min-width: 768px) and (max-width: 1024px) 
+    {
+        body { width: 495px; }
+        .descarto {display:none;}
+        .fontsize {font-size:10px}
+    }
+</style>
 </head>
 <body class=" checkout-cart-index">
 <div class="wrapper">
@@ -156,19 +208,20 @@ optionalZipCountries = ["HK","IE","MO","PA"];
             <p>No tienes productos en tu carrito de compras.</p>
     <p>Clicka <a href="index.html">Aquí</a> y continua comprando.</p>
     </div>
+ 
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-								<div class="ma-brand-slider-contain">
-<div class="container">
-	<div class="brand-inner">
+                     <div class="ma-brand-slider-contain">
+                        <div class="container">
+	                       <div class="brand-inner">
     	
 		
-		<div class="row">
-          	<ul class="owl">
-				                <li class='item'>	
+		                      <div class="row">
+          	                     <ul class="owl">
+				                   <li class='item'>	
 				                	<div class="item-inner">	    																		<a href="index.html#" title=""><img src="media/magentothem/brandslider/brand1.jpg" alt="" /></a>												
 																																							             
                         					</div>
@@ -232,68 +285,54 @@ optionalZipCountries = ["HK","IE","MO","PA"];
 	</div>
 </div>				
 </div> 
-		<div class="block block-testimonial-sidebar">			
-							<div class="block-title">
-				<strong><span>Latest Testimonials</span></strong>
-			</div>
-			<div class="block-content">
-				<ul class="owl">			
-											<li class='testimonial-list'>								
-							<div class="testimonial-sidebar-content">						
-								<div class="content">
-									<div class="testimonial-content-avatar">
-										<img src="media/magentothem/avatar/testtimor1_1.png" alt="test" height="78" width="78" />									</div>
-									<div class="post-by">							
-										<span class="testimonial-author">Ms.Maria Carey</span>							
-										<span class="testimonial-date">February 22, 2016</span>						
-									</div>
-									<a href="testimonial/index.html">						    
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et...						   
-									</a>					
-								</div>						
-												
-							</div>
-													</li>                    
-											<li class='testimonial-list'>								
-							<div class="testimonial-sidebar-content">						
-								<div class="content">
-									<div class="testimonial-content-avatar">
-										<img src="media/magentothem/avatar/testtimor1.png" alt="test" height="78" width="78" />									</div>
-									<div class="post-by">							
-										<span class="testimonial-author">Ms.Maria Carey</span>							
-										<span class="testimonial-date">February 22, 2016</span>						
-									</div>
-									<a href="testimonial/index.html">						    
-									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et...						   
-									</a>					
-								</div>						
-												
-							</div>
-													</li>                    
-													
-				</ul>
-			</div>	
-			
-	</div>
-	<script type="text/javascript">
-		$jq(document).ready(function(){
-			$jq(".block-testimonial-sidebar .owl").owlCarousel({
-				autoPlay : false,
-				items : 1,
-				itemsDesktop : [1199,1],
-				itemsDesktopSmall : [980,1],
-				itemsTablet: [768,1],
-				itemsMobile : [479,1],
-				slideSpeed : 3000,
-				paginationSpeed : 3000,
-				rewindSpeed : 3000,
-				navigation : false,
-				stopOnHover : true,
-				pagination : true,
-				scrollPerPage:true,
-			});
-		});
-	</script>
+
+		
+
+<!--- TABLA PARA CARRITO DE COMPRAS -->
+<div class="main-container col1-layout">
+<div class="main">
+<div class="col-main">																	
+<div class="container">
+<table class="rwd_auto fontsize">
+        <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Pedidos</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Mart&iacute;n</td>
+            <td>Iglesias Lenci</td>
+            <td>Anillo</td>
+            <td>425 soles</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Juan</td>
+            <td>Iglesias Lenci</td>
+            <td>Alajas</td>
+            <td>750 soles</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Ruperto</td>
+            <td>Iglesias Lenci</td>
+            <td>Collar</td>
+            <td>800 soles</td>
+            <td>3</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</div>
+</div>
+
+<!--- FINALIZACION DE TABLA CARRITO -->
 				
 
 
