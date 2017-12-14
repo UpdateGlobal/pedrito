@@ -315,7 +315,7 @@
                                                 </div>
                                                 <div id="pt_menu82" class="pt_menu nav-1">
                                                     <div class="parentMenu">
-                                                        <a href="DetalleProducto.php">
+                                                        <a href="lista.php">
                                                         <span>Para Perros</span>
                                                         </a>
                                                     </div>
@@ -379,7 +379,7 @@
                                                 </div>
                                                 <div id="pt_menu83" class="pt_menu nav-2">
                                                     <div class="parentMenu">
-                                                        <a href="DetalleProducto.php">
+                                                        <a href="lista.php">
                                                         <span>Para&nbsp;Gatos</span>
                                                         </a>
                                                     </div>
@@ -443,7 +443,7 @@
                                                 </div>
                                                 <div id="pt_menu84" class="pt_menu nav-3">
                                                     <div class="parentMenu">
-                                                        <a href="DetalleProducto.php">
+                                                        <a href="lista.php">
                                                         <span>Para&nbsp;Aves&nbsp;</span>
                                                         </a>
                                                     </div>

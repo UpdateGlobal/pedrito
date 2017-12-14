@@ -7,37 +7,11 @@ Copyright (c) 2014 Daniel Eden
 */
 
 /* otro codigo del menu de navegación*/
-.caja1{
-  width: 600px;
-  height: 163px;
+.achi{
+  height: 30px;
 }
-.caja2{
-  width: 600px;
-  height: 163px;
-}
-.caja3{
-  width: 600px;
-  height: 163px;
-}
-.isq0{
-  position: relative;
-  right: 220px;
-}
-.isq {
-  position: relative;
-right: 74px;
-  bottom: 120px;
-}
-.isq2{
-  position: relative;
- left: 68px;
-  bottom: 241px;
-}
-.isq3{
-  position: relative;
-  left: 200px;
-  bottom: 361px;
-}
+
+
 .body-wrap {
   min-height: 700px;
 }

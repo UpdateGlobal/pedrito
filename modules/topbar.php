@@ -38,6 +38,33 @@ a.popup-cerrar {
    line-height: 1;
    color:#fff;
 }
+.popup-contenedor1 {
+   position: relative;
+   margin:7% auto;
+   padding:30px 50px;
+   background-color: #fafafa;
+   color:#333;
+   border-radius: 3px;
+   width:30%;
+}
+#popup1 {
+   visibility: hidden;
+   opacity: 0;
+   margin-top: -300px;
+}
+#popup1:target {
+   visibility:visible;
+   opacity: 1;
+   background-color: rgba(0,0,0,0.8);
+   position: fixed;
+   top:0;
+   left:0;
+   right:0;
+   bottom:0;
+   margin:0;
+   z-index: 999;
+   transition:all 1s;
+}
 </style>
 </head>
 <div class="top-link">
@@ -61,11 +88,11 @@ a.popup-cerrar {
                                                     <a class='login_click' href="customer/account/login/index.php">Mi cuenta</a>
                                                     <ul class="dropit-submenu" id="menu_link">
                                                         <li class=" last"><a href="#popup" title="Log In" class="popup-link">Regístrate</a>
-
                                                         </li>
-                                                        <li class=" last"><a href="javascript:void(0);" title="Log In" class="a-login-link">Login</a></li>
-                                                        <li><a href="checkout/cart/index.php" title="My Cart" class="top-link-cart">Ver mi Carrito</a></li>
-                                                        <li><a href="checkout/index.php" title="Checkout" class="top-link-checkout">Pagar</a></li>
+                                                        <li class=" last"><a href="#popup1" title="Log In" class="popup-link">Login</a>
+                                                        </li>
+                                                        <li><a href="carrito.php" title="My Cart" class="top-link-cart">Ver mi Carrito</a></li>
+                                                        <li><a href="carrito.php" title="Checkout" class="top-link-checkout">Pagar</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>

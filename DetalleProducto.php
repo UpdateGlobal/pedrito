@@ -87,7 +87,7 @@
                        
             <!-- ACA VA IR LO QUE ES LA BARRA DE NAVEGACIÓN DONDE SE ESCOJERAN LAS CATEGORIAS -->
 
-<div class="header">
+<div class="header achi">
   <div class="container">
         
       <div class="main">
@@ -95,8 +95,7 @@
           <ul>
             <li><h1 class="logo"><strong>Pedrito Pet Shop</strong><a href="index.php" title="Pedrito Pet Shop" class="logo"><img src="logo/logo-color.svg" width="250px" alt="Pedrito Pet Shop" /></a></h1></li>
             <li>
-              <a href="#">INICIO</a>
-              
+              <a href="index.php">INICIO</a>
             </li>
             <li>
               <a href="#">PARA PERROS</a>
@@ -325,7 +324,7 @@
                                 <div class="container-inner">
                                     <ul>
                                         <li class="home">
-                                            <a href="index.html" title="Go to Home Page">INICIO</a>
+                                            <a href="index.php" title="Go to Home Page">INICIO</a>
                                             <span><i class="fa fa-angle-right"></i> </span>
                                         </li>
                                         <li class="product">

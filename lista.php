@@ -166,7 +166,7 @@
 						<div class="images-content">
 							<div class="products clearfix banner-static">
 								<div class="product">
-								<a href="#" title="voluptas nulla" class="product-image">
+								<a href="DetalleProducto.php" title="voluptas nulla" class="product-image">
 								<span class="product-image">
 								<img src="media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"alt="voluptas nulla" />
 								</span>
@@ -215,7 +215,7 @@
                         <div class="images-content">
                             <div class="products clearfix banner-static">
                                 <div class="product">
-                                <a href="#" title="voluptas nulla" class="product-image">
+                                <a href="DetalleProducto.php" title="voluptas nulla" class="product-image">
                                 <span class="product-image">
                                 <img src="media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"alt="voluptas nulla" />
                                 </span>
@@ -264,7 +264,7 @@
                         <div class="images-content">
                             <div class="products clearfix banner-static">
                                 <div class="product">
-                                <a href="#" title="voluptas nulla" class="product-image">
+                                <a href="DetalleProducto.php" title="voluptas nulla" class="product-image">
                                 <span class="product-image">
                                 <img src="media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"alt="voluptas nulla" />
                                 </span>
@@ -313,7 +313,7 @@
                         <div class="images-content">
                             <div class="products clearfix banner-static">
                                 <div class="product">
-                                <a href="#" title="voluptas nulla" class="product-image">
+                                <a href="DetalleProducto.php" title="voluptas nulla" class="product-image">
                                 <span class="product-image">
                                 <img src="media/catalog/product/cache/12/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"alt="voluptas nulla" />
                                 </span>

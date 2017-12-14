@@ -3,7 +3,7 @@
  // recupera los datos del envío POST
  $nombre = $_POST['nombre'];
  $email = $_POST['email'];
- $password= $_POST['pass'];
+ $pass= $_POST['pass'];
  $direccion = $_POST['direccion'];
  $edad = $_POST['edad'];
  $telefono = $_POST['telefono'];

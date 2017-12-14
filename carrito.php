@@ -199,7 +199,7 @@ optionalZipCountries = ["HK","IE","MO","PA"];
 						<div class="col-main">
 							
 												
-							<div class="container">
+						<!--	<div class="container">
 								<div class="container-inner">
 									<div class="page-title">
     <h1>Shopping Cart is Empty</h1>
@@ -210,7 +210,7 @@ optionalZipCountries = ["HK","IE","MO","PA"];
     </div>
  
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 				</div>
@@ -293,40 +293,57 @@ optionalZipCountries = ["HK","IE","MO","PA"];
 <div class="main">
 <div class="col-main">																	
 <div class="container">
-<table class="rwd_auto fontsize">
+<table rules="all" class="rwd_auto fontsize">
         <thead>
         <tr>
-            <th>Nombre</th>
-            <th>Apellidos</th>
-            <th>Pedidos</th>
+            <th>Productos</th>
+            <th>Categorias</th>
+            <th>Subcategorias</th>
             <th>Precio</th>
             <th>Cantidad</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>Mart&iacute;n</td>
+            <td><img src="imagenes/iconosChicos/carrito.jpg" alt=""></td>
             <td>Iglesias Lenci</td>
             <td>Anillo</td>
-            <td>425 soles</td>
-            <td>1</td>
+            <td>$ 425</td>
+            <td><input type="text" size="5"></td>
         </tr>
         <tr>
-            <td>Juan</td>
+            <td><img src="imagenes/iconosChicos/carrito.jpg" alt=""></td>
             <td>Iglesias Lenci</td>
             <td>Alajas</td>
-            <td>750 soles</td>
-            <td>2</td>
+            <td>$ 750</td>
+            <td><input type="text" size="5"></td>
         </tr>
         <tr>
-            <td>Ruperto</td>
+            <td><img src="imagenes/iconosChicos/carrito.jpg" alt=""></td>
             <td>Iglesias Lenci</td>
             <td>Collar</td>
-            <td>800 soles</td>
-            <td>3</td>
+            <td>$ 800</td>
+            <td><input type="text" size="5"></td>
+        </tr>
+        <tr>
+            
         </tr>
         </tbody>
     </table>
+    <div class="row">
+        <div class="col-md-7">
+            <button></button>
+    <button class="btn btn-primary"><a href="#"></a>Seguir Comprando</button>
+    <button class="btn btn-warning">Actualizar</button>
+    <button class="btn btn-danger">Borrar</button>
+    <button class="btn btn-info">Ordenar Pedido</button>
+        </div>
+        <div class="col-md-5">
+            <p>Monto Bruto:</p>
+            <p>+IGV(10%):</p>
+            <p>Neto a Pagar:</p>
+        </div>
+    </div>
 </div>
 </div>
 </div>
