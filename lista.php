@@ -28,7 +28,7 @@
                 <div class="container-inner">
                     <ul>
                         <li class="home">
-                            <a href="index.html" title="Go to Home Page">Inicio</a>
+                            <a href="index.php" title="Go to Home Page">Inicio</a>
                                 <span><i class="fa fa-angle-right"></i> </span>
                         </li>
                         <li class="category83">
@@ -147,7 +147,7 @@
             </div>
             <div class="view-mode">
                 <label>Ver como:</label>
-               <a href="#" title="Cuadricula" class="grid">Cuadricula</a>&nbsp;
+               <a href="grid.php" title="Cuadricula" class="grid">Cuadricula</a>&nbsp;
                <strong title="Lista" class="list">Lista</strong> &nbsp;
             </div>
         

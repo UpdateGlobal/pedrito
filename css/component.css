@@ -1,5 +1,5 @@
 a{
-	font-size: 12px;
+	font-size: 15px;
 }
 /* general ul style */
 .cbp-hrmenu ul {
@@ -19,16 +19,23 @@ a{
 .cbp-hrmenu > ul > li {
 	display: inline-block;
 	background: #333333;
-	position: relative;
-	bottom: 40px;
-	height: 10px;
 }
-
+.sube{
+	position: relative;
+	bottom: 20px;
+}
+.arri{
+	position: relative;
+	bottom: 20px;
+	right: 40px;
+}
 .cbp-hrmenu > ul > li > a {
 	
 	padding: 0em 2.5em;
 	color: white;
 	display: inline-block;
+	position: relative;
+	bottom: 20px;
 }
 
 .cbp-hrmenu > ul > li > a:hover {
@@ -114,7 +121,7 @@ a{
 	.cbp-hrmenu > ul > li {
 		display: block;
 		border-bottom: 1px solid #47a3da;
-		background: black;
+		background: #333333;
 	}
 
 	.cbp-hrmenu > ul > li > a { 

@@ -19,7 +19,7 @@
                 					<span><i class="fa fa-angle-right"></i> </span>
                 				</li>
                 				<li class="blog">
-                					<a href="blog/portada-blog.php" title="Return to Our Blog">Portada de nuestro blog</a>
+                					<a href="blog/portada-blog.php" title="Return to Our Blog">blog</a>
                 					<span><i class="fa fa-angle-right"></i> </span>
                 				</li>
                 				<li class="blog_page">

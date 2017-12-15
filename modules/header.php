@@ -231,7 +231,7 @@
                                                         </ul>
                                                     </li>
                                                     <li class="level0 nav-4 level-top last parent">
-                                                        <a href="index.php" class="level-top">
+                                                        <a href="lista.php" class="level-top">
                                                                 <span>Promociones </span>
                                                                 </a>
                                                         <ul class="level0">
@@ -507,7 +507,7 @@
                                                 </div>
                                                 <div id="pt_menu85" class="pt_menu nav-4">
                                                     <div class="parentMenu">
-                                                        <a href="index.php">
+                                                        <a href="lista.php">
                                                         <span>Promociones&nbsp;</span>
                                                         </a>
                                                     </div>
@@ -572,7 +572,7 @@
                                                 <div id="pt_menu_link" class="pt_menu">
                                                     <div class="parentMenu">
                                                         <ul>
-                                                            <li><a href="nota-blog.php">blog</a></li>
+                                                            <li><a href="portada-blog.php">blog</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>

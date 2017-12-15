@@ -93,10 +93,10 @@
       <div class="main">
         <nav id="cbp-hrmenu" class="cbp-hrmenu">
           <ul>
-            <li><h1 class="logo"><strong>Pedrito Pet Shop</strong><a href="index.php" title="Pedrito Pet Shop" class="logo"><img src="logo/logo-color.svg" width="250px" alt="Pedrito Pet Shop" /></a></h1></li>
-            <li>
-              <a href="index.php">INICIO</a>
-            </li>
+            <li><h1 class="logo"><strong>Pedrito Pet Shop</strong><a href="index.php" title="Pedrito Pet Shop" class="logo"><img class="arri" src="logo/logo-color.svg" width="250px" alt="Pedrito Pet Shop" /></a></h1></li>
+           <a class="sube" href="index.php">
+            <span>INICIO</span>
+           </a>
             <li>
               <a href="#">PARA PERROS</a>
               <div class="cbp-hrsub">
@@ -293,14 +293,17 @@
                 </div><!-- /cbp-hrsub-inner -->
               </div><!-- /cbp-hrsub -->
             </li>
-            <li><a href="#">BLOG</a></li>
+            <a class="sube" href="portada-blog.php">
+            <span>BLOG</span>
+            </a>
              <li><a href="#"><img src="imagenes/iconosChicos/carrito.jpg" alt=""></a>
               <div class="cbp-hrsub">
                 <div class="cbp-hrsub-inner">
                   <div>
-                    <h4>Categoria 1</h4>
+                    <h4>Carrito de Compras</h4>
                     <ul>
-                      <li><a href="#">Subcategoria 1</a></li>
+                      <p>No tienes articulos en tu carrito</p>
+                      <p>Subtotal: $0.00</p>
                     </ul></div></div>
               </div></li>
           </ul>
@@ -800,7 +803,7 @@ function include(filename) {
                                             //]]>
                                         </script>
                                     </div>
-                      
+                      <?php include("modules/popup.php") ?>
                       <!-- ACA VA EL INCLUDE PHP DE SLIDER PRODUCTO -->
                   <div class="ma-featured-sldier-title ma-title">
                         <h1>Alimentos para tu Mascota</h1>

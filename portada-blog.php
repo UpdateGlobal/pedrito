@@ -38,10 +38,10 @@
 					    </div>
 					</div>
 					<div class="hidden-xs banner-left banner-static">
-						<a href="index.html#"><img alt="" src="http://via.placeholder.com/300x500" /></a>
+						<a href="nota-blog.php"><img alt="" src="http://via.placeholder.com/300x500" /></a>
 					</div>
 					<div class="hidden-xs banner-left banner-static">
-						<a href="index.html#"><img alt="" src="http://via.placeholder.com/300x500" /></a>
+						<a href="nota-blog.php"><img alt="" src="http://via.placeholder.com/300x500" /></a>
 					</div>
                 
             	</div>
@@ -61,7 +61,7 @@
 				                    Categoría 2 
 				                </option>
 				            </select>
-		             		<a href="index-dir=desc&order=created_time.html" title="Set Descending Direction"><img src="http://via.placeholder.com/370x270" class="v-middle" /><i class="fa fa-long-arrow-up"></i></a>
+		             		<a href="nota-blog.php" title="Set Descending Direction"><img src="http://via.placeholder.com/370x270" class="v-middle" /><i class="fa fa-long-arrow-up"></i></a>
 		            </div>
 	   			</div>
 		        <div class="pager">
@@ -86,15 +86,15 @@
 			<div class="row">
 				<div class="col-sm-5 col-sms-6 col-smb-12">
 					<div class="images-container banner-static">
-						<a href="../blog/nota-blog.php" ><img alt="" src="http://via.placeholder.com/370x270"/>	</a>								
+						<a href="nota-blog.php" ><img alt="" src="http://via.placeholder.com/370x270"/>	</a>								
 					</div>
 				</div>
 				<div class="col-sm-7 col-sms-6 col-smb-12">		
 					<div class="postTitle">
-						<h2><a href="../blog/nota-blog.php" >Excepteur sint occaecat cupidatat non proident</a></h2>
+						<h2><a href="nota-blog.php" >Excepteur sint occaecat cupidatat non proident</a></h2>
 						<h3>Domingo, Noviembre 21, 2017</h3>
 					</div>
-					<div class="postContent"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p><a class="magentothem-blog-read-more" href="../blog/nota-blog.php">Seguir Leyendo</a>
+					<div class="postContent"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p><a class="magentothem-blog-read-more" href="nota-blog.php">Seguir Leyendo</a>
 					</div>
                        <div class="tags">
 						</div>
@@ -108,15 +108,15 @@
 			<div class="row">
 				<div class="col-sm-5 col-sms-6 col-smb-12">
 					<div class="images-container banner-static">
-						<a href="../blog/nota-blog.php" ><img alt="" src="http://via.placeholder.com/370x270"/>	</a>								
+						<a href="nota-blog.php" ><img alt="" src="http://via.placeholder.com/370x270"/>	</a>								
 					</div>
 				  </div>
 				 <div class="col-sm-7 col-sms-6 col-smb-12">		
 					<div class="postTitle">
-						<h2><a href="blog/nota-blog.php" >Excepteur sint occaecat cupidatat non proident</a></h2>
+						<h2><a href="nota-blog.php" >Excepteur sint occaecat cupidatat non proident</a></h2>
 						<h3>Domingo, Noviembre 21, 2017</h3>
 					</div>
-					<div class="postContent"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p><a class="magentothem-blog-read-more" href="../blog/nota-blog.php">Seguir Leyendo</a>
+					<div class="postContent"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p><a class="magentothem-blog-read-more" href="nota-blog.php">Seguir Leyendo</a>
 					</div>
                      <div class="tags">
 					</div>
@@ -130,7 +130,7 @@
 			<div class="row">
 				<div class="col-sm-5 col-sms-6 col-smb-12">
 					<div class="images-container banner-static">
-						<a href="blog/nota-blog.php" ><img alt="" src="http://via.placeholder.com/370x270"/>	</a>								
+						<a href="nota-blog.php" ><img alt="" src="http://via.placeholder.com/370x270"/>	</a>								
 					</div>
 				</div>
 				<div class="col-sm-7 col-sms-6 col-smb-12">		
@@ -138,7 +138,7 @@
 						<h2><a href="blog/nota-blog.php" >Excepteur sint occaecat cupidatat non proident</a></h2>
 						<h3>Domingo, Noviembre 21, 2017</h3>
 					</div>
-					<div class="postContent"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p><a class="magentothem-blog-read-more" href="../blog/nota-blog.php">Seguir Leyendo</a>
+					<div class="postContent"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p><a class="magentothem-blog-read-more" href="nota-blog.php">Seguir Leyendo</a>
 					</div>
 
 					<div class="tags">

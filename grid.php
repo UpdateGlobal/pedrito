@@ -138,7 +138,7 @@
             <div class="view-mode">
                 <label>Ver como:</label>
     			<strong title="Cuadricula" class="grid">Cuadricula</strong>&nbsp;
-    			<a href="cat-s-food-mode=list.html" title="Lista" class="list">Lista</a>&nbsp;
+    			<a href="lista.php" title="Lista" class="list">Lista</a>&nbsp;
     		</div>
 		
         </div>
