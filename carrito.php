@@ -168,7 +168,7 @@ optionalZipCountries = ["HK","IE","MO","PA"];
 			       //<![CDATA[
 					$jq(document).ready(function(){					  
 					  $jq(".ma-brand-slider-contain .owl").owlCarousel({
-							autoPlay : false,
+							autoPlay : true,
 							items : 5,
 							itemsDesktop : [1199,5],
 							itemsDesktopSmall : [980,4],
@@ -212,21 +212,21 @@ optionalZipCountries = ["HK","IE","MO","PA"];
             <td>Iglesias Lenci</td>
             <td>Anillo</td>
             <td>$ 425</td>
-            <td><input type="text" size="5"></td>
+            <td><input type="text" size="5" class="input2"></td>
         </tr>
         <tr>
             <td><img src="imagenes/iconosChicos/carrito.jpg" alt=""></td>
             <td>Iglesias Lenci</td>
             <td>Alajas</td>
             <td>$ 750</td>
-            <td><input type="text" size="5"></td>
+            <td><input type="text" size="5" class="input2"></td>
         </tr>
         <tr>
             <td><img src="imagenes/iconosChicos/carrito.jpg" alt=""></td>
             <td>Iglesias Lenci</td>
             <td>Collar</td>
             <td>$ 800</td>
-            <td><input type="text" size="5"></td>
+            <td><input type="text" size="5" class="input2"></td>
         </tr>
         <tr>
             
@@ -243,7 +243,7 @@ optionalZipCountries = ["HK","IE","MO","PA"];
         </div>
         <div class="col-md-5">
             <p>Monto Bruto:</p>
-            <p>+IGV(10%):</p>
+            <p>+IGV(18%):</p>
             <p>Neto a Pagar:</p>
         </div>
     </div>

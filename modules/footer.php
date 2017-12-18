@@ -32,7 +32,6 @@
                                                 <li class="first"><a href="#">Sitemap</a></li>
                                                 <li><a href="#">Nosotros</a></li>
                                                 <li><a href="#">Búsqueda</a></li>
-                                                <li class="last"><a href="#">Contáctanos</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -45,7 +44,6 @@
                                                 <li class="first"><a href="#">Preguntas Frecuentes</a></li>
                                                 <li><a href="#">Devoluciones y Cambios</a></li>
                                                 <li><a href="#">Blog</a></li>
-                                                <li class="last"><a href="#">Contáctanos</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -58,7 +56,7 @@
                                             <script type="text/javascript">
                                             $jq(document).ready(function() {
                                                 $jq(".ma-randomproductslider-container .owl").owlCarousel({
-                                                    autoPlay: false,
+                                                    autoPlay: true,
                                                     items: 1,
                                                     itemsDesktop: [1199, 1],
                                                     itemsDesktopSmall: [980, 1],
@@ -91,7 +89,11 @@
                                                 
                                             </div>
                                             <div class="payment">
-                                                <label>Aceptamos</label><a href="#"><img alt="payment" src="media/wysiwyg/payment.png" /></a></div>
+                                                <br/ >
+                                                <label style="left: 16px; 
+                                                top: 200px;">Aceptamos</label>
+                                                <br/>
+                                                <a href="#"><img alt="payment" src="media/wysiwyg/payment.png" /></a></div>
                                         </div>
                                     </div>
                                 </div>

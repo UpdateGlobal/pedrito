@@ -12965,7 +12965,7 @@ border-radius: 100%;text-align: center;margin-right: 14px;font-size: 18px;color:
     color: #8b4110;
 }
 
-.footer-static-top .f-col{ margin-bottom: 20px;}
+.footer-static-top .f-col{ margin-bottom: 0px;}
 .footer-static-top .f-col-1{ margin-top: 0px;}
 .ma-footer-static .block-tags{ background: transparent; padding: 0;}
 .ma-footer-static .block-tags .block-title{ display: none;}

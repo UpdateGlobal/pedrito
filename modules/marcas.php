@@ -41,7 +41,7 @@
                         //<![CDATA[
                         $jq(document).ready(function() {
                             $jq(".ma-brand-slider-contain .owl").owlCarousel({
-                                autoPlay: false,
+                                autoPlay: true,
                                 items: 5,
                                 itemsDesktop: [1199, 5],
                                 itemsDesktopSmall: [980, 4],

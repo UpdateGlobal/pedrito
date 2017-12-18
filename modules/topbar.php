@@ -45,7 +45,17 @@ a.popup-cerrar {
    background-color: #499d85;
    color:#333;
    border-radius: 3px;
-   width:30%;
+   width: 98%;
+}
+@media screen and (min-width: 720px)  {
+    .popup-contenedor1{
+      width: 30%;
+    }   
+}
+@media screen and (max-width: 720px)  {
+    .popup-contenedor1{
+      width: 99%;
+    }   
 }
 #popup1 {
    visibility: hidden;
@@ -85,7 +95,7 @@ a.popup-cerrar {
                                         <div class="header-link">
                                             <ul class="menu dropit">
                                                 <li class="dropit-trigger">
-                                                    <a class='login_click' href="customer/account/login/index.php">Mi cuenta</a>
+                                                    <a class='login_click' >Mi cuenta</a>
                                                     <ul class="dropit-submenu" id="menu_link">
                                                         <li class=" last"><a href="#popup" title="Log In" class="popup-link">Regístrate</a>
                                                         </li>

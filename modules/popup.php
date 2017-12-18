@@ -1,26 +1,48 @@
-      <div class="modal-wrapper" id="popup">
-     <div class="popup-contenedor">
-       <h2>Registro de Clientes</h2>
+  <div class="modal-wrapper" id="popup">
+     <div class="popup-contenedor1">
+     <h2 class="fontcolorlogi">Registro de Clientes</h2>
+     <img src="blog/logo/logo.png">
+
+
    <form method="POST" action="formulario.php">
-   Nombre: <br />
-   <input type="text" name="nombre" size="50" />
-   <p>
-    Email: <br />
-   <input type="text" name="email" size="50" />
-   <p>
-    contraseña: <br />
-   <input type="password" name="pass" size="50" />
-   <p>
-   Dirección: <br />
-   <input type="text" name="direccion" size="50" />
-   <p>
-   Edad: <br />
-   <input type="text" name="edad" size="3" />
-   <p>
-   Telefono: <br />
-   <input type="text" name="telefono" size="18" />
-    <p>
-   <input type="submit" name="submit" style="width: 70px; background:#4bb093; color: black;" value="Enviar" />
+
+    <div class="group">      
+      <input type="text" name="nombre" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label style="color: #ffffff;">Nombre</label>
+    </div>
+    <div class="group">      
+      <input type="text" name="email" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label style="color: #ffffff;">Email</label>
+    </div>
+    <div class="group">      
+      <input type="pass" name="pass" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label style="color: #ffffff;">Contraseña</label>
+    </div>
+    <div class="group">      
+      <input type="text" name="direccion" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label style="color: #ffffff;">Direccion</label>
+    </div>
+    <div class="group">      
+      <input type="number" name="edad"  required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label style="color: #ffffff;">Edad</label>
+    </div>
+    <div class="group">      
+      <input type="text" name="nombre" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label style="color: #ffffff;">Telefono</label>
+    </div>
+   <input type="submit" name="submit" style="width: 70px; background:#4bb093; color: white;" value="Enviar" />
    </form>
         <a class="popup-cerrar" href="#">X</a>
      </div>
@@ -29,32 +51,27 @@
 
   <!-- LOGIN -->
   <div class="modal-wrapper" id="popup1" s>
-     <div class="popup-contenedor1" align="center">
+     <div class="popup-contenedor1">
        <h2 class="fontcolorlogi">Inicio de Usuario</h2>
        <img src="blog/logo/logo.png">
    
  <br/> <br/> <br/> <br/>
 <!--test-->
-
-<form>
-    
+<form method="post" action="#">
     <div class="group">      
       <input type="text" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label style="color: #ffffff;">Name</label>
     </div>
-      
     <div class="group">      
       <input type="text" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label style="color: #ffffff;">Email</label>
     </div>
-    
-  </form>
-
-
+    <input type="submit" name="submit" style="width: 70px; background:#4bb093; color: white;" value="Enviar" />
+</form>
    <!--test-->
         <a class="popup-cerrar" href="#">X</a>
      </div>
@@ -115,15 +132,11 @@
 
 
 
-  <style type="text/css">
+<style type="text/css">
 
-    .fontcolorlogi{
-      color: #e0f2f1 ;
-    }
-
-
-
-
+.fontcolorlogi{
+   color: #e0f2f1 ;
+}
 
 /* form starting stylings ------------------------------- */
 .group        { 
@@ -196,14 +209,12 @@ input:focus ~ .bar:before, input:focus ~ .bar:after {
   pointer-events:none;
   opacity:0.5;
 }
-
 /* active state */
 input:focus ~ .highlight {
   -webkit-animation:inputHighlighter 0.3s ease;
   -moz-animation:inputHighlighter 0.3s ease;
   animation:inputHighlighter 0.3s ease;
 }
-
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
   from { background:#ffffff; }
@@ -217,7 +228,4 @@ input:focus ~ .highlight {
   from { background:#ffffff; }
   to  { width:0; background:transparent; }
 }
- 
-
-
-  </style>
+</style>
