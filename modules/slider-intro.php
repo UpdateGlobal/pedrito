@@ -17,20 +17,20 @@
 									top:0;
 									left:0;
 									background-color:rgba(152, 122, 116, 0.82);
-									height:5px;
-									-webkit-animation: myfirst 5000ms ease-in-out;
-									-moz-animation: myfirst 5000ms ease-in-out;
-									-ms-animation: myfirst 5000ms ease-in-out;
-									animation: myfirst 5000ms ease-in-out;
+									height:5px; 
+									-webkit-animation: myfirst 2000ms ease-in-out;
+									-moz-animation: myfirst 2000ms ease-in-out;
+									-ms-animation: myfirst 2000ms ease-in-out;
+									animation: myfirst 2000ms ease-in-out;
 								   
 								   ">
                         </div>
                         <div class="container" style="height:100%;">
-                            <div class="banner7-content slider-1 ">
+                            <div class="banner7-content slider-2 ">
                                 <div class="bannerslideshow">
                                     <h1 class="title1"><span>Gatunos</span></h1>
                                     <h2 class="title2"><span>Los mejores alimentos para tu engreido: tu gato</span></h2>
-                                    <h3 class="title3"><span>S/.8.00 Antes s/10.00</span></h3>
+                                    <h3 class="title3"><span>S/.8.00 Antes  S/10.00</span></h3>
                                     <div class="banner7-readmore">
                                         <a href="#" title="Compra Ahora">Compra Ahora</a>
                                     </div>
@@ -38,6 +38,9 @@
                             </div>
                         </div>
                     </div>
+
+
+
                     <div id="banner7-caption2" class="banner7-caption nivo-html-caption nivo-caption">
                         <div class="timethai" style=" 
 									position:absolute;
@@ -45,10 +48,10 @@
 									left:0;
 									background-color:rgba(152, 122, 116, 0.82);
 									height:5px;
-									-webkit-animation: myfirst 5000ms ease-in-out;
-									-moz-animation: myfirst 5000ms ease-in-out;
-									-ms-animation: myfirst 5000ms ease-in-out;
-									animation: myfirst 5000ms ease-in-out;
+									-webkit-animation: myfirst 2000ms ease-in-out;
+									-moz-animation: myfirst 2000ms ease-in-out;
+									-ms-animation: myfirst 2000ms ease-in-out;
+									animation: myfirst 2000ms ease-in-out;
 								   
 								   ">
                         </div>
@@ -57,9 +60,9 @@
                                 <div class="bannerslideshow">
                                     <h1 class="title1"><span>Perrunos</span></h1>
                                     <h2 class="title2"><span>Los mejores alimentos para tu mejor amigo: tu perro</span></h2>
-                                    <h3 class="title3"><span>$8.00 $10.00</span></h3>
+                                    <h3 class="title3"><span>S/8.00 S/10.00</span></h3>
                                     <div class="banner7-readmore">
-                                        <a href="#" title="Shop Now">compra ahora</a>
+                                        <a href="#" title="Compra Ahora">compra ahora</a>
                                     </div>
                                 </div>
                             </div>

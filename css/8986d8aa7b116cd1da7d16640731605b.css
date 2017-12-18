@@ -9660,10 +9660,10 @@ ul,ol         { list-style:none; margin: 0;}
 /* Global Styles ========================================================================= */
 /* Form Elements */
 input,select,textarea,button {
-    font:13px/15px;
-    vertical-align:middle;
-    color:#888888;
-    background:#fff;
+   font:13px/15px;
+   vertical-align: middle;
+    color: #ffffff;
+    background: #489c84;
     }
 input.input-text,select,textarea {border:1px solid #f2f2f2; }
 input.input-text,textarea { padding:2px; }

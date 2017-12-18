@@ -42,7 +42,7 @@ a.popup-cerrar {
    position: relative;
    margin:7% auto;
    padding:30px 50px;
-   background-color: #fafafa;
+   background-color: #499d85;
    color:#333;
    border-radius: 3px;
    width:30%;

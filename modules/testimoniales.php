@@ -40,7 +40,7 @@
             <script type="text/javascript">
             $jq(document).ready(function() {
                 $jq(".block-testimonial-sidebar .owl").owlCarousel({
-                    autoPlay: false,
+                    autoPlay: true,
                     items: 1,
                     itemsDesktop: [1199, 1],
                     itemsDesktopSmall: [980, 1],
