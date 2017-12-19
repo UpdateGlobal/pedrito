@@ -40,9 +40,7 @@
 					<div class="hidden-xs banner-left banner-static">
 						<a href="nota-blog.php"><img alt="" src="http://via.placeholder.com/300x500" /></a>
 					</div>
-					<div class="hidden-xs banner-left banner-static">
-						<a href="nota-blog.php"><img alt="" src="http://via.placeholder.com/300x500" /></a>
-					</div>
+					
                 
             	</div>
 			<div class="col-main col-lg-9 col-md-9 col-sm-12 col-xs-12">

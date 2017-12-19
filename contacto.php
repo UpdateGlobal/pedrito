@@ -33,26 +33,26 @@
                 
                     <label for="name" class="required"><em>*</em>Nombre</label>
                     <div class="input-box">
-                        <input name="name" id="name" title="Name" value="" class="input-text required-entry" type="text" />
+                        <input name="name" id="name" title="Name" value="" class="input-text required-entry input2" type="text" />
                     </div>
                 
                
                     <label for="email" class="required"><em>*</em>Email</label>
                     <div class="input-box">
-                        <input name="email" id="email" title="Email" value="" class="input-text required-entry validate-email" type="text" />
+                        <input name="email" id="email" title="Email" value="" class="input-text required-entry validate-email input2" type="text" />
                     </div>
                
             </li>
             <li>
                 <label for="telephone">Teléfono</label>
                 <div class="input-box">
-                    <input name="telephone" id="telephone" title="Telephone" value="" class="input-text" type="text" />
+                    <input name="telephone" id="telephone" title="Telephone" value="" class="input-text input2" type="text" />
                 </div>
             </li>
             <li class="wide">
                 <label for="comment" class="required"><em>*</em>Tu comentario</label>
                 <div class="input-box">
-                    <textarea name="comment" id="comment" title="Comment" class="required-entry input-text" cols="5" rows="3"></textarea>
+                    <textarea name="comment" id="comment" title="Comment" class="required-entry input-text input2" cols="5" rows="3"></textarea>
                 </div>
             </li>
         </ul>

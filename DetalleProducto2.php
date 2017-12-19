@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Pedrito Petshop</title>
@@ -7,80 +7,61 @@
     <meta name="keywords" content="" />
     <meta name="robots" content="INDEX,FOLLOW" />
     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
-    <link rel="shortcut icon" href="logo/favicon.ico" /> 
+    <link rel="shortcut icon" href="logo/favicon.ico" />
    
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400' rel='stylesheet' type='text/css' />
     <link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css' />
-    <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css' /> 
+    <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css' />
+
     <link rel="stylesheet" type="text/css" href="css/cd2396986950e6d06ba09fba5754fd49.css" />
     <link rel="stylesheet" type="text/css" href="css/8986d8aa7b116cd1da7d16640731605b.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/4f1157b34c626f17931b3042dac06d5e.css" media="print" />
+
     <script type="text/javascript" src="js1/8abf94023d9a75d6a8d5680a47799432.js"></script>
     <link href="blog/rss/index/store_id/9/index.html" title="Our Blog" rel="alternate" type="application/rss+xml" />
-    <script type="text/javascript">
-  </script>
-  <link rel="stylesheet" type="text/css" href="css/cd2396986950e6d06ba09fba5754fd49.css" />
-<link rel="stylesheet" type="text/css" href="css/432721ecca3ed2c88881a557e6917056.css" media="all" />
-<link rel="stylesheet" type="text/css" href="css/4f1157b34c626f17931b3042dac06d5e.css" media="print" />
-<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <style>
+    /*Some CSS*/
+    * {margin: 0; padding: 0;}
+    .magnify {width: 480px; margin: 50px auto; position: relative;}
 
+    /*Lets create the magnifying glass*/
+    .large {
+        width: 400px; height: 400px;
+        position: absolute;
+        border-radius: 100%;
+        
+        /*Multiple box shadows to achieve the glass effect*/
+        box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
+        0 0 7px 7px rgba(0, 0, 0, 0.25), 
+        inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+        
+        /*Lets load up the large image first*/
+        background: url('imagenes/e/pet-7_4.jpg') no-repeat;
+        
+        /*hide the glass by default*/
+        display: none;
+    }
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.5.1/jquery-ui.min.js"></script> 
-<!-- aca son las librerias para la barra de navegacion del mega menu -->
-
-
-<style>
-/*Some CSS*/
-* {margin: 0; padding: 0;}
-.magnify {width: 480px; margin: 50px auto; position: relative;}
-
-/*Lets create the magnifying glass*/
-.large {
-    width: 400px; height: 400px;
-    position: absolute;
-    border-radius: 100%;
-    
-    /*Multiple box shadows to achieve the glass effect*/
-    box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
-    0 0 7px 7px rgba(0, 0, 0, 0.25), 
-    inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-    
-    /*Lets load up the large image first*/
-    background: url('imagenes/e/pet-7_4.jpg') no-repeat;
-    
-    /*hide the glass by default*/
-    display: none;
-}
-
-/*To solve overlap bug at the edges during magnification*/
-.small { display: block; }
-</style>
-
+    /*To solve overlap bug at the edges during magnification*/
+    .small { display: block; }
+    </style>
 </head>
 
-<body class=" catalog-product-view catalog-product-view product-voluptas-nulla">
+
+
+<body class=" cms-index-index cms-ma-fobe-pet-home">
     <div class="wrapper">
-        <noscript>
-            <div class="global-site-notice noscript">
-                <div class="notice-inner">
-                    <p>
-                        <strong>JavaScript seems to be disabled in your browser.</strong>
-                        <br /> You must have JavaScript enabled in your browser to utilize the functionality of this website. </p>
-                </div>
-            </div>
-        </noscript>
         <div class="page">
-            <div class="header-container">
-              <?php 
+                <div class="header-container">
 
+             <?php 
+                    include("modules/topbar.php");
+                    include("modules/header.php");
+            ?>
+       
 
-              include("modules/topbar.php");
-              include("modules/header.php")
-
-
-               ?>
-         
+<!--=========================================================bodyproducto=============================================-->
 
             <!--ACA SE TERMINA LO QUE ES LA PARTE DE LA BARRA DE NAVEGACIÓN-->
             <div class="main-container col1-layout">
@@ -129,77 +110,77 @@
     
 $(document).ready(function(){
 
-	var native_width = 0;
-	var native_height = 0;
+    var native_width = 0;
+    var native_height = 0;
 
-	//Now the mousemove function
-	$(".magnify").mousemove(function(e){
-		//When the user hovers on the image, the script will first calculate
-		//the native dimensions if they don't exist. Only after the native dimensions
-		//are available, the script will show the zoomed version.
-		if(!native_width && !native_height)
-		{
-			//This will create a new image object with the same image as that in .small
-			//We cannot directly get the dimensions from .small because of the 
-			//width specified to 200px in the html. To get the actual dimensions we have
-			//created this image object.
-			var image_object = new Image();
-			image_object.src = $(".small").attr("src");
-			
-			//This code is wrapped in the .load function which is important.
-			//width and height of the object would return 0 if accessed before 
-			//the image gets loaded.
-			native_width = image_object.width;
-			native_height = image_object.height;
-		}
-		else
-		{
-			//x/y coordinates of the mouse
-			//This is the position of .magnify with respect to the document.
-			var magnify_offset = $(this).offset();
-			//We will deduct the positions of .magnify from the mouse positions with
-			//respect to the document to get the mouse positions with respect to the 
-			//container(.magnify)
-			var mx = e.pageX - magnify_offset.left;
-			var my = e.pageY - magnify_offset.top;
-			
-			//Finally the code to fade out the glass if the mouse is outside the container
-			if(mx < $(this).width() && my < $(this).height() && mx > 0 && my > 0)
-			{
-				$(".large").fadeIn(100);
-			}
-			else
-			{
-				$(".large").fadeOut(100);
-			}
-			if($(".large").is(":visible"))
-			{
-				//The background position of .large will be changed according to the position
-				//of the mouse over the .small image. So we will get the ratio of the pixel
-				//under the mouse pointer with respect to the image and use that to position the 
-				//large image inside the magnifying glass
-				var rx = Math.round(mx/$(".small").width()*native_width - $(".large").width()/2)*-1;
-				var ry = Math.round(my/$(".small").height()*native_height - $(".large").height()/2)*-1;
-				var bgp = rx + "px " + ry + "px";
-				
-				//Time to move the magnifying glass with the mouse
-				var px = mx - $(".large").width()/2;
-				var py = my - $(".large").height()/2;
-				//Now the glass moves with the mouse
-				//The logic is to deduct half of the glass's width and height from the 
-				//mouse coordinates to place it with its center at the mouse coordinates
-				
-				//If you hover on the image now, you should see the magnifying glass in action
-				$(".large").css({left: px, top: py, backgroundPosition: bgp});
-			}
-		}
-	})
+    //Now the mousemove function
+    $(".magnify").mousemove(function(e){
+        //When the user hovers on the image, the script will first calculate
+        //the native dimensions if they don't exist. Only after the native dimensions
+        //are available, the script will show the zoomed version.
+        if(!native_width && !native_height)
+        {
+            //This will create a new image object with the same image as that in .small
+            //We cannot directly get the dimensions from .small because of the 
+            //width specified to 200px in the html. To get the actual dimensions we have
+            //created this image object.
+            var image_object = new Image();
+            image_object.src = $(".small").attr("src");
+            
+            //This code is wrapped in the .load function which is important.
+            //width and height of the object would return 0 if accessed before 
+            //the image gets loaded.
+            native_width = image_object.width;
+            native_height = image_object.height;
+        }
+        else
+        {
+            //x/y coordinates of the mouse
+            //This is the position of .magnify with respect to the document.
+            var magnify_offset = $(this).offset();
+            //We will deduct the positions of .magnify from the mouse positions with
+            //respect to the document to get the mouse positions with respect to the 
+            //container(.magnify)
+            var mx = e.pageX - magnify_offset.left;
+            var my = e.pageY - magnify_offset.top;
+            
+            //Finally the code to fade out the glass if the mouse is outside the container
+            if(mx < $(this).width() && my < $(this).height() && mx > 0 && my > 0)
+            {
+                $(".large").fadeIn(100);
+            }
+            else
+            {
+                $(".large").fadeOut(100);
+            }
+            if($(".large").is(":visible"))
+            {
+                //The background position of .large will be changed according to the position
+                //of the mouse over the .small image. So we will get the ratio of the pixel
+                //under the mouse pointer with respect to the image and use that to position the 
+                //large image inside the magnifying glass
+                var rx = Math.round(mx/$(".small").width()*native_width - $(".large").width()/2)*-1;
+                var ry = Math.round(my/$(".small").height()*native_height - $(".large").height()/2)*-1;
+                var bgp = rx + "px " + ry + "px";
+                
+                //Time to move the magnifying glass with the mouse
+                var px = mx - $(".large").width()/2;
+                var py = my - $(".large").height()/2;
+                //Now the glass moves with the mouse
+                //The logic is to deduct half of the glass's width and height from the 
+                //mouse coordinates to place it with its center at the mouse coordinates
+                
+                //If you hover on the image now, you should see the magnifying glass in action
+                $(".large").css({left: px, top: py, backgroundPosition: bgp});
+            }
+        }
+    })
 })
 </script>
 
 <!-- SEGUNDO SCRIPT PARA LUPA -->
-	<script>
-		function doGet() {
+    <script>
+        function doGet() {
   var template = HtmlService.createTemplateFromFile('page');
   return template.evaluate().setSandboxMode(HtmlService.SandboxMode.IFRAME);
 }
@@ -208,23 +189,23 @@ function include(filename) {
   return HtmlService.createHtmlOutputFromFile(filename)
       .getContent();
 }
-	</script>
+    </script>
 
 
-	<!-- Lets make a simple image magnifier -->
+    <!-- Lets make a simple image magnifier -->
 <div class="magnify">
-	
-	<!-- This is the magnifying glass which will contain the original/large version -->
-	<div class="large"></div>
-	
-	<!-- This is the small image -->
-	<img class="small" src="imagenes/e/pet-7_4.jpg" width="480" height="260"/>
-	
+    
+    <!-- This is the magnifying glass which will contain the original/large version -->
+    <div class="large"></div>
+    
+    <!-- This is the small image -->
+    <img class="small" src="imagenes/e/pet-7_4.jpg" width="480" height="260"/>
+    
 </div>
 
 <!-- TERCER RSCRIPT PARA LUPA -->
 <script>
-	function doGet() {
+    function doGet() {
   var template = HtmlService.createTemplateFromFile('page');
   return template.evaluate().setSandboxMode(HtmlService.SandboxMode.IFRAME);
 }
@@ -961,6 +942,12 @@ function include(filename) {
 
     </div>
     </div>
-</body>
 
-</html>
+<!--=========================================================bodyproducto=============================================-->
+
+
+
+
+
+
+</body>    

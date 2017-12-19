@@ -4,6 +4,7 @@
    visibility: hidden;
    opacity: 0;
    margin-top: -300px;
+   position: absolute;
 }
 #popup:target {
    visibility:visible;
@@ -46,6 +47,7 @@ a.popup-cerrar {
    color:#333;
    border-radius: 3px;
    width: 98%;
+   margin-top: 15px;
 }
 @media screen and (min-width: 720px)  {
     .popup-contenedor1{
@@ -60,7 +62,8 @@ a.popup-cerrar {
 #popup1 {
    visibility: hidden;
    opacity: 0;
-   margin-top: -300px;
+   margin-top: -3000px;
+   position: absolute;
 }
 #popup1:target {
    visibility:visible;
@@ -95,11 +98,11 @@ a.popup-cerrar {
                                         <div class="header-link">
                                             <ul class="menu dropit">
                                                 <li class="dropit-trigger">
-                                                    <a class='login_click' >Mi cuenta</a>
+                                                    <a class='login_click'>Mi cuenta</a>
                                                     <ul class="dropit-submenu" id="menu_link">
-                                                        <li class=" last"><a href="#popup" title="Log In" class="popup-link">Regístrate</a>
+                                                        <li class=" last"><a href="index.php#popup" title="Log In" class="popup-link">Regístrate</a>
                                                         </li>
-                                                        <li class=" last"><a href="#popup1" title="Log In" class="popup-link">Login</a>
+                                                        <li class=" last"><a href="index.php#popup1" title="Log In" class="popup-link">Login</a>
                                                         </li>
                                                         <li><a href="carrito.php" title="My Cart" class="top-link-cart">Ver mi Carrito</a></li>
                                                         <li><a href="carrito.php" title="Checkout" class="top-link-checkout">Pagar</a></li>

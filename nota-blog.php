@@ -75,8 +75,12 @@
                                         </div>
                                         <div class="post-by">
                                         <h3>Domingo, Noviembre 21, 2017</h3>
+                                        <br/>
                                         </div>
-                                        <div class="postContent">
+                                        <!-- Vaya a www.addthis.com/dashboard para personalizar sus herramientas --> 
+                                        <div class = "addthis_inline_share_toolbox"> </div>
+                                        <br/>
+                                        <div class="postContent" style="text-align: justify;">
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                                             </p>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -108,5 +112,11 @@
                     </div>
      </div>
 </div>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a392b411b1ea275"></script>
+
+
+
 </body>
 </html>

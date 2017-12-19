@@ -9665,6 +9665,12 @@ input,select,textarea,button {
     color: #ffffff;
     background: #489c84;
     }
+
+
+.input2{
+  background:;
+}
+
 input.input-text,select,textarea {border:1px solid #f2f2f2; }
 input.input-text,textarea { padding:2px; }
 select { padding:1px; }

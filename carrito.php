@@ -199,34 +199,38 @@ optionalZipCountries = ["HK","IE","MO","PA"];
 <table rules="all" class="rwd_auto fontsize">
         <thead>
         <tr>
+            <th>item</th>
             <th>Productos</th>
-            <th>Categorias</th>
-            <th>Subcategorias</th>
+            <th>Descripcion</th>
             <th>Precio</th>
             <th>Cantidad</th>
+            <th>Total</th>
         </tr>
         </thead>
         <tbody>
-        <tr>
-            <td><img src="imagenes/iconosChicos/carrito.jpg" alt=""></td>
-            <td>Iglesias Lenci</td>
-            <td>Anillo</td>
-            <td>$ 425</td>
+        <tr align="center">
+            <td>1</td>
+            <td><img src="imagenes/pet-1.jpg" width="50px" height="80px"  alt="nombre de item"></td>
+            <td><p style="text-align: justify;">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</td>
+            <td>S/ 123</td>
             <td><input type="text" size="5" class="input2"></td>
+            <td>Precio T.</td>
         </tr>
         <tr>
-            <td><img src="imagenes/iconosChicos/carrito.jpg" alt=""></td>
-            <td>Iglesias Lenci</td>
-            <td>Alajas</td>
-            <td>$ 750</td>
+            <td>2</td>
+            <td><img src="imagenes/pet-1.jpg" width="50px" height="80px"  alt="nombre de item"></td>
+            <td><p style="text-align: justify;">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</td>
+            <td>S/ 123</td>
             <td><input type="text" size="5" class="input2"></td>
+            <td>Precio T.</td>
         </tr>
         <tr>
-            <td><img src="imagenes/iconosChicos/carrito.jpg" alt=""></td>
-            <td>Iglesias Lenci</td>
-            <td>Collar</td>
-            <td>$ 800</td>
+            <td>3</td>
+            <td><img src="imagenes/pet-1.jpg" width="50px" height="80px"  alt="nombre de item"></td>
+            <td><p style="text-align: justify;">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</td>
+            <td>S/ 123</td>
             <td><input type="text" size="5" class="input2"></td>
+            <td>Precio T.</td>
         </tr>
         <tr>
             
@@ -234,17 +238,23 @@ optionalZipCountries = ["HK","IE","MO","PA"];
         </tbody>
     </table>
     <div class="row">
-        <div class="col-md-7">
+       
+        <div class="col-md-9    ">
             <button></button>
     <button class="btn btn-primary"><a href="#"></a>Seguir Comprando</button>
-    <button class="btn btn-warning">Actualizar</button>
-    <button class="btn btn-danger">Borrar</button>
-    <button class="btn btn-info">Ordenar Pedido</button>
+    <button class="btn btn-warning"><a href="#"></a> Actualizar</button>
+    <button class="btn btn-danger"><a href="#"></a> Borrar</button>
+    <button class="btn btn-info"><a href="#"></a> Ordenar Pedido</button>
         </div>
-        <div class="col-md-5">
-            <p>Monto Bruto:</p>
-            <p>+IGV(18%):</p>
+        <div class="col-md-2">
+            <p>Monto Bruto: </p>
+            <p>+IGV(18%):   </p>
             <p>Neto a Pagar:</p>
+        </div>
+        <div class="col-md-1">
+            <p>S/ 1000</p>
+            <p>S/ 180</P>
+            <p>S/ 1180</p>
         </div>
     </div>
 </div>

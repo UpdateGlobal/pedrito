@@ -2,7 +2,7 @@
      <div class="popup-contenedor1">
      <h2 class="fontcolorlogi">Registro de Clientes</h2>
      <img src="blog/logo/logo.png">
-
+<br/> <br/> <br/> <br/>
 
    <form method="POST" action="formulario.php">
 

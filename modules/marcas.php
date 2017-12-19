@@ -20,15 +20,15 @@
                                     </div>
                                 </li>
                                 <li class='item'>
-                                    <div class="item-inner"> <a href="#" title=""><img src="marcas/americanpets.png" alt="" /></a>
-                                    </div>
-                                </li>
-                                <li class='item'>
                                     <div class="item-inner"> <a href="#" title=""><img src="marcas/purina.png" alt="" /></a>
                                     </div>
                                 </li>
                                 <li class='item'>
-                                    <div class="item-inner"> <a href="#" title=""><img src="hallmark.jpg" alt="" /></a>
+                                    <div class="item-inner"> <a href="#" title=""><img src="marcas/americanpets.png" alt="" /></a>
+                                    </div>
+                                </li>
+                                <li class='item'>
+                                    <div class="item-inner"> <a href="#" title=""><img src="marcas/hallmark.jpg" alt="" /></a>
                                     </div>
                                 </li>
                                 <li class='item'>
@@ -42,7 +42,7 @@
                         $jq(document).ready(function() {
                             $jq(".ma-brand-slider-contain .owl").owlCarousel({
                                 autoPlay: true,
-                                items: 5,
+                                items: 4,
                                 itemsDesktop: [1199, 5],
                                 itemsDesktopSmall: [980, 4],
                                 itemsTablet: [700, 3],

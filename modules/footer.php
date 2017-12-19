@@ -16,7 +16,7 @@
                                         </div>
                                         <div class="footer-static-content">
                                             <ul>
-                                                <li class="first"><a href="#">Regístrate</a></li>
+                                                <li class="first"><a href="index.php#popup">Regístrate</a></li>
                                                 <li><a href="#">Login</a></li>
                                                 <li><a href="#">Mi Carrito</a></li>
                                                 <li class="last"><a href="#">Contáctanos</a></li>
