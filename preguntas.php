@@ -28,7 +28,26 @@
 
 <style type="text/css">
     
-    }.collapsible{border-top:1px solid #ddd;border-right:1px solid #ddd;border-left:1px solid #ddd;margin:0.5rem 0 1rem 0}.collapsible-header{display:block;cursor:pointer;height:3rem;line-height:3rem;padding:0 1rem;background-color:#fff;border-bottom:1px solid #ddd}.collapsible-header i{width:2rem;font-size:1.6rem;line-height:3rem;display:block;float:left;text-align:center;margin-right:1rem}.collapsible-body{overflow:hidden;display:none;border-bottom:1px solid #ddd;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.collapsible-body p{margin:0;padding:2rem}.side-nav .collapsible{border:none;box-shadow:none}.side-nav .collapsible li{padding:0}.side-nav .collapsible-header{background-color:transparent;border:none;line-height:inherit;height:inherit;margin:0 1rem}.side-nav .collapsible-header i{line-height:inherit}.side-nav .collapsible-body{border:0;background-color:#FFF}.side-nav .collapsible-body li a{margin:0 1rem 0 2rem}.collapsible.popout{border:none;box-shadow:none}.collapsible.popout>li{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);transform:scaleX(.92) translate3d(0, 0, 0);transition:margin .35s cubic-bezier(0.25, 0.46, 0.45, 0.94),transform .35s cubic-bezier(0.25, 0.46, 0.45, 0.94)}.collapsible.popout>li:hover{will-change:margin, transform}.collapsible.popout>li.active{box-shadow:0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);margin:16px 0;transform:scaleX(1) translate3d(0, 0, 0)}.materialboxed{cursor:zoom-in;position:relative;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;-ms-transition:opacity .4s;transition:opacity .4s}.materialboxed:hover{will-change:left, top, width, height}.materialboxed:hover:not(.active){opacity:.8}.materialboxed.active{cursor:zoom-out}#materialbox-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#292929;z-index:999;will-change:opacity}.materialbox-caption{position:fixed;display:none;color:#fff;line-height:50px;bottom:0;width:100%;text-align:center;padding:0% 15%;height:50px;z-index:1000;-webkit-font-smoothing:antialiased}select:focus{outline:1px solid #c9f3ef}button:focus{outline:none;background-color:#2ab7a9}label{font-size:0.8rem;color:#9e9e9e}::-webkit-input-placeholder{color:#d1d1d1}:-moz-placeholder{color:#d1d1d1}::-moz-placeholder{color:#d1d1d1}
+    }.collapsible{border-top:px solid #ddd;border-right:0px solid #ddd;border-left:0px solid #ddd;margin:0.5rem 0 1rem 0}
+        .collapsible-header{display:block;cursor:pointer;line-height:3rem;padding:3rem 5rem;background-color:#489d85;border-bottom:0px solid #ddd; color: #fff;}px solid #ddd; color: #fff;}
+    .collapsible-header i{width:2rem;font-size:1.6rem;line-height:3rem;display:block;float:left;text-align:center;margin-right:1rem}
+    .collapsible-body{overflow:hidden;display:none;border-bottom:0px solid #ddd;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+    .collapsible-body p{margin:0;padding:4rem; background-color: #d4e0dd;}
+    .side-nav .collapsible{border:none;box-shadow:none}
+    .side-nav .collapsible li{padding:0}
+    .side-nav .collapsible-header{background-color:transparent;border:none;line-height:inherit;height:inherit;margin:0 1rem}
+    .side-nav .collapsible-header i{line-height:inherit}
+    .side-nav .collapsible-body{border:0;background-color:#FFF}
+    .side-nav .collapsible-body li a{margin:0 1rem 0 2rem}
+    .collapsible.popout{border:none;box-shadow:none}
+    .collapsible.popout>li{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);transform:scaleX(.92) translate3d(0, 0, 0);transition:margin .35s cubic-bezier(0.25, 0.46, 0.45, 0.94),transform .35s cubic-bezier(0.25, 0.46, 0.45, 0.94)}
+    .collapsible.popout>li:hover{will-change:margin, transform}
+    .collapsible.popout>li.active{box-shadow:0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);margin:16px 0;transform:scaleX(1) translate3d(0, 0, 0)}
+    .materialboxed{cursor:zoom-in;position:relative;-webkit-transition:opacity .4s;-moz-transition:opacity .4s;-o-transition:opacity .4s;-ms-transition:opacity .4s;transition:opacity .4s}
+    .colorfontcolla{color: #fff;}
+    .materialboxed:hover{will-change:left, top, width, height}
+    .materialboxed:hover:not(.active){opacity:.8}
+    .materialboxed.active{cursor:zoom-out}#materialbox-overlay{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#292929;z-index:999;will-change:opacity}.materialbox-caption{position:fixed;display:none;color:#fff;line-height:50px;bottom:0;width:100%;text-align:center;padding:0% 15%;height:50px;z-index:1000;-webkit-font-smoothing:antialiased}select:focus{outline:1px solid #c9f3ef}button:focus{outline:none;background-color:#2ab7a9}label{font-size:0.8rem;color:#9e9e9e}::-webkit-input-placeholder{color:#d1d1d1}:-moz-placeholder{color:#d1d1d1}::-moz-placeholder{color:#d1d1d1}
 
    
 
@@ -42,8 +61,27 @@
                     <?php 
                    include("modules/topbar.php");
                    include("modules/header.php");
-                   include("modules/popup.php"); 
                     ?>
+
+
+            <div class="breadcrumbs" style="background-color: #489d85;">
+                <div class="container">
+                    <div class="container-inner">
+                        <ul>
+                            <li class="home">
+                                <a href="index.php" title="Go to Home Page">Inicio</a>
+                                    <span><i class="fa fa-angle-right"></i> </span>
+                            </li>
+                            <li class="blog">
+                                <strong>preguntas</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
 
                             <!--contenedor de preguntas-->
                             <div class="container">

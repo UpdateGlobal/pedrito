@@ -3,7 +3,7 @@
                 <div class="container">
                     <div class="ma-featured-sldier-title ma-title">
                         <h1>Alimentos para tu Mascota</h1>
-                        <h3>Mueve de izquierda a derecha para navegar</h3>
+                  
                     </div>
                     <div class="row">
                         <ul class="owl">

@@ -1,15 +1,11 @@
-<div class="footer-static-top">
+<style type="text/css">
+    
+    a{
+        text-decoration: none;
+    }
+</style>
+<div class="footer-static-top" style="margin-bottom: 0;">
                                 <div class="row">
-                                    <div class="f-col f-col-24 col-sm-6 col-md-2 col-sms-6 col-smb-12">
-                                        <div class="footer-static-title top-content-footer">
-                                            <h3>&nbsp</h3>
-                                        </div>
-                                        <div class="footer-static-content">
-                                            <ul>
-                                                &nbsp
-                                            </ul>
-                                        </div>
-                                    </div>
                                     <div class="f-col f-col-24 col-sm-6 col-md-2 col-sms-6 col-smb-12">
                                         <div class="footer-static-title">
                                             <h3>Mi cuenta</h3>
@@ -17,9 +13,9 @@
                                         <div class="footer-static-content">
                                             <ul>
                                                 <li class="first"><a href="index.php#popup">Regístrate</a></li>
-                                                <li><a href="#">Login</a></li>
-                                                <li><a href="#">Mi Carrito</a></li>
-                                                <li class="last"><a href="#">Contáctanos</a></li>
+                                                <li><a href="index.php#popup1">Login</a></li>
+                                                <li><a href="carrito.php">Mi Carrito</a></li>
+                                                <li class="last"><a href="Contacto.php">Contáctanos</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -30,8 +26,8 @@
                                         <div class="footer-static-content">
                                             <ul>
                                                 <li class="first"><a href="#">Sitemap</a></li>
-                                                <li><a href="#">Nosotros</a></li>
-                                                <li><a href="#">Búsqueda</a></li>
+                                                <li><a href="#acercade">Nosotros</a></li>
+                                                <li><a href="#search">Búsqueda</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -41,12 +37,28 @@
                                         </div>
                                         <div class="footer-static-content">
                                             <ul>
-                                                <li class="first"><a href="#">Preguntas Frecuentes</a></li>
+                                                <li class="first"><a href="Preguntas.php">Preguntas Frecuentes</a></li>
                                                 <li><a href="#">Devoluciones y Cambios</a></li>
-                                                <li><a href="#">Blog</a></li>
+                                                <li><a href="portada-blog.php">Blog</a></li>
                                             </ul>
                                         </div>
                                     </div>
+                                    <div class="f-col f-col-24 col-sm-6 col-md-2 col-sms-6 col-smb-12">
+                                        <div class="footer-static-title">
+                                            <h3>Redes Sociles</h3>
+                                        </div>
+                                        <div class="footer-static-content">
+                                           <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox_p1zi"></div>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
                                     <div class="f-col f-col-24 col-sm-6 col-md-3 col-sms-6 col-smb-12">
                                         <div class="ma-randomproductslider-container product-style3">
                                             
@@ -75,7 +87,7 @@
                                         </div>
                                     </div>
                                     <div class="f-col f-col-24 col-sm-6 col-md-3 col-sms-6 col-smb-12">
-                                        <div class="footer-static-title">
+                                        <div class="footer-static-title" style="margin-bottom: 0px;">
                                             <h3>HORARIO DE ATENCÓN</h3>
                                         </div>
                                         <div class="footer-static-content">
@@ -114,3 +126,5 @@
                     </div>
                 </div>
             </div>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a392b411b1ea275"></script>   

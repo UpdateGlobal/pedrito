@@ -13002,7 +13002,7 @@ border-radius: 100%;text-align: center;margin-right: 14px;font-size: 18px;color:
 
 /*---------------about-us in footer -------------*/
 .about-us{
-    background: url("../imagenes/bkg_aboutus_footer_pet.jpg") center repeat-y;
+   /* background: url("../imagenes/bkg_aboutus_footer_pet.jpg") center repeat-y;*/
     padding: 15px;
     color: #fff;
 }

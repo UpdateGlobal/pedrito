@@ -9856,7 +9856,7 @@ p.required { font-size:11px; text-align:right; color:#EB340A; }
 .notice-msg { border-color:#fcd344; background-color:#fafaec; background-image:url("../imagenes/i_msg-note.gif"); color:#3d6611; }
 
 /* BreadCrumbs */
-.breadcrumbs {font-size: 14px;margin-bottom: 35px;padding: 12px 0;background: #f7f7f7;}
+.breadcrumbs {font-size: 14px;margin-bottom: 35px;padding: 12px 0;background: ##489d85;}
 .breadcrumbs .container-inner{}
 .breadcrumbs li { display:inline;text-transform: uppercase;}
 
@@ -10176,7 +10176,7 @@ padding: 0;
 .cms-index-index .top-menu {}
 /* Header ================================================================================ */
 .header {   position:relative; z-index: 20;}
-.header {text-align: center;/* border-bottom:1px solid #e9e9e9; */margin-bottom: 20px;background: #333;}
+.header {text-align: center;/* border-bottom:1px solid #e9e9e9; */margin-bottom: 0px;background: #333;}
 .cms-index-index .header{border-bottom:none;margin-bottom:0;}
 .header .header-inner{background:#ffffff}
 .header .header-content { padding:28px 0;position: relative;z-index: 100;height:auto !important;}
@@ -13020,11 +13020,17 @@ border-radius: 100%;text-align: center;margin-right: 14px;font-size: 18px;color:
 
 /*---------------about-us in footer -------------*/
 .about-us{
-    background: url("../imagenes/bkg_aboutus_footer_pet.jpg") center repeat-y;
+
+  /* background: url("../imagenes/bkg_aboutus_footer_pet.jpg") center repeat-y; */
     padding: 15px;
     color: #fff;
 }
-.about-us-inner{border: 1px dashed rgba(255,255,255,0.2);background: url("../imagenes/bkg_aboutus_pet.png") left bottom no-repeat;}
+.about-us-inner{background: url("../imagenes/bkg_aboutus_pet.png") left bottom no-repeat;
+width: 20%;
+
+
+}
+
 .about-us h1{font-size:24px;font-weight:700;text-transform:uppercase;color: #fff;margin-bottom: 10px;margin-top: 25px;}
 .about-us .col-right-inner{overflow:hidden;padding-right: 15px;}
 .about-us .des{font-size:16px;}

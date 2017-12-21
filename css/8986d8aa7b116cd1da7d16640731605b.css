@@ -12965,7 +12965,7 @@ border-radius: 100%;text-align: center;margin-right: 14px;font-size: 18px;color:
     color: #8b4110;
 }
 
-.footer-static-top .f-col{ margin-bottom: 20px;}
+.footer-static-top .f-col{ margin-bottom: 0px;}
 .footer-static-top .f-col-1{ margin-top: 0px;}
 .ma-footer-static .block-tags{ background: transparent; padding: 0;}
 .ma-footer-static .block-tags .block-title{ display: none;}
@@ -12996,11 +12996,11 @@ border-radius: 100%;text-align: center;margin-right: 14px;font-size: 18px;color:
 
 /*---------------about-us in footer -------------*/
 .about-us{
-    background: url("../imagenes/bkg_aboutus_footer_pet.jpg") center repeat-y;
+   /* background: url("../imagenes/bkg_aboutus_footer_pet.jpg") center repeat-y; */
     padding: 15px;
     color: #fff;
 }
-.about-us-inner{border: 1px dashed rgba(255,255,255,0.2);background: url("../imagenes/bkg_aboutus_pet.png") left bottom no-repeat;}
+.about-us-inner{background: url("../imagenes/bkg_aboutus_pet.png") left bottom no-repeat;}
 .about-us h1{font-size:24px;font-weight:700;text-transform:uppercase;color: #fff;margin-bottom: 10px;margin-top: 25px;}
 .about-us .col-right-inner{overflow:hidden;padding-right: 15px;}
 .about-us .des{font-size:16px;}

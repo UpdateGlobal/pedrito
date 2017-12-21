@@ -32,7 +32,7 @@
                                     <h2 class="title2"><span>Los mejores alimentos para tu engreido: tu gato</span></h2>
                                     <h3 class="title3"><span>S/.8.00 Antes  S/10.00</span></h3>
                                     <div class="banner7-readmore">
-                                        <a href="#" title="Compra Ahora">Compra Ahora</a>
+                                        <a href="carrito.php" title="Compra Ahora">Compra Ahora</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                                     <h2 class="title2"><span>Los mejores alimentos para tu mejor amigo: tu perro</span></h2>
                                     <h3 class="title3"><span>S/8.00 S/10.00</span></h3>
                                     <div class="banner7-readmore">
-                                        <a href="#" title="Compra Ahora">compra ahora</a>
+                                        <a href="carrito.php" title="Compra Ahora">compra ahora</a>
                                     </div>
                                 </div>
                             </div>

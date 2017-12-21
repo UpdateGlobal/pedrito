@@ -19,11 +19,10 @@
                                                 </div>
                                                 <ul id="ma-mobilemenu" class="mobilemenu nav-collapse collapse">
                                                     <li class="level0 nav-1 level-top first parent">
-                                                        <a href="comida-para.php" class="level-top">
-                                                            <span>Para Perros</span></a>
+                                                        <a href="lista.php" class="level-top"><span>Para Perros</span></a>
                                                         <ul class="level0">
                                                             <li class="level1 nav-1-1 first parent">
-                                                                <a href="#"><span>Categoría 1</span></a>
+                                                                <a href="lista.php"><span>Categoría 1</span></a>
                                                                 <ul class="level1">
                                                                     <li class="level2 nav-1-1-1 first">
                                                                         <a href="#"><span>Subcategoría 1</span></a>
@@ -39,7 +38,7 @@
                                                                 </ul>
                                                             </li>
                                                             <li class="level1 nav-1-2 parent">
-                                                                <a href="#"><span>Categoría 2</span></a>
+                                                                <a href="lista.php"><span>Categoría 2</span></a>
                                                                 <ul class="level1">
                                                                     <li class="level2 nav-1-1-1 first">
                                                                         <a href="#"><span>Subcategoría 1</span></a>
@@ -55,7 +54,7 @@
                                                                 </ul>
                                                             </li>
                                                             <li class="level1 nav-1-3 parent">
-                                                                <a href="#"><span>Categoría 3</span></a>
+                                                                <a href="lista.php"><span>Categoría 3</span></a>
                                                                 <ul class="level1">
                                                                     <li class="level2 nav-1-1-1 first">
                                                                         <a href="#"><span>Subcategoría 1</span></a>
@@ -71,7 +70,7 @@
                                                                 </ul>
                                                             </li>
                                                             <li class="level1 nav-1-4 last parent">
-                                                                <a href="#"><span>Categoría 4</span></a>
+                                                                <a href="lista.php"><span>Categoría 4</span></a>
                                                                 <ul class="level1">
                                                                     <li class="level2 nav-1-1-1 first">
                                                                         <a href="#"><span>Subcategoría 1</span></a>
@@ -94,7 +93,7 @@
                                                                 </a>
                                                         <ul class="level0">
                                                             <li class="level1 nav-1-1 first parent">
-                                                                <a href="#"><span>Categoría 1</span></a>
+                                                                <a href="lista.php"><span>Categoría 1</span></a>
                                                                 <ul class="level1">
                                                                     <li class="level2 nav-1-1-1 first">
                                                                         <a href="#"><span>Subcategoría 1</span></a>
@@ -110,7 +109,7 @@
                                                                 </ul>
                                                             </li>
                                                             <li class="level1 nav-1-2 parent">
-                                                                <a href="#"><span>Categoría 2</span></a>
+                                                                <a href="lista.php"><span>Categoría 2</span></a>
                                                                 <ul class="level1">
                                                                     <li class="level2 nav-1-1-1 first">
                                                                         <a href="#"><span>Subcategoría 1</span></a>
@@ -126,7 +125,7 @@
                                                                 </ul>
                                                             </li>
                                                             <li class="level1 nav-1-3 parent">
-                                                                <a href="#"><span>Categoría 3</span></a>
+                                                                <a href="lista.php"><span>Categoría 3</span></a>
                                                                 <ul class="level1">
                                                                     <li class="level2 nav-1-1-1 first">
                                                                         <a href="#"><span>Subcategoría 1</span></a>
@@ -142,7 +141,7 @@
                                                                 </ul>
                                                             </li>
                                                             <li class="level1 nav-1-4 last parent">
-                                                                <a href="#"><span>Categoría 4</span></a>
+                                                                <a href="lista.php"><span>Categoría 4</span></a>
                                                                 <ul class="level1">
                                                                     <li class="level2 nav-1-1-1 first">
                                                                         <a href="#"><span>Subcategoría 1</span></a>
@@ -164,145 +163,141 @@
                                                                 <span>Para Aves </span>
                                                                 </a>
                                                         <ul class="level0">
-                                                            <li class="level1 nav-1-1 first parent">
-                                                                <a href="#"><span>Categoría 1</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="level1 nav-1-2 parent">
-                                                                <a href="#"><span>Categoría 2</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="level1 nav-1-3 parent">
-                                                                <a href="#"><span>Categoría 3</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="level1 nav-1-4 last parent">
-                                                                <a href="#"><span>Categoría 4</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
+                                                                        <li class="level1 nav-1-1 first parent">
+                                                                                <a href="lista.php"><span>Categoría 1</span></a>
+                                                                                <ul class="level1">
+                                                                                    <li class="level2 nav-1-1-1 first">
+                                                                                        <a href="#"><span>Subcategoría 1</span></a>
+                                                                                    </li>
+                                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                                    </li>
+                                                                                    <li class="level2 nav-1-1-3">
+                                                                                        <a href="#"><span>Subcategoría 3</span></a>
+                                                                                    </li>
+                                                                                    <li class="level2 nav-1-1-4 last">
+                                                                                        <a href="#"><span>Subcategoría 4</span></a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                        </li>
+                                                                                                <li class="level1 nav-1-2 parent">
+                                                                                                    <a href="lista.php"><span>Categoría 2</span></a>
+                                                                                                    <ul class="level1">
+                                                                                                        <li class="level2 nav-1-1-1 first">
+                                                                                                            <a href="#"><span>Subcategoría 1</span></a>
+                                                                                                        </li>
+                                                                                                        <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                                                        </li>
+                                                                                                        <li class="level2 nav-1-1-3">
+                                                                                                            <a href="#"><span>Subcategoría 3</span></a>
+                                                                                                        </li>
+                                                                                                        <li class="level2 nav-1-1-4 last">
+                                                                                                            <a href="#"><span>Subcategoría 4</span></a>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </li>
+                                                                                                            <li class="level1 nav-1-3 parent">
+                                                                                                                <a href="lista.php"><span>Categoría 3</span></a>
+                                                                                                                <ul class="level1">
+                                                                                                                    <li class="level2 nav-1-1-1 first">
+                                                                                                                        <a href="#"><span>Subcategoría 1</span></a>
+                                                                                                                    </li>
+                                                                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                                                                    </li>
+                                                                                                                    <li class="level2 nav-1-1-3">
+                                                                                                                        <a href="#"><span>Subcategoría 3</span></a>
+                                                                                                                    </li>
+                                                                                                                    <li class="level2 nav-1-1-4 last">
+                                                                                                                        <a href="#"><span>Subcategoría 4</span></a>
+                                                                                                                    </li>
+                                                                                                                </ul>
+                                                                                                            </li>
                                                         </ul>
                                                     </li>
-                                                    <li class="level0 nav-4 level-top last parent">
-                                                        <a href="lista.php" class="level-top">
-                                                                <span>Promociones </span>
+
+                                                    <li class="level0 nav-3 level-top parent">
+                                                        <a href="DetalleProducto.php" class="level-top">
+                                                                <span>Promociones</span>
                                                                 </a>
                                                         <ul class="level0">
-                                                            <li class="level1 nav-1-1 first parent">
-                                                                <a href="#"><span>Categoría 1</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="level1 nav-1-2 parent">
-                                                                <a href="#"><span>Categoría 2</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="level1 nav-1-3 parent">
-                                                                <a href="#"><span>Categoría 3</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li class="level1 nav-1-4 last parent">
-                                                                <a href="#"><span>Categoría 4</span></a>
-                                                                <ul class="level1">
-                                                                    <li class="level2 nav-1-1-1 first">
-                                                                        <a href="#"><span>Subcategoría 1</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-3">
-                                                                        <a href="#"><span>Subcategoría 3</span></a>
-                                                                    </li>
-                                                                    <li class="level2 nav-1-1-4 last">
-                                                                        <a href="#"><span>Subcategoría 4</span></a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
+                                                                        <li class="level1 nav-1-1 first parent">
+                                                                                <a href="lista.php"><span>Categoría 1</span></a>
+                                                                                <ul class="level1">
+                                                                                    <li class="level2 nav-1-1-1 first">
+                                                                                        <a href="#"><span>Subcategoría 1</span></a>
+                                                                                    </li>
+                                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                                    </li>
+                                                                                    <li class="level2 nav-1-1-3">
+                                                                                        <a href="#"><span>Subcategoría 3</span></a>
+                                                                                    </li>
+                                                                                    <li class="level2 nav-1-1-4 last">
+                                                                                        <a href="#"><span>Subcategoría 4</span></a>
+                                                                                    </li>
+                                                                                </ul>
+                                                                        </li>
+                                                                                                <li class="level1 nav-1-2 parent">
+                                                                                                    <a href="lista.php"><span>Categoría 2</span></a>
+                                                                                                    <ul class="level1">
+                                                                                                        <li class="level2 nav-1-1-1 first">
+                                                                                                            <a href="#"><span>Subcategoría 1</span></a>
+                                                                                                        </li>
+                                                                                                        <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                                                        </li>
+                                                                                                        <li class="level2 nav-1-1-3">
+                                                                                                            <a href="#"><span>Subcategoría 3</span></a>
+                                                                                                        </li>
+                                                                                                        <li class="level2 nav-1-1-4 last">
+                                                                                                            <a href="#"><span>Subcategoría 4</span></a>
+                                                                                                        </li>
+                                                                                                    </ul>
+                                                                                                </li>
+                                                                                                            <li class="level1 nav-1-3 parent">
+                                                                                                                <a href="lista.php"><span>Categoría 3</span></a>
+                                                                                                                <ul class="level1">
+                                                                                                                    <li class="level2 nav-1-1-1 first">
+                                                                                                                        <a href="#"><span>Subcategoría 1</span></a>
+                                                                                                                    </li>
+                                                                                                                    <li class="level2 nav-1-1-2"><a href="#"><span>Subcategoría 2</span></a>
+                                                                                                                    </li>
+                                                                                                                    <li class="level2 nav-1-1-3">
+                                                                                                                        <a href="#"><span>Subcategoría 3</span></a>
+                                                                                                                    </li>
+                                                                                                                    <li class="level2 nav-1-1-4 last">
+                                                                                                                        <a href="#"><span>Subcategoría 4</span></a>
+                                                                                                                    </li>
+                                                                                                                </ul>
+                                                                                                            </li>
+                                                                                                     </ul>
+                                                                                                 </li>
+
+
+
+                                                                                            <li class="level0 nav-3 level-top parent">
+                                                                                                <a href="contacto.php" class="level-top">
+                                                                                                        <span>Contacto</span>
+                                                                                                        </a>
+                                                                                                <ul class="level0">
+                                                                                                </ul>
+                                                                                            </li>
+                                                                                                <li class="level0 nav-3 level-top parent">
+                                                                                                <a href="portada-blog.php" class="level-top">
+                                                                                                        <span>blog</span>
+                                                                                                        </a>
+                                                                                                <ul class="level0">                                                
+                                                                                                </ul>
+                                                                                            </li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
+
+
+
+
+<!--menumobilend=====================================-->   
+
+
+<!--menufrontend=====================================-->                                                                     
                                     <div class="nav-container visible-lg visible-md">
                                         <div id="pt_custommenu" class="pt_custommenu">
                                             <div class="pt_custommenu_content">
@@ -323,7 +318,7 @@
                                                         <div class="block1" id="block182">
                                                             <div class="column first col1">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 1</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 1</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -336,7 +331,7 @@
                                                             </div>
                                                             <div class="column col2">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 2</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 2</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -349,7 +344,7 @@
                                                             </div>
                                                             <div class="column col3">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 3</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 3</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -362,7 +357,7 @@
                                                             </div>
                                                             <div class="column last col4">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 4</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 4</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -387,7 +382,7 @@
                                                         <div class="block1" id="block183">
                                                             <div class="column first col1">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 1</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 1</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -400,10 +395,10 @@
                                                             </div>
                                                             <div class="column col2">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 2</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 2</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
-                                                                            <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
+                                                                            <a class="itemMenuName level2" href="lista.php"><span>Subcategoría 1</span></a>
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 2</span></a>
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 3</span></a>
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 4</span></a>
@@ -413,7 +408,7 @@
                                                             </div>
                                                             <div class="column col3">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 3</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 3</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -426,7 +421,7 @@
                                                             </div>
                                                             <div class="column last col4">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 4</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 4</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -451,7 +446,7 @@
                                                         <div class="block1" id="block184">
                                                             <div class="column first col1">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 1</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 1</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -464,7 +459,7 @@
                                                             </div>
                                                             <div class="column col2">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 2</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 2</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -477,7 +472,7 @@
                                                             </div>
                                                             <div class="column col3">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 3</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 3</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -490,7 +485,7 @@
                                                             </div>
                                                             <div class="column last col4">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 4</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 4</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -515,7 +510,7 @@
                                                         <div class="block1" id="block185">
                                                             <div class="column first col1">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 1</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 1</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -528,7 +523,7 @@
                                                             </div>
                                                             <div class="column col2">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 2</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 2</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -541,7 +536,7 @@
                                                             </div>
                                                             <div class="column col3">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 3</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 3</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -554,7 +549,7 @@
                                                             </div>
                                                             <div class="column last col4">
                                                                 <div class="itemMenu level1">
-                                                                    <a class="itemMenuName level1" href="#"><span>Categoría 4</span></a>
+                                                                    <a class="itemMenuName level1" href="lista.php"><span>Categoría 4</span></a>
                                                                     <div class="itemSubMenu level1">
                                                                         <div class="itemMenu level2">
                                                                             <a class="itemMenuName level2" href="#"><span>Subcategoría 1</span></a>
@@ -576,6 +571,17 @@
                                                         </ul>
                                                     </div>
                                                 </div>
+
+
+
+                                                <div id="pt_menu_link" class="pt_menu">
+                                                    <div class="parentMenu">
+                                                        <ul>
+                                                            <li><a href="contacto.php">contacto</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
                                                 <div class="clearBoth"></div>
                                             </div>
                                         </div>

@@ -44,7 +44,7 @@
     </div>
    <input type="submit" name="submit" style="width: 70px; background:#4bb093; color: white;" value="Enviar" />
    </form>
-        <a class="popup-cerrar" href="#">X</a>
+        
      </div>
   </div>
 

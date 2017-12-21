@@ -80,7 +80,7 @@ a.popup-cerrar {
 }
 </style>
 </head>
-<div class="top-link">
+<div class="top-link" style="margin: 0;">
                     <div class="container">
                         <div class="container-inner">
                             <div class="row top-link-inner">
@@ -110,6 +110,7 @@ a.popup-cerrar {
                                                 </li>
                                             </ul>
                                         </div>
+                                        <div id="search"></div>
                                         <form id="search_mini_form" action="#" method="get">
                                             <div class="label">search:<i class="fa fa-search ">&nbsp;</i></div>
                                             <div class="form-search">

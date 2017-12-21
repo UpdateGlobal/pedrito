@@ -1,33 +1,62 @@
-<?php include("modules/head.php"); ?>
-<body class=" catalog-product-view catalog-product-view product-aenean-eleifend">
-<div class="wrapper">
-        
-    <div class="page">
-                
-<div class="header-container">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Pedrito Petshop</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="logo/favicon.ico" />
+   
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="css/8986d8aa7b116cd1da7d16640731605b.css" media="all" />
 
-            <?php 
-                include("modules/topbar.php");
-                include("modules/header.php");
-             ?>
-<div class="main-container col2-left-layout">
-<div class="main">
-<div class="col-main">
-        <div class="breadcrumbs">
-        	<div class="container">
-        		<div class="container-inner">
-        			<ul>
-        				<li class="home">
-        					<a href="index.html" title="Go to Home Page">Inicio</a>
-        						<span><i class="fa fa-angle-right"></i> </span>
-        				 </li>
-        				<li class="category83">
-        					<strong>Cuadrícula</strong>
-        				</li>
-        			</ul>
-        		</div>
-        	</div>
+    <script type="text/javascript" src="js1/8abf94023d9a75d6a8d5680a47799432.js"></script>
+    <link href="blog/rss/index/store_id/9/index.html" title="Our Blog" rel="alternate" type="application/rss+xml" />
+    <script type="text/javascript">
+    </script>
+    <script type="text/javascript">
+  </script>
+
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body class=" cms-index-index cms-ma-fobe-pet-home">
+    <div class="wrapper">
+        <div class="page">
+                <div class="header-container">
+                    <?php 
+                    include("modules/topbar.php");
+                    include("modules/header.php");
+                     ?>
+                </div>
         </div>
+    </div>
+
+       
+            <div class="breadcrumbs" style="background-color: #489d85;">
+                <div class="container">
+                    <div class="container-inner">
+                        <ul>
+                            <li class="home">
+                                <a href="index.php" title="Go to Home Page">Inicio</a>
+                                    <span><i class="fa fa-angle-right"></i> </span>
+                            </li>
+                            <li class="blog">
+                                <strong>Grid</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
 <div class="container">
 	<div class="container-inner">
 		<div class="row">
@@ -154,14 +183,14 @@
 						<div>
 							<span class='label-pro-sale'>-10%<small>Dscto</small></span>
                             <div class="label-pro-new"><span>Hoy</span></div>
-							 	<a href="#" title="voluptas nulla">
+							 	<a href="#" title="Nombre del Producto">
     								<span class="product-image">
-    									<img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"  alt="voluptas nulla" />
+    									<img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"  alt="Nombre del Producto" />
     								</span>
 								</a>
 						</div>
 						<div class="des">
-							<h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">Producto</a></h2>
+							<h2 class="product-name"><a href="DetalleProducto.php" title="Nombre del Producto">Producto</a></h2>
                             <div class="price-box">
                                  <p class="special-price">
                                     <span class="price-label">Special Price</span>
@@ -169,7 +198,7 @@
                                 </p>
                             </div>
                             <div class="actions clearfix">
-								<button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span>Agregar al Carrito</span></span></button>
+								<button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span><a href="carrito.php">Agregar A Carrtio</a></span></button>
 							</div>
 						</div>
 					</div>	
@@ -188,7 +217,7 @@
 								</a>
 						</div>
 						<div class="des">
-                            <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">Producto</a></h2>
+                            <h2 class="product-name"><a href="DetalleProducto.php" title="Nombre del Producto">Producto</a></h2>
                             <div class="price-box">
                                  <p class="special-price">
                                     <span class="price-label">Producto Especial</span>
@@ -196,7 +225,7 @@
                                 </p>
                             </div>
                             <div class="actions clearfix">
-                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span>Agregar al Carrito</span></span></button>
+                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span><a href="carrito.php">Agregar A Carrtio</a></span></button>
                             </div>
                         </div>
 					</div>	
@@ -216,7 +245,7 @@
 							
 						</div>
 						<div class="des">
-                            <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">Producto</a></h2>
+                            <h2 class="product-name"><a href="DetalleProducto.php" title="Nombre del Producto">Producto</a></h2>
                             <div class="price-box">
                                  <p class="special-price">
                                     <span class="price-label">Producto Especial</span>
@@ -224,7 +253,7 @@
                                 </p>
                             </div>
                             <div class="actions clearfix">
-                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span>Agregar al Carrito</span></span></button>
+                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span><a href="carrito.php">Agregar A Carrtio</a></span></button>
                             </div>
                         </div>
 					</div>	
@@ -241,14 +270,14 @@
                         <div>
                             <span class='label-pro-sale'>-10%<small>Dscto</small></span>
                             <div class="label-pro-new"><span>Hoy</span></div>
-                                <a href="#" title="voluptas nulla">
+                                <a href="#" title="Nombre del Producto">
                                     <span class="product-image">
-                                        <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"  alt="voluptas nulla" />
+                                        <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"  alt="Nombre del Producto" />
                                     </span>
                                 </a>
                         </div>
                         <div class="des">
-                            <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">Producto</a></h2>
+                            <h2 class="product-name"><a href="DetalleProducto.php" title="Nombre del Producto">Producto</a></h2>
                             <div class="price-box">
                                  <p class="special-price">
                                     <span class="price-label">Special Price</span>
@@ -256,7 +285,7 @@
                                 </p>
                             </div>
                             <div class="actions clearfix">
-                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span>Agregar al Carrito</span></span></button>
+                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span><a href="carrito.php">Agregar A Carrtio</a></span></button>
                             </div>
                         </div>
                     </div>  
@@ -275,7 +304,7 @@
                                 </a>
                         </div>
                         <div class="des">
-                            <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">Producto</a></h2>
+                            <h2 class="product-name"><a href="DetalleProducto.php" title="Nombre del Producto">Producto</a></h2>
                             <div class="price-box">
                                  <p class="special-price">
                                     <span class="price-label">Producto Especial</span>
@@ -283,7 +312,7 @@
                                 </p>
                             </div>
                             <div class="actions clearfix">
-                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span>Agregar al Carrito</span></span></button>
+                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span><a href="carrito.php">Agregar A Carrtio</a></span></button>
                             </div>
                         </div>
                     </div>  
@@ -303,7 +332,7 @@
                             
                         </div>
                         <div class="des">
-                            <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">Producto</a></h2>
+                            <h2 class="product-name"><a href="DetalleProducto.php" title="Nombre del Producto">Producto</a></h2>
                             <div class="price-box">
                                  <p class="special-price">
                                     <span class="price-label">Producto Especial</span>
@@ -311,7 +340,7 @@
                                 </p>
                             </div>
                             <div class="actions clearfix">
-                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span>Agregar al Carrito</span></span></button>
+                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span><a href="carrito.php">Agregar A Carrtio</a></span></button>
                             </div>
                         </div>
                     </div>  
@@ -328,14 +357,14 @@
                         <div>
                             <span class='label-pro-sale'>-10%<small>Dscto</small></span>
                             <div class="label-pro-new"><span>Hoy</span></div>
-                                <a href="#" title="voluptas nulla">
+                                <a href="#" title="Nombre del Producto">
                                     <span class="product-image">
-                                        <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"  alt="voluptas nulla" />
+                                        <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"  alt="Nombre del Producto" />
                                     </span>
                                 </a>
                         </div>
                         <div class="des">
-                            <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">Producto</a></h2>
+                            <h2 class="product-name"><a href="DetalleProducto.php" title="Nombre del Producto">Producto</a></h2>
                             <div class="price-box">
                                  <p class="special-price">
                                     <span class="price-label">Special Price</span>
@@ -343,7 +372,7 @@
                                 </p>
                             </div>
                             <div class="actions clearfix">
-                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span>Agregar al Carrito</span></span></button>
+                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span><a href="carrito.php">Agregar A Carrtio</a></span></button>
                             </div>
                         </div>
                     </div>  
@@ -362,7 +391,7 @@
                                 </a>
                         </div>
                         <div class="des">
-                            <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">Producto</a></h2>
+                            <h2 class="product-name"><a href="DetalleProducto.php" title="Nombre del Producto">Producto</a></h2>
                             <div class="price-box">
                                  <p class="special-price">
                                     <span class="price-label">Producto Especial</span>
@@ -370,7 +399,7 @@
                                 </p>
                             </div>
                             <div class="actions clearfix">
-                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span>Agregar al Carrito</span></span></button>
+                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span><a href="carrito.php">Agregar A Carrtio</a></span></button>
                             </div>
                         </div>
                     </div>  
@@ -390,7 +419,7 @@
                             
                         </div>
                         <div class="des">
-                            <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">Producto</a></h2>
+                            <h2 class="product-name"><a href="DetalleProducto.php" title="Nombre del Producto">Producto</a></h2>
                             <div class="price-box">
                                  <p class="special-price">
                                     <span class="price-label">Producto Especial</span>
@@ -398,7 +427,7 @@
                                 </p>
                             </div>
                             <div class="actions clearfix">
-                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span>Agregar al Carrito</span></span></button>
+                                <button type="button" title="Agregar al Carrito" class="button btn-cart"><span><span><a href="carrito.php">Agregar A Carrtio</a></span></button>
                             </div>
                         </div>
                     </div>  

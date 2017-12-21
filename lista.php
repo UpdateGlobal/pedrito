@@ -1,43 +1,62 @@
-<?php include("modules/head.php"); ?>
-<body class=" catalog-product-view catalog-product-view product-aenean-eleifend">
-<div class="wrapper">
-        
-    <div class="page">
-                
-<div class="header-container">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Pedrito Petshop</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="logo/favicon.ico" />
+   
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css' />
+    <link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css' />
 
-            <?php 
-                include("modules/topbar.php");
-                include("modules/header.php");
-             ?>                
-        <div id="pt_menu_link" class="pt_menu">
-<div class="parentMenu">
-			
-            
-</div>
-</div>        
-        <div class="clearBoth"></div>
-		</div>
-		</div>
-</div>
-<div class="main-container col2-left-layout">
-<div class="main">
-<div class="col-main">
-        <div class="breadcrumbs">
-            <div class="container">
-                <div class="container-inner">
-                    <ul>
-                        <li class="home">
-                            <a href="index.php" title="Go to Home Page">Inicio</a>
-                                <span><i class="fa fa-angle-right"></i> </span>
-                        </li>
-                        <li class="category83">
-                            <strong>Lista</strong>
-                        </li>
-                    </ul>
+    <link rel="stylesheet" type="text/css" href="css/8986d8aa7b116cd1da7d16640731605b.css" media="all" />
+    
+    <script type="text/javascript" src="js1/8abf94023d9a75d6a8d5680a47799432.js"></script>
+    <link href="blog/rss/index/store_id/9/index.html" title="Our Blog" rel="alternate" type="application/rss+xml" />
+    <script type="text/javascript">
+    </script>
+    <script type="text/javascript">
+  </script>
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+
+
+</head>
+<body class=" cms-index-index cms-ma-fobe-pet-home">
+    <div class="wrapper">
+        <div class="page">
+                <div class="header-container">
+                    <?php 
+                    include("modules/topbar.php");
+                    include("modules/header.php");
+                     ?>
+                </div>
+        </div>
+    </div>
+
+            <div class="breadcrumbs" style="background-color: #489d85;">
+                <div class="container">
+                    <div class="container-inner">
+                        <ul>
+                            <li class="home">
+                                <a href="index.php" title="Go to Home Page">Inicio</a>
+                                    <span><i class="fa fa-angle-right"></i> </span>
+                            </li>
+                            <li class="blog">
+                                <strong>Lista</strong>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
+
+
+
 <div class="container">
     <div class="container-inner">
         <div class="row">
@@ -69,6 +88,7 @@
                                 </ol>
                             </dd>
                         </div>
+
                         
                          <div class="layered-attribute">
                             <div class="title-layered">
@@ -184,19 +204,19 @@
                 <p class="old-price">
                 <span class="price-label">Regular Price:</span>
                 <span class="price" id="old-price-16">
-                    $500.00            
+                    S/500.00            
                 </span>
             </p>
 
             <p class="special-price">
             <span class="price-label">Special Price</span>
                 <span class="price" id="product-price-16">
-                    $450.00              
+                    S/450.00              
                 </span>
                 </p>
             </div>
            <div class="desc std">
-			Nunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nul...			
+			ANunc facilisis sagittis ullamcorper. Proin lectus ipsum, gravida et mattis vulputate, tristique ut lectus. Sed et lorem nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean eleifend laoreet congue. Vivamus adipiscing nisl ut dolor dignissim semper. Nul...			
            </div>
 			<div class="actions">
 			<div class="addto-cart">
@@ -233,14 +253,14 @@
                 <p class="old-price">
                 <span class="price-label">Regular Price:</span>
                 <span class="price" id="old-price-16">
-                    $500.00            
+                    S/500.00            
                 </span>
             </p>
 
             <p class="special-price">
             <span class="price-label">Special Price</span>
                 <span class="price" id="product-price-16">
-                    $450.00              
+                    S/450.00              
                 </span>
                 </p>
             </div>
@@ -282,14 +302,14 @@
                 <p class="old-price">
                 <span class="price-label">Regular Price:</span>
                 <span class="price" id="old-price-16">
-                    $500.00            
+                    S/500.00            
                 </span>
             </p>
 
             <p class="special-price">
             <span class="price-label">Special Price</span>
                 <span class="price" id="product-price-16">
-                    $450.00              
+                    S/450.00              
                 </span>
                 </p>
             </div>
@@ -331,14 +351,14 @@
                 <p class="old-price">
                 <span class="price-label">Regular Price:</span>
                 <span class="price" id="old-price-16">
-                    $500.00            
+                    S/500.00            
                 </span>
             </p>
 
             <p class="special-price">
             <span class="price-label">Special Price</span>
                 <span class="price" id="product-price-16">
-                    $450.00              
+                    S/450.00              
                 </span>
                 </p>
             </div>
@@ -363,36 +383,36 @@
         <div class="sort-by hidden-xs">
             <label>Sort By</label>
             <select onchange="setLocation(this.value)">
-            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=asc&amp;order=position" selected="selected">
+            <option value="#" selected="selected">
                     Position           
             </option>
-            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=asc&amp;order=name">
+            <option value="#">
                     Name             
             </option>
-            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=asc&amp;order=price">
+            <option value="#">
                     Price           
             </option>
             </select>
-            <a href="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=asc&order=position" title="Set Ascending Direction"><img src="../skin/frontend/ma_fobe/ma_fobe_pet/images/i_desc_arrow.gif" alt="Set Ascending Direction" class="v-middle" /><i class="fa fa-long-arrow-down"></i></a>
+            <a href="#" title="Set Ascending Direction"><img src="../skin/frontend/ma_fobe/ma_fobe_pet/images/i_desc_arrow.gif" alt="Set Ascending Direction" class="v-middle" /><i class="fa fa-long-arrow-down"></i></a>
             </div>
     </div>
         <div class="pager">
         <div class="limiter hidden-xs">
             <label>Show</label>
             <select onchange="setLocation(this.value)">
-                            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=desc&amp;limit=5&amp;order=position" selected="selected">
+                            <option value="#" selected="selected">
                               5           
                              </option>
-                            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=desc&amp;limit=10&amp;order=position">
+                            <option value="#">
                               10       
                             </option>
-                            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=desc&amp;limit=15&amp;order=position">
+                            <option value="#">
                               15       
                             </option>
-                            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=desc&amp;limit=20&amp;order=position">
+                            <option value="#">
                               20        
                            </option>
-                            <option value="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=desc&amp;limit=25&amp;order=position">
+                            <option value="#">
                               25       
                            </option>
                         </select> per page        
@@ -405,10 +425,10 @@
         <strong>Page:</strong>
         <ol>
     <li class="current">1</li>
-    <li><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=desc&order=position&p=2">2</a></li>
-    <li><a href="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=desc&order=position&p=3">3</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
     <li>
-    <a class="next i-next" href="http://www.plazathemes.com/demo/ma_fobe/index.php/cat-s-food.html?dir=desc&order=position&p=2" title="Next">
+    <a class="next i-next" href="#" title="Next">
     <i class="fa fa-arrow-right"></i>
     </a>
     </li>
@@ -490,7 +510,7 @@
 </div>
 <div class="url-content" style="display: none">
     <input type="hidden" id="use-redirect" value="1" />
-    <input type="hidden" id="base-url" value="http://www.plazathemes.com/demo/ma_fobe/index.php/" />
+    <input type="hidden" id="base-url" value="#" />
 </div>
 <div id="ajax-login-block">
 </div>
