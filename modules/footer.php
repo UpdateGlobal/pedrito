@@ -15,7 +15,7 @@
                                                 <li class="first"><a href="index.php#popup">Regístrate</a></li>
                                                 <li><a href="index.php#popup1">Login</a></li>
                                                 <li><a href="carrito.php">Mi Carrito</a></li>
-                                                <li class="last"><a href="Contacto.php">Contáctanos</a></li>
+                                                <li class="last"><a href="contacto.php">Contáctanos</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -37,7 +37,7 @@
                                         </div>
                                         <div class="footer-static-content">
                                             <ul>
-                                                <li class="first"><a href="Preguntas.php">Preguntas Frecuentes</a></li>
+                                                <li class="first"><a href="preguntas.php">Preguntas Frecuentes</a></li>
                                                 <li><a href="#">Devoluciones y Cambios</a></li>
                                                 <li><a href="portada-blog.php">Blog</a></li>
                                             </ul>
@@ -45,7 +45,7 @@
                                     </div>
                                     <div class="f-col f-col-24 col-sm-6 col-md-2 col-sms-6 col-smb-12">
                                         <div class="footer-static-title">
-                                            <h3>Redes Sociles</h3>
+                                            <h3>Redes Sociales</h3>
                                         </div>
                                         <div class="footer-static-content">
                                            <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox_p1zi"></div>

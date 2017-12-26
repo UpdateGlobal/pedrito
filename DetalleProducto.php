@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Pedrito Petshop</title>
+       <title>Naricitas Plaza</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="robots" content="INDEX,FOLLOW" />
@@ -142,15 +142,11 @@
                                                                     </button>
                                                                 </div>
                                                                                   <div class="product-social">
-                                                                                        <!-- AddThis Button BEGIN -->
-                                                                                        <div class="addthis_toolbox addthis_default_style ">
-                                                                                            <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-                                                                                            <a class="addthis_button_tweet"></a>
-                                                                                            <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-                                                                                            <a class="addthis_counter addthis_pill_style"></a>
-                                                                                        </div>
-                                                                                        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4fce36935105cb6e"></script>
-                                                                                        <!-- AddThis Button END -->
+                                                                                        <!-- Vaya a www.addthis.com/dashboard para personalizar sus herramientas --> 
+                                                                                        <div class = "addthis_inline_share_toolbox"> </div>
+                                                                                        
+                                                                                        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                                                                                        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a392b411b1ea275"></script>
                                                                                     </div>
                                 </div>
 </div>                  

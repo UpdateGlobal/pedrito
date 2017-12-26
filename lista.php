@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Pedrito Petshop</title>
+        <title>Naricitas Plaza</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="robots" content="INDEX,FOLLOW" />
@@ -197,7 +197,7 @@
 					</div>
 					<div class="product-shop col-sm-8 col-md-8 col-sms-8 col-smb-12">
 						<div class="f-fix">
-					<h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">voluptas nulla</a></h2>
+					<h2 class="product-name"><a href="DetalleProducto.php" title="voluptas nulla">voluptas nulla</a></h2>
 							
 							
 				<div class="price-box">
@@ -246,7 +246,7 @@
                     </div>
                     <div class="product-shop col-sm-8 col-md-8 col-sms-8 col-smb-12">
                         <div class="f-fix">
-                    <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">voluptas nulla</a></h2>
+                    <h2 class="product-name"><a href="DetalleProducto.php" title="voluptas nulla">voluptas nulla</a></h2>
                             
                             
                 <div class="price-box">
@@ -295,7 +295,7 @@
                     </div>
                     <div class="product-shop col-sm-8 col-md-8 col-sms-8 col-smb-12">
                         <div class="f-fix">
-                    <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">voluptas nulla</a></h2>
+                    <h2 class="product-name"><a href="DetalleProducto.php" title="voluptas nulla">voluptas nulla</a></h2>
                             
                             
                 <div class="price-box">
@@ -344,7 +344,7 @@
                     </div>
                     <div class="product-shop col-sm-8 col-md-8 col-sms-8 col-smb-12">
                         <div class="f-fix">
-                    <h2 class="product-name"><a href="cat-s-food/voluptas-nulla.html" title="voluptas nulla">voluptas nulla</a></h2>
+                    <h2 class="product-name"><a href="DetalleProducto.php" title="voluptas nulla">voluptas nulla</a></h2>
                             
                             
                 <div class="price-box">

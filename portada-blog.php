@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Pedrito Petshop</title>
+      <title>Naricitas Plaza</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="robots" content="INDEX,FOLLOW" />

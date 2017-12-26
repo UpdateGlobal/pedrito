@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Pedrito Petshop</title>
+    <title>Naricitas Plaza</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="robots" content="INDEX,FOLLOW" />
@@ -71,7 +71,8 @@
 
     <div class="form-group">
       <div class="col-sm-10">
-        <input type="text" class="form-control" id="" placeholder="Nombre" name="" style="input[type=text]:
+        <label>Nombre</label>
+        <input type="text" class="form-control" id="" placeholder="" name="" style="input[type=text]:
                                                                                                       width: 100%;
                                                                                                       padding: 30px 40px;
                                                                                                       margin: 8px 0;
@@ -80,7 +81,8 @@
                                                                                                       border-bottom: 2px solid #469b7799;
                                                                                                      ">
                                                                                                      <br>
-        <input type="email" class="form-control" id="" placeholder="E-mail" name="" style="input[type=text]:
+                                                                                                        <label>E-mail</label>
+        <input type="email" class="form-control" id="" placeholder="" name="" style="input[type=text]:
                                                                                                       width: 100%;
                                                                                                       padding: 30px 40px;
                                                                                                       margin: 8px 0;
@@ -89,7 +91,8 @@
                                                                                                       border-bottom: 2px solid #469b7799;
                                                                                                       ">
                                                                                                       <br>
-           <input type="text" class="form-control" id="" placeholder="Telefono" name="" style="input[type=text]:
+                                                                                                         <label>Telefono</label>
+           <input type="text" class="form-control" id="" placeholder="" name="" style="input[type=text]:
                                                                                                       width: 100%;
                                                                                                       padding: 30px 40px;
                                                                                                       margin: 8px 0;
@@ -98,7 +101,9 @@
                                                                                                       border-bottom: 2px solid #469b7799;
                                                                                                      ">   
                                                                                                      <br>
-              <input type="text" class="form-control" id="" placeholder="Mensaje" name="" style="input[type=text]:
+                                                                                                     
+                                                                                                     <label>Mensaje</label>
+              <input type="text" class="form-control" id="" placeholder="" name="" style="input[type=text]:
                                                                                                       width: 100%;
                                                                                                       height: 10%;
                                                                                                       padding: 30px 40px;
@@ -126,72 +131,10 @@
   </form>
 </div>
 
-<!-- <div class="container">
-                <div class="page-title">
-                    <h1>Contáctanos</h1>
-                </div>
-        <form action="" id="contactForm" method="post">
-            <div class="" style="border:1px solid #469b7799;padding:22px 25px 12px 33px; margin:28px 0;">
-                <h2 class="legend">Bríndanos tus datos y te contactaremos</h2>
-                <ul class="form-list">
-                    <li class="fields">
-                        
-                            <label for="name" class="required"><em>*</em>Nombre</label>
-                            <div class="input-box">
-                              <input type="" name="" class="required-entry" size="100%" style="input[type=text]: width: 100%;padding: 12px 20px;margin: 8px 0;border: 2px solid white; border-radius: 4px;">
-                            </div>
-                        
-                       
-                            <label for="email" class="required"><em>*</em>Email</label>
-                            <div class="input-box">
-                                 <input type="" name="" class="required-entry" size="150%  " style="input[type=text]: width: 100%;padding: 12px 20px;margin: 8px 0;border: 2px solid white; border-radius: 4px;">
-                            </div>
-                       
-                    </li>
-                    <li>
-                        <label for="telephone">Teléfono</label>
-                        <div class="input-box">
-                            <input type="" name="" class="required-entry" size="100%" style="input[type=text]: width: 100%;padding: 12px 20px;margin: 8px 0;border: 2px solid white; border-radius: 4px;">
-                        </div>
-                    </li>
-                    <li class="wide">
-                        <label for="comment" class="required"><em>*</em>Tu comentario</label>
-                        <div class="input-box">
-                            <textarea name="comment" id="text" title="Comment" class="" cols="3" rows="3" ></textarea>
-
-<style type="text/css">
-
-
-textarea{
-
-width: 100%;padding: 12px 20px;margin: 8px 0;border: 2px solid white; border-radius: 4px;}
-
-#text{
-
-  width: 100%;padding: 12px 20px;margin: 8px 0;border: 2px solid white; border-radius: 4px;
-}
-
-</style>
+<div class="contact-us container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.316092039085!2d-77.07556484241219!3d-12.090499732584284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9a6d34ff541%3A0xb4c0e12b86c32ccf!2sJir%C3%B3n+Castilla+690%2C+Magdalena+del+Mar+15086!5e0!3m2!1ses!2spe!4v1511145638677" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 
 
 
-
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="buttons-set">
-                <p class="required">* Required Fields</p>
-                <input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />
-                <button type="submit" title="Submit" class="button"><span><span>Submit</span></span></button>
-            </div>
-        </form>
-</div>
-
-<style type="text/css">
-  .input-text2 {border:1px solid ##469b7799; }
-</style>
- -->
 
 
 

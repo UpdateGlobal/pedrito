@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Pedrito Petshop</title>
+        <title>Naricitas Plaza</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="robots" content="INDEX,FOLLOW" />
@@ -143,7 +143,7 @@
                      <th>s/ 1180</th>
                 </tr>
                 <tr>
-                    <th colspan="2"  align="center"> <button class="btn btn-info btn-lg"><a href="#">Pagar</a>  </button></th>
+                    <th colspan="2"  align="center"> <button class="btn btn-info btn-lg"><a href="#" style="color: #ffffff">Pagar</a>  </button></th>
                    
                 </tr>
             </table>

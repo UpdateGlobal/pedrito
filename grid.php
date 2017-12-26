@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Pedrito Petshop</title>
+       <title>Naricitas Plaza</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="robots" content="INDEX,FOLLOW" />
@@ -183,9 +183,9 @@
 						<div>
 							<span class='label-pro-sale'>-10%<small>Dscto</small></span>
                             <div class="label-pro-new"><span>Hoy</span></div>
-							 	<a href="#" title="Nombre del Producto">
+							 	<a href="DetalleProducto.php" title="Nombre del Producto">
     								<span class="product-image">
-    									<img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"  alt="Nombre del Producto" />
+    								<img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"  alt="Nombre del Producto" />
     								</span>
 								</a>
 						</div>
@@ -210,7 +210,7 @@
 					<div class="ma-box-content products banner-static">
 						<div>
 							 <div class="label-pro-new"><span>hoy</span></div>
-							 	<a href="#" title="Aenean eleifend">
+							 	<a href="DetalleProducto.php" title="Aenean eleifend">
 								<span class="product-image">
 									<img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_13.jpg"  alt="Aenean eleifend" />
 								</span>
@@ -237,7 +237,7 @@
 					<div class="ma-box-content products banner-static">
 						<div>
 							<div class="label-pro-new"><span>hoy</span></div>
-							 	<a href="cat-s-food/aliquet-urna.html" title="Aliquet urna">
+							 	<a href="DetalleProducto.php" title="Aliquet urna">
     								<span class="product-image">
     									<img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_4.jpg"  alt="Aliquet urna" />
     								</span>
@@ -270,7 +270,7 @@
                         <div>
                             <span class='label-pro-sale'>-10%<small>Dscto</small></span>
                             <div class="label-pro-new"><span>Hoy</span></div>
-                                <a href="#" title="Nombre del Producto">
+                                <a href="DetalleProducto.php" title="Nombre del Producto">
                                     <span class="product-image">
                                         <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"  alt="Nombre del Producto" />
                                     </span>
@@ -297,7 +297,7 @@
                     <div class="ma-box-content products banner-static">
                         <div>
                              <div class="label-pro-new"><span>hoy</span></div>
-                                <a href="#" title="Aenean eleifend">
+                                <a href="DetalleProducto.php" title="Aenean eleifend">
                                 <span class="product-image">
                                     <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_13.jpg"  alt="Aenean eleifend" />
                                 </span>
@@ -324,7 +324,7 @@
                     <div class="ma-box-content products banner-static">
                         <div>
                             <div class="label-pro-new"><span>hoy</span></div>
-                                <a href="cat-s-food/aliquet-urna.html" title="Aliquet urna">
+                                <a href="DetalleProducto.php" title="Aliquet urna">
                                     <span class="product-image">
                                         <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_4.jpg"  alt="Aliquet urna" />
                                     </span>
@@ -357,7 +357,7 @@
                         <div>
                             <span class='label-pro-sale'>-10%<small>Dscto</small></span>
                             <div class="label-pro-new"><span>Hoy</span></div>
-                                <a href="#" title="Nombre del Producto">
+                                <a href="DetalleProducto.php" title="Nombre del Producto">
                                     <span class="product-image">
                                         <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-1.jpg"  alt="Nombre del Producto" />
                                     </span>
@@ -384,7 +384,7 @@
                     <div class="ma-box-content products banner-static">
                         <div>
                              <div class="label-pro-new"><span>hoy</span></div>
-                                <a href="#" title="Aenean eleifend">
+                                <a href="DetalleProducto.php" title="Aenean eleifend">
                                 <span class="product-image">
                                     <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-6_13.jpg"  alt="Aenean eleifend" />
                                 </span>
@@ -411,7 +411,7 @@
                     <div class="ma-box-content products banner-static">
                         <div>
                             <div class="label-pro-new"><span>hoy</span></div>
-                                <a href="cat-s-food/aliquet-urna.html" title="Aliquet urna">
+                                <a href="DetalleProducto.php" title="Aliquet urna">
                                     <span class="product-image">
                                         <img src="media/catalog/product/cache/9/small_image/900x1167/9df78eab33525d08d6e5fb8d27136e95/p/e/pet-3_4.jpg"  alt="Aliquet urna" />
                                     </span>

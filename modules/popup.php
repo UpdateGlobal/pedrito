@@ -1,11 +1,27 @@
+  <style>
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+
+
+.popup-contenedor1{
+
+      padding: 10px 28px;
+      margin-top: 5px;
+
+}
+</style>
+
+
+
   <div class="modal-wrapper" id="popup">
      <div class="popup-contenedor1">
-     <h2 class="fontcolorlogi">Registro de Clientes</h2>
-     <img src="blog/logo/logo.png">
-<br/> <br/> <br/> <br/>
-
+     <h2 class="fontcolorlogi facet_sidebar">Registro de Clientes</h2>
+     <img src="blog/logo/logo.png" class="facet_sidebar">
    <form method="POST" action="formulario.php">
-
+<br/>
     <div class="group">      
       <input type="text" name="nombre" required>
       <span class="highlight"></span>
@@ -19,7 +35,7 @@
       <label style="color: #ffffff;">Email</label>
     </div>
     <div class="group">      
-      <input type="pass" name="pass" required>
+      <input type="password" name="pass" required>
       <span class="highlight"></span>
       <span class="bar"></span>
       <label style="color: #ffffff;">Contraseña</label>
@@ -42,9 +58,9 @@
       <span class="bar"></span>
       <label style="color: #ffffff;">Telefono</label>
     </div>
-   <input type="submit" name="submit" style="width: 70px; background:#4bb093; color: white;" value="Enviar" />
+   <input type="submit" name="submit" style="width: 70px; background:#00695c; color: white; font-size: 16px;" value="Registrar" />
    </form>
-        
+         <a class="popup-cerrar" href="#">X</a>
      </div>
   </div>
 
@@ -62,15 +78,15 @@
       <input type="text" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label style="color: #ffffff;">Name</label>
+      <label style="color: #ffffff;">Usuario</label>
     </div>
     <div class="group">      
-      <input type="text" required>
+      <input type="password" required>
       <span class="highlight"></span>
       <span class="bar"></span>
-      <label style="color: #ffffff;">Email</label>
+      <label style="color: #ffffff;">Password</label>
     </div>
-    <input type="submit" name="submit" style="width: 70px; background:#4bb093; color: white;" value="Enviar" />
+    <input type="submit"  name="submit" style="width: 70px; background:#00695c; color: white;" value=" Iniciar" />
 </form>
    <!--test-->
         <a class="popup-cerrar" href="#">X</a>
@@ -80,63 +96,14 @@
 
 
 
-<!--
-
-<div class="modal-wrapper" id="popup1" s>
-     <div class="popup-contenedor1" align="center">
-       <h2 class="fontcolorlogi">Inicio de Usuario</h2>
-       <img src="blog/logo/logo.png">
-   <form method="POST" action="formulario.php">
-    <p class="fontcolorlogi">Email:</p>
-   <input type="text" name="email" size="50" />
-   <p>
-
-    <p class="fontcolorlogi">Contraseña:</p>
-   <input type="password" name="pass" size="50" />
-   <p>
-   <input type="submit" name="submit" class="boton verde"  value="INGRESAR" />
-   </form>
-        <a class="popup-cerrar" href="#">X</a>
-     </div>
-  </div>
-
-
-
-
-
-<form>
-    
-    <div class="group">      
-      <input type="text" required>
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>Name</label>
-    </div>
-      
-    <div class="group">      
-      <input type="text" required>
-      <span class="highlight"></span>
-      <span class="bar"></span>
-      <label>Email</label>
-    </div>
-    
-  </form>
-
-  
-  
-      
--->
-
-
-
-
-
-
 <style type="text/css">
 
 .fontcolorlogi{
-   color: #e0f2f1 ;
+
+
+   color: #ffffff ;
 }
+
 
 /* form starting stylings ------------------------------- */
 .group        { 
@@ -147,9 +114,8 @@ input         {
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     display: block;
-    width: 300px;
+    width: 100;
     border: none;
-    border-bottom: 1px solid #fffefe;
 }
 input:focus     { outline:none; }
 
